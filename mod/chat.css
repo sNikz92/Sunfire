@@ -1,0 +1,144 @@
+.framechatformbg { margin: 0px; }
+
+#chatform table {
+	padding-top: 5px;
+	border-top: 1px solid var(--border) !important;
+}
+#chatform input[type="submit"] { display: none; }
+
+#chatform > table > tbody > tr > td { padding-right: 2px; }
+
+a[href="chatform.php?exit_whisper=1"] { margin-left: 5px; }
+
+.framechattextbg a { color: var(--chat_linkcolor);  }
+.framechattextbg a:hover { color: var(--linkcolor_hover); }
+
+.chattime { color: var(--global_font) !important; }
+.chattext { font-size: var(--chat_font-size); }
+.chattext > b { color: var(--global_font); }
+.chattext > i > b { color: var(--chat_highlight) !important; }
+.chattextgroup {
+	color: var(--chat_group);
+	font-size: var(--chat_font-size);
+}
+.chattextscream {
+	color: var(--chat_scream);
+	font-size: var(--chat_font-size);
+}
+.chattextclan {
+	color: var(--chat_clan);
+	font-size: var(--chat_font-size);
+}
+.chattextglobal {
+	color: var(--chat_global);
+	font-size: var(--chat_font-size);
+}
+.chattextworldsay { font-size: var(--chat_font-size); }
+.chattextwhisper {
+	color: var(--chat_whisper);
+	font-size: var(--chat_font-size);
+}
+.chattextwhisper b { color: var(--chat_whisper_highlight); }
+.whisperplayer > b { color: var(--chat_whisper_player); }
+.whisperplayer {
+	color: var(--chat_whisper_player) !important;
+	font-size: var(--chat_font-size);
+}
+.chatfastnpcinfo { color: var(--chat_highlight) !important; }
+.healthmed { color: var(--color_healthmed); }
+.healthok { color: var(--color_healthok); }
+.healthcritical { color: var(--color_healthcritical); }
+.chatpics { display: none; }
+
+.worldsay tr td {
+	color: var(--global_font_inverted);
+	padding: 1px 0 2px 3px;
+}
+
+span.chattextachievement > a[href^="achiev.php"] { color: var(--chat_whisper_highlight); }
+
+
+p.worldsay tr[bgcolor="#99EE99"] td { background-color: var(--color_worldsay_green); }
+p.worldsay tr[bgcolor="#C1CEF9"] td { background-color: var(--color_worldsay_blue); }
+p.worldsay tr[bgcolor="#EEEE99"] td { background-color: var(--color_worldsay_yellow); }
+p.worldsay tr[bgcolor="#FFAEA1"] td { background-color: var(--color_worldsay_sundown); }
+
+/* Wetter */
+.chattextinfo {
+	font-style: italic;
+	font-weight: normal;
+	color: var(--chat_weather);
+}
+
+/*
+.chattextworldsay {
+	color: #000;
+	background-color: var(--color_worldsay_blue);
+}
+*/
+
+.chattextinspiration {
+	font-style: italic;
+	color: var(--chat_group);
+}
+.chattextinspiration > b { color: var(--chat_group); }
+
+.chattextinspiration:not(b.chattextinspiration) { font-size: 0px; }
+.chattextinspiration b { font-size: var(--chat_font-size); }
+.chattextinspiration b::after {	content: " - "; }
+.chattextinspiration b:last-of-type::after { content: " " !important; }
+
+.synergieeffekt { font-size: 13px !important; }
+
+.effektgoldmuenzen::before,
+.effektwissen::before,
+.effektzeitkontrolle::before,
+.effektvollheilung::before,
+.effektamulettkuenstler::before,
+.effektarchaeologe::before,
+.effektchaosbotaniker::before,
+.effekteinzigartigerjaeger::before,
+.effektfliegenderauftragsmeister::before,
+.effektforschungswahn::before,
+.effektgoldrausch::before,
+.effektgoldraeuber::before,
+.effektjaeger::before,
+.effektlebensfeuer::before,
+.effektleichenfledderer::before,
+.effektmeisterderangst::before,
+.effektpflanzengespuer::before,
+.effektphasenenergierausch::before,
+.effektseelensucher::before { font-size: var(--chat_font-size); }
+
+.effektgoldmuenzen::before { content: "Goldinspiration: "; }
+.effektwissen::before { content: "Wissensinspiration: "; }
+.effektzeitkontrolle::before { content: "Zeitkontrollinspiration: "; }
+.effektvollheilung::before { content: "Heilungsinspiration: " }
+.effektamulettkuenstler::before { content: "Amulettkünstler: "; }
+.effektarchaeologe::before { content: "Archäologe: "; }
+.effektchaosbotaniker::before { content: "Chaosbotaniker: "; }
+.effekteinzigartigerjaeger::before { content: "Einzigartiger Jäger: "; }
+.effektfliegenderauftragsmeister::before { content: "Fliegender Auftragsmeister: "; }
+.effektforschungswahn::before { content: "Forschungswahn: "; }
+.effektgoldrausch::before { content: "Goldrausch: "; }
+.effektgoldraeuber::before { content: "Goldräuber: "; }
+.effektjaeger::before { content: "Jäger: "; }
+.effektlebensfeuer::before { content: "Lebensfeuer: "; }
+.effektleichenfledderer::before { content: "Leichenfledderer: "; }
+.effektmeisterderangst::before { content: "Meister der Angst: "; }
+.effektpflanzengespuer::before { content: "Pflanzengespür: "; }
+.effektphasenenergierausch::before { content: "Phasenenergierausch: "; }
+.effektseelensucher::before { content: "Seelensucher: "; }
+
+.effektgoldmuenzen::after,
+.effektwissen::after,
+.effektzeitkontrolle::after,
+.effektvollheilung::after { font-size: var(--chat_font-size); }
+
+.effektgoldmuenzen::after { content: "Goldmünzen"; }
+.effektwissen::after { content: "Lernzeitverkürzung"; }
+.effektzeitkontrolle::after { content: "Zeitkontrolle"; }
+.effektvollheilung::after { content: "Vollheilung"; }
+
+.effektchaosbotaniker b:nth-child(3) { font-size: 0px !important; }
+.effektchaosbotaniker b:nth-child(4)::after { content: " " !important; }

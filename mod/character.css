@@ -1,0 +1,527 @@
+#ItemFrameItem:-webkit-scrollbar { display: none; }
+#ItemFrameItem { scrollbar-width: none; }
+
+/*Sponsorsterne*/
+img[src$="sponsor.gif"],
+img[src$="sponsor2.gif"],
+img[src$="sponsor3.gif"] { margin-right: 2px; }
+
+.frameitembg p.listrow[id^="listrow_"]:not(#listrow_status) {
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 260px; }
+
+.frameitembg > .listrow {
+    background-color: var(--chat_bg);
+    padding-left:5px;
+}
+
+#listrow_aka_battlep b:first-of-type:not(:last-of-type) {
+    display: inline-block;
+    height: 10px;
+    margin-right: 3px;
+    overflow: hidden;
+    width: 18px;
+}
+#listrow_aka_battlep b:last-of-type:not(:first-of-type):before {
+    color: #999;
+    content: "KP: ";
+    font-size: 10px;
+    font-weight: bold;
+    margin-left:7px;
+}
+
+#listrow_char_mission {
+    position: absolute;
+    margin-top: -14px;
+    right: 10px;
+}
+#listrow_char_mission > a[href="ability.php"] {
+    height: 12px;
+    font-size: 0;
+    margin-top: 2px;
+}
+#listrow_char_mission > a[href="ability.php"]:before {
+    content: "Charas ";
+    font-size: 12px;
+    color: #69c;
+}
+#listrow_char_mission > a[href="ability.php"] > span {
+    border: 2px solid transparent !important;
+    margin-top: -8px;
+}
+#listrow_char_mission > a:last-of-type,
+#listrow_aka_battlep b:last-of-type:not(:first-of-type) {
+    color: transparent;
+    font-size: 0;
+}
+#listrow_char_mission > a:last-of-type::before {
+    color: #69c;
+    content: "Auftrag";
+    font-size: 12px;
+    padding-right: 5px;
+}
+/* todo */
+#listrow_char_mission > a:last-of-type::after {
+    color: var(--global_font);
+    content: attr(title);
+    font-size: 9px;
+    position: absolute;
+    top: 16px;
+    right: 2px;
+}
+
+#listrow_money {
+    margin-top: -37px;
+    margin-bottom: 16px;
+}
+#listrow_money > img {
+    translate: 0 -2px;
+    padding-right: 1000px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#listrow_money img[src$="icon_dropgold.gif"],
+#listrow_money img[src$="transfergold.gif"] { display: none; }
+#listrow_money a[href*="action=moneydrop1"]::before {
+    content: url(../img/icon_drop.gif);
+    left: -1010px;
+    top: 3px;
+    position: relative;
+}
+#listrow_money a[href*="action=moneytransfer1"]::after {
+    content: url(../img/icon_transfer.gif);
+    left: -1008px;
+    top: 2px;
+    position: relative;
+}
+
+#listrow_special {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    right: 14px;
+    top: 59px;
+    width: auto;
+}
+
+#listrow_special > a[href="item.php?action=special"],
+#listrow_special > a[href="item.php?action=towercontrol"] {
+    height: 12px;
+    width: 0px;
+    font-size: 0;
+}
+#listrow_special > a[href="item.php?action=special"]::before {
+    content: "Spezi";
+    color: #69c;
+    font-size: var(--global_font-size);
+}
+#listrow_special > a[href="item.php?action=towercontrol"]::before {
+    content: "Turm";
+    color: #69c;
+    font-size: var(--global_font-size);
+}
+#listrow_special > a[href="item.php?action=special"] > span,
+#listrow_special > a[href="item.php?action=towercontrol"] > span { border: 2px solid transparent; }
+
+#listrow_lifep > b,
+#listrow_int > b,
+#listrow_attackp > b,
+#listrow_defensep > b,
+#listrow_ring > b { display: none; }
+
+#listrow_lifep::before {
+    content: "LP: ";
+    font-weight: bold;
+}
+#listrow_lifep {
+    margin-top: 17px;
+    margin-bottom: 4px;
+}
+#listrow_lifep.listrow > span#itemlpdisp > span.healthcritical:before,
+#listrow_lifep.listrow > span#itemlpdisp > span.healthcritical:after,
+#listrow_lifep.listrow > span#itemlpdisp > span.healthmed:before,
+#listrow_lifep.listrow > span#itemlpdisp > span.healthmed:after { content: " * "; }
+#listrow_lifep.listrow > span#itemlpdisp > span.healthcritical {
+    animation: 0.3s ease-in-out infinite blink;
+    font-size: 16px;
+}
+#listrow_lifep.listrow > span#itemlpdisp > span.healthmed {
+    animation: 0.6s ease-in-out infinite blink;
+    font-size: 16px;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% {  opacity: 0.25 }
+  100% { opacity: 1; }
+}
+
+span#speedok { padding-right: 2px; }
+
+#listrow_int::before {
+    content: "Int: ";
+    font-weight: bold;
+    padding-left: 10px;
+}
+#listrow_int > span {
+    position: absolute;
+    right: 11px;
+}
+#listrow_int > span::after {
+    color: #999;
+    font-weight: bold;
+    content: " Speed";
+}
+#listrow_int {
+    max-width: 0px !important;
+    margin-top: -17px;
+}
+
+#listrow_attackp::before {
+    content: "A: ";
+    font-weight: bold;
+}
+#listrow_defensep::before {
+    content: "V: ";
+    font-weight: bold;
+}
+
+#listrow_attackp > span.valueincreased,
+#listrow_defensep > span.valueincreased { padding-right: 1000px; }
+#listrow_attackw,
+#listrow_defensew {
+    position: absolute;
+    right: 15px;
+    font-size: 0px;
+    font-weight: bold;
+    margin-top: -14px;
+}
+
+#listrow_attackw a::before {
+    content: "A-Waffe";
+    font-size: 11px;
+}
+
+#listrow_defensew a::before {
+    content: "V-Waffe";
+    font-size: 11px;
+}
+
+#listrow_ring::after { margin-right: 8px; }
+#listrow_ring::before {
+    content: "F: ";
+    font-weight: bold;
+    padding-left: 0px;
+}
+
+#toplp {
+    border: 1px dotted var(--border) !important;
+    background-color: var(--itemframe_bg) !important;
+    padding-bottom: 2px !important;
+}
+
+#phasedisp {
+    padding: 5px;
+    height: 15px !important;
+}
+#fullenergydisp {
+    position: relative !important;
+    height: 13px !important;
+    background: var(--itemframe_bg) !important;
+    border: 1px solid var(--border) !important;
+    background-image:none !important;
+}
+#curenergy {
+    position: relative !important;
+    border: 1px solid var(--linkcolor) !important;
+    background: var(--linkcolor) !important;
+    float: left;
+    top: -15px !important;
+    height: 13px !important;
+}
+#phasedisp center {
+    position: relative;
+    top: -14px;
+    font-size: 11px !important;
+}
+#phasetext {
+    position: relative !important;
+    top: -16px !important;
+    float: left;
+}
+
+/* item divider fix */
+#phasespacer + center + div { display: none; }
+#phasespacer + center + div + p.listcaption { margin-top: 20px; }
+
+/* Halsschmuckauswahl, Waffenauswahl etc. */
+#toplpheader + p.listcaption + p.listitemrow {
+    font-size: var(--global_font-size);
+    color: var(--global_font);
+}
+
+.valueincreased {
+    color: var(--color_healthok);
+    font-size: smaller;
+    font-weight: bold;
+}
+
+input[name="motto"] {
+    color: var(--global_font);
+    max-width: calc(100% - 5px);
+}
+
+/*Texteingabe größer: Modnachricht, Feuervogel, Post, Postvogel, Notizzettel...*/
+.frameitembg textarea,
+.framemainbg textarea {
+    width: 100% !important;
+    height: 70% !important;
+}
+
+/* Rassen der Clanmitglieder im Clanmenu */
+.frameitembg > p.listrow[title*="Mensch"]:after,
+.frameitembg > p.listrow[title*="Onlo"]:after,
+.frameitembg > p.listrow[title*="Natla"]:after,
+.frameitembg > p.listrow[title*="dunkler"]:after,
+.frameitembg > p.listrow[title*="Serum"]:after,
+.frameitembg > p.listrow[title*="Keuroner"]:after,
+.frameitembg > p.listrow[title*="Taruner"]:after {
+    display: block;
+    content: " ("attr(title)")";
+}
+
+/* Item-/Gelduebergabe */
+.frameitembg > a[href*="item.php?action=transfer2"],
+.frameitembg > a[href*="item.php?action=moneytransfer"],
+.frameitembg > a[href*="item.php?action=moneydrop1"],
+.frameitembg > a[href*="act_npc_id"],
+.frameitembg > a[href*="mode=2&sell_item"] {
+    display: inline-block;
+    padding: 5px 5px 0 0;
+}
+
+/* Notruf rechtsbündig */
+p.listrow:has(a[href="clanmenu.php?action=sos"]) {
+    text-align: right;
+}
+
+/* Waffenzustände*/
+p.listrow[title^="Zustand: "]::after { 
+    font-size: 10px;
+    color: #999;
+}
+
+p[title$=" 200%"]:after { content: " (200%)"; }
+p[title$=" 199%"]:after { content: " (199%)"; }
+p[title$=" 198%"]:after { content: " (198%)"; }
+p[title$=" 197%"]:after { content: " (197%)"; }
+p[title$=" 196%"]:after { content: " (196%)"; }
+p[title$=" 195%"]:after { content: " (195%)"; }
+p[title$=" 194%"]:after { content: " (194%)"; }
+p[title$=" 193%"]:after { content: " (193%)"; }
+p[title$=" 192%"]:after { content: " (192%)"; }
+p[title$=" 191%"]:after { content: " (191%)"; }
+p[title$=" 190%"]:after { content: " (190%)"; }
+p[title$=" 189%"]:after { content: " (189%)"; }
+p[title$=" 188%"]:after { content: " (188%)"; }
+p[title$=" 187%"]:after { content: " (187%)"; }
+p[title$=" 186%"]:after { content: " (186%)"; }
+p[title$=" 185%"]:after { content: " (185%)"; }
+p[title$=" 184%"]:after { content: " (184%)"; }
+p[title$=" 183%"]:after { content: " (183%)"; }
+p[title$=" 182%"]:after { content: " (182%)"; }
+p[title$=" 181%"]:after { content: " (181%)"; }
+p[title$=" 180%"]:after { content: " (180%)"; }
+p[title$=" 179%"]:after { content: " (179%)"; }
+p[title$=" 178%"]:after { content: " (178%)"; }
+p[title$=" 177%"]:after { content: " (177%)"; }
+p[title$=" 176%"]:after { content: " (176%)"; }
+p[title$=" 175%"]:after { content: " (175%)"; }
+p[title$=" 174%"]:after { content: " (174%)"; }
+p[title$=" 173%"]:after { content: " (173%)"; }
+p[title$=" 172%"]:after { content: " (172%)"; }
+p[title$=" 171%"]:after { content: " (171%)"; }
+p[title$=" 170%"]:after { content: " (170%)"; }
+p[title$=" 169%"]:after { content: " (169%)"; }
+p[title$=" 168%"]:after { content: " (168%)"; }
+p[title$=" 167%"]:after { content: " (167%)"; }
+p[title$=" 166%"]:after { content: " (166%)"; }
+p[title$=" 165%"]:after { content: " (165%)"; }
+p[title$=" 164%"]:after { content: " (164%)"; }
+p[title$=" 163%"]:after { content: " (163%)"; }
+p[title$=" 162%"]:after { content: " (162%)"; }
+p[title$=" 161%"]:after { content: " (161%)"; }
+p[title$=" 160%"]:after { content: " (160%)"; }
+p[title$=" 159%"]:after { content: " (159%)"; }
+p[title$=" 158%"]:after { content: " (158%)"; }
+p[title$=" 157%"]:after { content: " (157%)"; }
+p[title$=" 156%"]:after { content: " (156%)"; }
+p[title$=" 155%"]:after { content: " (155%)"; }
+p[title$=" 154%"]:after { content: " (154%)"; }
+p[title$=" 153%"]:after { content: " (153%)"; }
+p[title$=" 152%"]:after { content: " (152%)"; }
+p[title$=" 151%"]:after { content: " (151%)"; }
+p[title$=" 150%"]:after { content: " (150%)"; }
+p[title$=" 149%"]:after { content: " (149%)"; }
+p[title$=" 148%"]:after { content: " (148%)"; }
+p[title$=" 147%"]:after { content: " (147%)"; }
+p[title$=" 146%"]:after { content: " (146%)"; }
+p[title$=" 145%"]:after { content: " (145%)"; }
+p[title$=" 144%"]:after { content: " (144%)"; }
+p[title$=" 143%"]:after { content: " (143%)"; }
+p[title$=" 142%"]:after { content: " (142%)"; }
+p[title$=" 141%"]:after { content: " (141%)"; }
+p[title$=" 140%"]:after { content: " (140%)"; }
+p[title$=" 139%"]:after { content: " (139%)"; }
+p[title$=" 138%"]:after { content: " (138%)"; }
+p[title$=" 137%"]:after { content: " (137%)"; }
+p[title$=" 136%"]:after { content: " (136%)"; }
+p[title$=" 135%"]:after { content: " (135%)"; }
+p[title$=" 134%"]:after { content: " (134%)"; }
+p[title$=" 133%"]:after { content: " (133%)"; }
+p[title$=" 132%"]:after { content: " (132%)"; }
+p[title$=" 131%"]:after { content: " (131%)"; }
+p[title$=" 130%"]:after { content: " (130%)"; }
+p[title$=" 129%"]:after { content: " (129%)"; }
+p[title$=" 128%"]:after { content: " (128%)"; }
+p[title$=" 127%"]:after { content: " (127%)"; }
+p[title$=" 126%"]:after { content: " (126%)"; }
+p[title$=" 125%"]:after { content: " (125%)"; }
+p[title$=" 124%"]:after { content: " (124%)"; }
+p[title$=" 123%"]:after { content: " (123%)"; }
+p[title$=" 122%"]:after { content: " (122%)"; }
+p[title$=" 121%"]:after { content: " (121%)"; }
+p[title$=" 120%"]:after { content: " (120%)"; }
+p[title$=" 119%"]:after { content: " (119%)"; }
+p[title$=" 118%"]:after { content: " (118%)"; }
+p[title$=" 117%"]:after { content: " (117%)"; }
+p[title$=" 116%"]:after { content: " (116%)"; }
+p[title$=" 115%"]:after { content: " (115%)"; }
+p[title$=" 114%"]:after { content: " (114%)"; }
+p[title$=" 113%"]:after { content: " (113%)"; }
+p[title$=" 112%"]:after { content: " (112%)"; }
+p[title$=" 111%"]:after { content: " (111%)"; }
+p[title$=" 110%"]:after { content: " (110%)"; }
+p[title$=" 109%"]:after { content: " (109%)"; }
+p[title$=" 108%"]:after { content: " (108%)"; }
+p[title$=" 107%"]:after { content: " (107%)"; }
+p[title$=" 106%"]:after { content: " (106%)"; }
+p[title$=" 105%"]:after { content: " (105%)"; }
+p[title$=" 104%"]:after { content: " (104%)"; }
+p[title$=" 103%"]:after { content: " (103%)"; }
+p[title$=" 102%"]:after { content: " (102%)"; }
+p[title$=" 101%"]:after { content: " (101%)"; }
+p[title$=" 100%"]:after { content: " (100%)"; }
+p[title$=" 99%"]:after { content: " (99%)"; }
+p[title$=" 98%"]:after { content: " (98%)"; }
+p[title$=" 97%"]:after { content: " (97%)"; }
+p[title$=" 96%"]:after { content: " (96%)"; }
+p[title$=" 95%"]:after { content: " (95%)"; }
+p[title$=" 94%"]:after { content: " (94%)"; }
+p[title$=" 93%"]:after { content: " (93%)"; }
+p[title$=" 92%"]:after { content: " (92%)"; }
+p[title$=" 91%"]:after { content: " (91%)"; }
+p[title$=" 90%"]:after { content: " (90%)"; }
+p[title$=" 89%"]:after { content: " (89%)"; }
+p[title$=" 88%"]:after { content: " (88%)"; }
+p[title$=" 87%"]:after { content: " (87%)"; }
+p[title$=" 86%"]:after { content: " (86%)"; }
+p[title$=" 85%"]:after { content: " (85%)"; }
+p[title$=" 84%"]:after { content: " (84%)"; }
+p[title$=" 83%"]:after { content: " (83%)"; }
+p[title$=" 82%"]:after { content: " (82%)"; }
+p[title$=" 81%"]:after { content: " (81%)"; }
+p[title$=" 80%"]:after { content: " (80%)"; }
+p[title$=" 79%"]:after { content: " (79%)"; }
+p[title$=" 78%"]:after { content: " (78%)"; }
+p[title$=" 77%"]:after { content: " (77%)"; }
+p[title$=" 76%"]:after { content: " (76%)"; }
+p[title$=" 75%"]:after { content: " (75%)"; }
+p[title$=" 74%"]:after { content: " (74%)"; }
+p[title$=" 73%"]:after { content: " (73%)"; }
+p[title$=" 72%"]:after { content: " (72%)"; }
+p[title$=" 71%"]:after { content: " (71%)"; }
+p[title$=" 70%"]:after { content: " (70%)"; }
+p[title$=" 69%"]:after { content: " (69%)"; }
+p[title$=" 68%"]:after { content: " (68%)"; }
+p[title$=" 67%"]:after { content: " (67%)"; }
+p[title$=" 66%"]:after { content: " (66%)"; }
+p[title$=" 65%"]:after { content: " (65%)"; }
+p[title$=" 64%"]:after { content: " (64%)"; }
+p[title$=" 63%"]:after { content: " (63%)"; }
+p[title$=" 62%"]:after { content: " (62%)"; }
+p[title$=" 61%"]:after { content: " (61%)"; }
+p[title$=" 60%"]:after { content: " (60%)"; }
+p[title$=" 59%"]:after { content: " (59%)"; }
+p[title$=" 58%"]:after { content: " (58%)"; }
+p[title$=" 57%"]:after { content: " (57%)"; }
+p[title$=" 56%"]:after { content: " (56%)"; }
+p[title$=" 55%"]:after { content: " (55%)"; }
+p[title$=" 54%"]:after { content: " (54%)"; }
+p[title$=" 53%"]:after { content: " (53%)"; }
+p[title$=" 52%"]:after { content: " (52%)"; }
+p[title$=" 51%"]:after { content: " (51%)"; }
+p[title$=" 50%"]:after { content: " (50%)"; }
+p[title$=" 49%"]:after { content: " (49%)"; }
+p[title$=" 48%"]:after { content: " (48%)"; }
+p[title$=" 47%"]:after { content: " (47%)"; }
+p[title$=" 46%"]:after { content: " (46%)"; }
+p[title$=" 45%"]:after { content: " (45%)"; }
+p[title$=" 44%"]:after { content: " (44%)"; }
+p[title$=" 43%"]:after { content: " (43%)"; }
+p[title$=" 42%"]:after { content: " (42%)"; }
+p[title$=" 41%"]:after { content: " (41%)"; }
+p[title$=" 40%"]:after { content: " (40%)"; }
+p[title$=" 39%"]:after { content: " (39%)"; }
+p[title$=" 38%"]:after { content: " (38%)"; }
+p[title$=" 37%"]:after { content: " (37%)"; }
+p[title$=" 36%"]:after { content: " (36%)"; }
+p[title$=" 35%"]:after { content: " (35%)"; }
+p[title$=" 34%"]:after { content: " (34%)"; }
+p[title$=" 33%"]:after { content: " (33%)"; }
+p[title$=" 32%"]:after { content: " (32%)"; }
+p[title$=" 31%"]:after { content: " (31%)"; }
+p[title$=" 30%"]:after { content: " (30%)"; }
+p[title$=" 29%"]:after { content: " (29%)"; }
+p[title$=" 28%"]:after { content: " (28%)"; }
+p[title$=" 27%"]:after { content: " (27%)"; }
+p[title$=" 26%"]:after { content: " (26%)"; }
+p[title$=" 25%"]:after { content: " (25%)"; }
+p[title$=" 24%"]:after { content: " (24%)"; }
+p[title$=" 23%"]:after { content: " (23%)"; }
+p[title$=" 22%"]:after { content: " (22%)"; }
+p[title$=" 21%"]:after { content: " (21%)"; }
+p[title$=" 20%"]:after { content: " (20%)"; }
+p[title$=" 19%"]:after { content: " (19%)"; }
+p[title$=" 18%"]:after { content: " (18%)"; }
+p[title$=" 17%"]:after { content: " (17%)"; }
+p[title$=" 16%"]:after { content: " (16%)"; }
+p[title$=" 15%"]:after { content: " (15%)"; }
+p[title$=" 14%"]:after { content: " (14%)"; }
+p[title$=" 13%"]:after { content: " (13%)"; }
+p[title$=" 12%"]:after { content: " (12%)"; }
+p[title$=" 11%"]:after { content: " (11%)"; }
+p[title$=" 10%"]:after { content: " (10%)"; }
+p[title$=" 9%"]:after { content: " (9%)"; }
+p[title$=" 8%"]:after { content: " (8%)"; }
+p[title$=" 7%"]:after { content: " (7%)"; }
+p[title$=" 6%"]:after { content: " (6%)"; }
+p[title$=" 5%"]:after {
+    content: " (5%)";
+    animation: blink 0.5s ease-in-out 10;
+    color: var(--color_healthcritical) !important;
+    font-size: 12px !important;
+}
+p[title$=" 4%"]:after {
+    content: " (4%)";
+    animation: blink 0.5s ease-in-out 10;
+    color: var(--color_healthcritical) !important;
+    font-size: 15px !important;
+}
+p[title$=" 3%"]:after {
+    content: " (<4%!)"; 
+    animation: blink 0.5s ease-in-out infinite;
+    color: var(--color_healthcritical) !important;
+    font-size: 16px !important;
+}

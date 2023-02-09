@@ -1,0 +1,630 @@
+#listrow_status { padding: 4px; }
+
+#listrow_status > span.small > span {
+    margin-bottom: 5px;
+    padding: 1px 4px 2px 4px;
+    background: transparent;
+    border-radius: 7px;
+    font-size: 0px;
+    display: inline-block;
+    border: 1px solid;
+}
+
+#listrow_status > span.small > span::before,
+#listrow_status > span.small > span::after { font-size: 10px; font-weight: bold; }
+
+
+#listrow_status span[title^='Beutezauber']:before { content: "BZ |"; }
+#listrow_status span[title^='schnelle Bewegung']:before { content: "SB |"; }
+#listrow_status span[title^='langsame Bewegung']:before { content: "LB |"; }
+#listrow_status span[title^='Verteidigung -']:before { content: "V- |"; }
+#listrow_status span[title^='Verteidigung +']:before { content: "V+ |"; }
+#listrow_status span[title^='Verräter']:before { content: "† |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Stärke +']:before { content: "S+ |"; }
+#listrow_status span[title^='Stärke -']:before { content: "S- |"; }
+#listrow_status span[title^='Kampfunfähig']:before { content: "KU |"; }
+#listrow_status span[title^='Schutz']:before { content: "SZ |"; }
+#listrow_status span[title^='Vergiftung']:before { content: "☣ |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Lebenspunkte +']:before { content: "LP+ |"; }
+#listrow_status span[title^='Lebenspunkte -']:before { content: "LP- |"; }
+#listrow_status span[title^='Innere Heilkraft']:before { content: "IH |"; }
+#listrow_status span[title^='kinetische Heilung']:before { content: "KH |"; }
+#listrow_status span[title^='Feueröl']:before { content: "ÖL |"; }
+#listrow_status span[title^='Heilkraft']:before { content: "HK |"; }
+#listrow_status span[title^='Tarnung']:before { content: "TZ |"; }
+#listrow_status span[title^='Rückangriff']:before { content: "RA"; }
+#listrow_status span[title^='Trank der Mutation']:before { content: "TdM |"; }
+#listrow_status span[title^='Korlad-Nuss Trank']:before { content: "Nut |"; }
+#listrow_status span[title^='Geisterflug']:before { content: "👻 |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Fliegen']:before { content: "✈ |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Undaron reiten']:before { content: "UR |"; }
+#listrow_status span[title^='Undaron reiten'] a { padding-left: 1px; }
+#listrow_status span[title^='Blitzschild']:before { content: "BS |"; }
+#listrow_status span[title^='Phasenüberladung']:before { content: "PÜ"; }
+#listrow_status span[title^='Phasensicht']:before { content: "PS"; }
+#listrow_status span[title^='Trank der Phasenrisse']:before { content: "TdPr |"; }
+#listrow_status span[title^='versiegender Phasensaft']:before { content: "VPS |"; }
+#listrow_status span[title^='versiegender Phasennektar']:before { content: "VPN |"; }
+#listrow_status span[title^='Trank der Schneeausgrabung']:before { content: "TdSa |"; }
+#listrow_status span[title^='Trank der verlorenen Dinge']:before { content: "TdvD |"; }
+#listrow_status span[title^='Trank der Schneeausgrabung']:before { content: "TdSa |"; }
+#listrow_status span[title^='Sandwelle']:before { content: "SW |"; color: #fdc596; }
+#listrow_status span[title^='Trank der Welterkundung']:before { content: "TdWe |"; color: #ecd2bd; }
+#listrow_status span[title^='Clan-Krieg']:before { content: "CK"; }
+#listrow_status span[title^='grüner Daumen']:before { content: "gD |"; }
+#listrow_status span[title^='Auserwählt']:before { content: "AW |"; }
+#listrow_status span[title^='Seelentrank']:before { content: "ST |"; }
+#listrow_status span[title^='Verpestung']:before { content: "VP |"; }
+#listrow_status span[title^='Schattenbeschwörung']:before { content: "SBe |"; }
+#listrow_status span[title^='Nordpolarisierung ']:before { content: "↑ |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Ostpolarisierung ']:before { content: "→  |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Südpolarisierung ']:before { content: "↓ |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Westpolarisierung ']:before { content: "← |"; font-size: 8.5px !important; }
+#listrow_status span[title^='weiße Schokolade']:before { content: "☘ |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Birnenbrand']:before { content: "⛐ |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Nebelschwaden']:before { content: "☁ |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Pflanzensicht']:before { content: "⚘ |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Seelensicht']:before { content: "⛯ |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Rennen']:before { content: "☈ |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Gewebemeister']:before { content: "⚚ |"; font-size: 8.5px !important; }
+#listrow_status span[title^='einzigartige NPC Sicht']:before { content: "⚯ |"; font-size: 8.5px !important; }
+#listrow_status span[title^='rote Würfel']:before { content: "⚄ |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Archäologe']:before { content: "🖌 |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Goldduft']:before { content: "GD"; }
+#listrow_status span[title^='Trank der Waldpflanzensicht']:before { content: "PS"; }
+#listrow_status span[title^='Überladen']:before { content: "ÜL"; }
+#listrow_status span[title^='Brennend']:before { content: "🔥"; font-size: 8.5px !important; }
+
+/* Phasenzeug */
+#listrow_status span[title*='Phasen'] {color: lightblue; background: #000624; }
+
+/* Ringe */
+#listrow_status span[title*='Ring'] {background: black; color: #f9d653e8; }
+#listrow_status span[title^='Ring des Jägers']:before { content: "\26AC  JÄ |"; }
+#listrow_status span[title^='Auftragskünstler']:before { content: "\26AC  AK |"; }
+#listrow_status span[title^='Leichenfledderei']:before { content: "\26AC  LF |"; }
+#listrow_status span[title^='Ring des Blutdursts']:before { content: "\26AC  BD |"; }
+
+/* Pastillen */
+#listrow_status span[title^='Pastille der Ansteckung']:before { content: "Anst |"; }
+#listrow_status span[title^='Pastille der Schärfung']:before { content: "Schä |"; }
+#listrow_status span[title^='Pastille der Herbeirufung']:before { content: "Herb |"; }
+#listrow_status span[title^='Pastille der Heilung']:before { content: "Heil |"; }
+#listrow_status span[title^='Pastille der Seelensicht']:before { content: "Seel |"; }
+#listrow_status span[title^='Pastille der Clanenergie']:before { content: "Clan |"; }
+#listrow_status span[title^='Pastille des Fliegens']:before { content: "Fly |"; }
+#listrow_status span[title^='Pastille der Phasenenergie']:before { content: "PE |"; }
+#listrow_status span[title^='Pastille der Schreckensblumen']:before { content: "Blum |"; }
+#listrow_status span[title^='Pastille'] {color: #f73ff4; background: #190024}
+
+/* Zeiten hinter dem jeweiligen Status anzeigen */
+#listrow_status span span[title*='(Noch 8 Tage ']:after { content:' 8d'; }
+#listrow_status span span[title*='(Noch 7 Tage ']:after { content:' 7d'; }
+#listrow_status span span[title*='(Noch 6 Tage ']:after { content:' 6d'; }
+#listrow_status span span[title*='(Noch 5 Tage ']:after { content:' 5d'; }
+#listrow_status span span[title*='(Noch 4 Tage ']:after { content:' 4d'; }
+#listrow_status span span[title*='(Noch 3 Tage ']:after { content:' 3d'; }
+#listrow_status span span[title*='(Noch 2 Tage ']:after { content:' 2d'; }
+#listrow_status span span[title*='(Noch 1 Tag ']:after { content:' 1d'; }
+#listrow_status span span[title*='(Noch 1 Stunde ']:after { content:' 1h'; }
+#listrow_status span span[title*='(Noch 2 Stunden ']:after { content:' 2h'; }
+#listrow_status span span[title*='(Noch 3 Stunden ']:after { content:' 3h'; }
+#listrow_status span span[title*='(Noch 4 Stunden ']:after { content:' 4h'; }
+#listrow_status span span[title*='(Noch 5 Stunden ']:after { content:' 5h'; }
+#listrow_status span span[title*='(Noch 6 Stunden ']:after { content:' 6h'; }
+#listrow_status span span[title*='(Noch 7 Stunden ']:after { content:' 7h'; }
+#listrow_status span span[title*='(Noch 8 Stunden ']:after { content:' 8h'; }
+#listrow_status span span[title*='(Noch 9 Stunden ']:after { content:' 9h'; }
+#listrow_status span span[title*='(Noch 10 Stunden ']:after { content:' 10h'; }
+#listrow_status span span[title*='(Noch 11 Stunden ']:after { content:' 11h'; }
+#listrow_status span span[title*='(Noch 12 Stunden ']:after { content:' 12h'; }
+#listrow_status span span[title*='(Noch 13 Stunden ']:after { content:' 13h'; }
+#listrow_status span span[title*='(Noch 14 Stunden ']:after { content:' 14h'; }
+#listrow_status span span[title*='(Noch 15 Stunden ']:after { content:' 15h'; }
+#listrow_status span span[title*='(Noch 16 Stunden ']:after { content:' 16h'; }
+#listrow_status span span[title*='(Noch 17 Stunden ']:after { content:' 17h'; }
+#listrow_status span span[title*='(Noch 18 Stunden ']:after { content:' 18h'; }
+#listrow_status span span[title*='(Noch 19 Stunden ']:after { content:' 19h'; }
+#listrow_status span span[title*='(Noch 20 Stunden ']:after { content:' 20h'; }
+#listrow_status span span[title*='(Noch 21 Stunden ']:after { content:' 21h'; }
+#listrow_status span span[title*='(Noch 22 Stunden ']:after { content:' 22h'; }
+#listrow_status span span[title*='(Noch 23 Stunden ']:after { content:' 23h'; }
+#listrow_status span span[title$='(Noch 61 Minuten)']:after { content:' 61m'; }
+#listrow_status span span[title$='(Noch 60 Minuten)']:after { content:' 60m'; }
+#listrow_status span span[title$='(Noch 59 Minuten)']:after { content:' 59m'; }
+#listrow_status span span[title$='(Noch 58 Minuten)']:after { content:' 58m'; }
+#listrow_status span span[title$='(Noch 57 Minuten)']:after { content:' 57m'; }
+#listrow_status span span[title$='(Noch 56 Minuten)']:after { content:' 56m'; }
+#listrow_status span span[title$='(Noch 55 Minuten)']:after { content:' 55m'; }
+#listrow_status span span[title$='(Noch 54 Minuten)']:after { content:' 54m'; }
+#listrow_status span span[title$='(Noch 53 Minuten)']:after { content:' 53m'; }
+#listrow_status span span[title$='(Noch 52 Minuten)']:after { content:' 52m'; }
+#listrow_status span span[title$='(Noch 51 Minuten)']:after { content:' 51m'; }
+#listrow_status span span[title$='(Noch 50 Minuten)']:after { content:' 50m'; }
+#listrow_status span span[title$='(Noch 49 Minuten)']:after { content:' 49m'; }
+#listrow_status span span[title$='(Noch 48 Minuten)']:after { content:' 48m'; }
+#listrow_status span span[title$='(Noch 47 Minuten)']:after { content:' 47m'; }
+#listrow_status span span[title$='(Noch 46 Minuten)']:after { content:' 46m'; }
+#listrow_status span span[title$='(Noch 45 Minuten)']:after { content:' 45m'; }
+#listrow_status span span[title$='(Noch 44 Minuten)']:after { content:' 44m'; }
+#listrow_status span span[title$='(Noch 43 Minuten)']:after { content:' 43m'; }
+#listrow_status span span[title$='(Noch 42 Minuten)']:after { content:' 42m'; }
+#listrow_status span span[title$='(Noch 41 Minuten)']:after { content:' 41m'; }
+#listrow_status span span[title$='(Noch 40 Minuten)']:after { content:' 40m'; }
+#listrow_status span span[title$='(Noch 39 Minuten)']:after { content:' 39m'; }
+#listrow_status span span[title$='(Noch 38 Minuten)']:after { content:' 38m'; }
+#listrow_status span span[title$='(Noch 37 Minuten)']:after { content:' 37m'; }
+#listrow_status span span[title$='(Noch 36 Minuten)']:after { content:' 36m'; }
+#listrow_status span span[title$='(Noch 35 Minuten)']:after { content:' 35m'; }
+#listrow_status span span[title$='(Noch 34 Minuten)']:after { content:' 34m'; }
+#listrow_status span span[title$='(Noch 33 Minuten)']:after { content:' 33m'; }
+#listrow_status span span[title$='(Noch 32 Minuten)']:after { content:' 32m'; }
+#listrow_status span span[title$='(Noch 31 Minuten)']:after { content:' 31m'; }
+#listrow_status span span[title$='(Noch 30 Minuten)']:after { content:' 30m'; }
+#listrow_status span span[title$='(Noch 29 Minuten)']:after { content:' 29m'; }
+#listrow_status span span[title$='(Noch 28 Minuten)']:after { content:' 28m'; }
+#listrow_status span span[title$='(Noch 27 Minuten)']:after { content:' 27m'; }
+#listrow_status span span[title$='(Noch 26 Minuten)']:after { content:' 26m'; }
+#listrow_status span span[title$='(Noch 25 Minuten)']:after { content:' 25m'; }
+#listrow_status span span[title$='(Noch 24 Minuten)']:after { content:' 24m'; }
+#listrow_status span span[title$='(Noch 23 Minuten)']:after { content:' 23m'; }
+#listrow_status span span[title$='(Noch 22 Minuten)']:after { content:' 22m'; }
+#listrow_status span span[title$='(Noch 21 Minuten)']:after { content:' 21m'; }
+#listrow_status span span[title$='(Noch 20 Minuten)']:after { content:' 20m'; }
+#listrow_status span span[title$='(Noch 19 Minuten)']:after { content:' 19m'; }
+#listrow_status span span[title$='(Noch 18 Minuten)']:after { content:' 18m'; }
+#listrow_status span span[title$='(Noch 17 Minuten)']:after { content:' 17m'; }
+#listrow_status span span[title$='(Noch 16 Minuten)']:after { content:' 16m'; }
+#listrow_status span span[title$='(Noch 15 Minuten)']:after { content:' 15m'; }
+#listrow_status span span[title$='(Noch 14 Minuten)']:after { content:' 14m'; }
+#listrow_status span span[title$='(Noch 13 Minuten)']:after { content:' 13m'; }
+#listrow_status span span[title$='(Noch 12 Minuten)']:after { content:' 12m'; }
+#listrow_status span span[title$='(Noch 11 Minuten)']:after { content:' 11m'; }
+#listrow_status span span[title$='(Noch 10 Minuten)']:after { content:' 10m'; }
+#listrow_status span span[title$='(Noch 9 Minuten)']:after { content:' 9m'; }
+#listrow_status span span[title$='(Noch 8 Minuten)']:after { content:' 8m'; }
+#listrow_status span span[title$='(Noch 7 Minuten)']:after { content:' 7m'; }
+#listrow_status span span[title$='(Noch 6 Minuten)']:after { content:' 6m'; }
+#listrow_status span span[title*='(30 Tage']:after { content:' 30d'; }
+#listrow_status span span[title*='(29 Tage']:after { content:' 29d'; }
+#listrow_status span span[title*='(28 Tage']:after { content:' 28d'; }
+#listrow_status span span[title*='(27 Tage']:after { content:' 27d'; }
+#listrow_status span span[title*='(26 Tage']:after { content:' 26d'; }
+#listrow_status span span[title*='(25 Tage']:after { content:' 25d'; }
+#listrow_status span span[title*='(24 Tage']:after { content:' 24d'; }
+#listrow_status span span[title*='(23 Tage']:after { content:' 23d'; }
+#listrow_status span span[title*='(22 Tage']:after { content:' 22d'; }
+#listrow_status span span[title*='(21 Tage']:after { content:' 21d'; }
+#listrow_status span span[title*='(20 Tage']:after { content:' 20d'; }
+#listrow_status span span[title*='(19 Tage']:after { content:' 19d'; }
+#listrow_status span span[title*='(18 Tage']:after { content:' 18d'; }
+#listrow_status span span[title*='(17 Tage']:after { content:' 17d'; }
+#listrow_status span span[title*='(16 Tage']:after { content:' 16d'; }
+#listrow_status span span[title*='(15 Tage']:after { content:' 15d'; }
+#listrow_status span span[title*='(14 Tage']:after { content:' 14d'; }
+#listrow_status span span[title*='(13 Tage']:after { content:' 13d'; }
+#listrow_status span span[title*='(12 Tage']:after { content:' 12d'; }
+#listrow_status span span[title*='(11 Tage']:after { content:' 11d'; }
+#listrow_status span span[title*='(10 Tage']:after { content:' 10d'; }
+#listrow_status span span[title*='(9 Tage']:after { content:' 9d'; }
+#listrow_status span span[title*='(8 Tage']:after { content:' 8d'; }
+#listrow_status span span[title*='(7 Tage']:after { content:' 7d'; }
+#listrow_status span span[title*='(6 Tage']:after { content:' 6d'; }
+#listrow_status span span[title*='(5 Tage']:after { content:' 5d'; }
+#listrow_status span span[title*='(4 Tage']:after { content:' 4d'; }
+#listrow_status span span[title*='(3 Tage']:after { content:' 3d'; }
+#listrow_status span span[title*='(2 Tage']:after { content:' 2d'; }
+#listrow_status span span[title*='(1 Tag']:after { content:' 1d'; }
+#listrow_status span span[title*='(1 Stunde']:after { content:' 1h'; }
+#listrow_status span span[title*='(2 Stunden']:after { content:' 2h'; }
+#listrow_status span span[title*='(3 Stunden']:after { content:' 3h'; }
+#listrow_status span span[title*='(4 Stunden']:after { content:' 4h'; }
+#listrow_status span span[title*='(5 Stunden']:after { content:' 5h'; }
+#listrow_status span span[title*='(6 Stunden']:after { content:' 6h'; }
+#listrow_status span span[title*='(7 Stunden']:after { content:' 7h'; }
+#listrow_status span span[title*='(8 Stunden']:after { content:' 8h'; }
+#listrow_status span span[title*='(9 Stunden']:after { content:' 9h'; }
+#listrow_status span span[title*='(10 Stunden']:after { content:' 10h'; }
+#listrow_status span span[title*='(11 Stunden']:after { content:' 11h'; }
+#listrow_status span span[title*='(12 Stunden']:after { content:' 12h'; }
+#listrow_status span span[title*='(13 Stunden']:after { content:' 13h'; }
+#listrow_status span span[title*='(14 Stunden']:after { content:' 14h'; }
+#listrow_status span span[title*='(15 Stunden']:after { content:' 15h'; }
+#listrow_status span span[title*='(16 Stunden']:after { content:' 16h'; }
+#listrow_status span span[title*='(17 Stunden']:after { content:' 17h'; }
+#listrow_status span span[title*='(18 Stunden']:after { content:' 18h'; }
+#listrow_status span span[title*='(19 Stunden']:after { content:' 19h'; }
+#listrow_status span span[title*='(20 Stunden']:after { content:' 20h'; }
+#listrow_status span span[title*='(21 Stunden']:after { content:' 21h'; }
+#listrow_status span span[title*='(22 Stunden']:after { content:' 22h'; }
+#listrow_status span span[title*='(23 Stunden']:after { content:' 23h'; }
+#listrow_status span span[title$='(61 Minuten)']:after { content:' 61m'; }
+#listrow_status span span[title$='(60 Minuten)']:after { content:' 60m'; }
+#listrow_status span span[title$='(59 Minuten)']:after { content:' 59m'; }
+#listrow_status span span[title$='(58 Minuten)']:after { content:' 58m'; }
+#listrow_status span span[title$='(57 Minuten)']:after { content:' 57m'; }
+#listrow_status span span[title$='(56 Minuten)']:after { content:' 56m'; }
+#listrow_status span span[title$='(55 Minuten)']:after { content:' 55m'; }
+#listrow_status span span[title$='(54 Minuten)']:after { content:' 54m'; }
+#listrow_status span span[title$='(53 Minuten)']:after { content:' 53m'; }
+#listrow_status span span[title$='(52 Minuten)']:after { content:' 52m'; }
+#listrow_status span span[title$='(51 Minuten)']:after { content:' 51m'; }
+#listrow_status span span[title$='(50 Minuten)']:after { content:' 50m'; }
+#listrow_status span span[title$='(49 Minuten)']:after { content:' 49m'; }
+#listrow_status span span[title$='(48 Minuten)']:after { content:' 48m'; }
+#listrow_status span span[title$='(47 Minuten)']:after { content:' 47m'; }
+#listrow_status span span[title$='(46 Minuten)']:after { content:' 46m'; }
+#listrow_status span span[title$='(45 Minuten)']:after { content:' 45m'; }
+#listrow_status span span[title$='(44 Minuten)']:after { content:' 44m'; }
+#listrow_status span span[title$='(43 Minuten)']:after { content:' 43m'; }
+#listrow_status span span[title$='(42 Minuten)']:after { content:' 42m'; }
+#listrow_status span span[title$='(41 Minuten)']:after { content:' 41m'; }
+#listrow_status span span[title$='(40 Minuten)']:after { content:' 40m'; }
+#listrow_status span span[title$='(39 Minuten)']:after { content:' 39m'; }
+#listrow_status span span[title$='(38 Minuten)']:after { content:' 38m'; }
+#listrow_status span span[title$='(37 Minuten)']:after { content:' 37m'; }
+#listrow_status span span[title$='(36 Minuten)']:after { content:' 36m'; }
+#listrow_status span span[title$='(35 Minuten)']:after { content:' 35m'; }
+#listrow_status span span[title$='(34 Minuten)']:after { content:' 34m'; }
+#listrow_status span span[title$='(33 Minuten)']:after { content:' 33m'; }
+#listrow_status span span[title$='(32 Minuten)']:after { content:' 32m'; }
+#listrow_status span span[title$='(31 Minuten)']:after { content:' 31m'; }
+#listrow_status span span[title$='(30 Minuten)']:after { content:' 30m'; }
+#listrow_status span span[title$='(29 Minuten)']:after { content:' 29m'; }
+#listrow_status span span[title$='(28 Minuten)']:after { content:' 28m'; }
+#listrow_status span span[title$='(27 Minuten)']:after { content:' 27m'; }
+#listrow_status span span[title$='(26 Minuten)']:after { content:' 26m'; }
+#listrow_status span span[title$='(25 Minuten)']:after { content:' 25m'; }
+#listrow_status span span[title$='(24 Minuten)']:after { content:' 24m'; }
+#listrow_status span span[title$='(23 Minuten)']:after { content:' 23m'; }
+#listrow_status span span[title$='(22 Minuten)']:after { content:' 22m'; }
+#listrow_status span span[title$='(21 Minuten)']:after { content:' 21m'; }
+#listrow_status span span[title$='(20 Minuten)']:after { content:' 20m'; }
+#listrow_status span span[title$='(19 Minuten)']:after { content:' 19m'; }
+#listrow_status span span[title$='(18 Minuten)']:after { content:' 18m'; }
+#listrow_status span span[title$='(17 Minuten)']:after { content:' 17m'; }
+#listrow_status span span[title$='(16 Minuten)']:after { content:' 16m'; }
+#listrow_status span span[title$='(15 Minuten)']:after { content:' 15m'; }
+#listrow_status span span[title$='(14 Minuten)']:after { content:' 14m'; }
+#listrow_status span span[title$='(13 Minuten)']:after { content:' 13m'; }
+#listrow_status span span[title$='(12 Minuten)']:after { content:' 12m'; }
+#listrow_status span span[title$='(11 Minuten)']:after { content:' 11m'; }
+#listrow_status span span[title$='(10 Minuten)']:after { content:' 10m'; }
+#listrow_status span span[title$='(9 Minuten)']:after { content:' 9m'; }
+#listrow_status span span[title$='(8 Minuten)']:after { content:' 8m'; }
+#listrow_status span span[title$='(7 Minuten)']:after { content:' 7m'; }
+#listrow_status span span[title$='(6 Minuten)']:after { content:' 6m'; }
+
+/* Schritte */
+#listrow_status span span[title$='(Noch 150 Schritte)']:after { content:' | 150'; }
+#listrow_status span span[title$='(Noch 149 Schritte)']:after { content:' | 149'; }
+#listrow_status span span[title$='(Noch 148 Schritte)']:after { content:' | 148'; }
+#listrow_status span span[title$='(Noch 147 Schritte)']:after { content:' | 147'; }
+#listrow_status span span[title$='(Noch 146 Schritte)']:after { content:' | 146'; }
+#listrow_status span span[title$='(Noch 145 Schritte)']:after { content:' | 145'; }
+#listrow_status span span[title$='(Noch 144 Schritte)']:after { content:' | 144'; }
+#listrow_status span span[title$='(Noch 143 Schritte)']:after { content:' | 143'; }
+#listrow_status span span[title$='(Noch 142 Schritte)']:after { content:' | 142'; }
+#listrow_status span span[title$='(Noch 141 Schritte)']:after { content:' | 141'; }
+#listrow_status span span[title$='(Noch 140 Schritte)']:after { content:' | 140'; }
+#listrow_status span span[title$='(Noch 139 Schritte)']:after { content:' | 139'; }
+#listrow_status span span[title$='(Noch 138 Schritte)']:after { content:' | 138'; }
+#listrow_status span span[title$='(Noch 137 Schritte)']:after { content:' | 137'; }
+#listrow_status span span[title$='(Noch 136 Schritte)']:after { content:' | 136'; }
+#listrow_status span span[title$='(Noch 135 Schritte)']:after { content:' | 135'; }
+#listrow_status span span[title$='(Noch 134 Schritte)']:after { content:' | 134'; }
+#listrow_status span span[title$='(Noch 133 Schritte)']:after { content:' | 133'; }
+#listrow_status span span[title$='(Noch 132 Schritte)']:after { content:' | 132'; }
+#listrow_status span span[title$='(Noch 131 Schritte)']:after { content:' | 131'; }
+#listrow_status span span[title$='(Noch 130 Schritte)']:after { content:' | 130'; }
+#listrow_status span span[title$='(Noch 129 Schritte)']:after { content:' | 129'; }
+#listrow_status span span[title$='(Noch 128 Schritte)']:after { content:' | 128'; }
+#listrow_status span span[title$='(Noch 127 Schritte)']:after { content:' | 127'; }
+#listrow_status span span[title$='(Noch 126 Schritte)']:after { content:' | 126'; }
+#listrow_status span span[title$='(Noch 125 Schritte)']:after { content:' | 125'; }
+#listrow_status span span[title$='(Noch 124 Schritte)']:after { content:' | 124'; }
+#listrow_status span span[title$='(Noch 123 Schritte)']:after { content:' | 123'; }
+#listrow_status span span[title$='(Noch 122 Schritte)']:after { content:' | 122'; }
+#listrow_status span span[title$='(Noch 121 Schritte)']:after { content:' | 121'; }
+#listrow_status span span[title$='(Noch 120 Schritte)']:after { content:' | 120'; }
+#listrow_status span span[title$='(Noch 119 Schritte)']:after { content:' | 119'; }
+#listrow_status span span[title$='(Noch 118 Schritte)']:after { content:' | 118'; }
+#listrow_status span span[title$='(Noch 117 Schritte)']:after { content:' | 117'; }
+#listrow_status span span[title$='(Noch 116 Schritte)']:after { content:' | 116'; }
+#listrow_status span span[title$='(Noch 115 Schritte)']:after { content:' | 115'; }
+#listrow_status span span[title$='(Noch 114 Schritte)']:after { content:' | 114'; }
+#listrow_status span span[title$='(Noch 113 Schritte)']:after { content:' | 113'; }
+#listrow_status span span[title$='(Noch 112 Schritte)']:after { content:' | 112'; }
+#listrow_status span span[title$='(Noch 111 Schritte)']:after { content:' | 111'; }
+#listrow_status span span[title$='(Noch 110 Schritte)']:after { content:' | 110'; }
+#listrow_status span span[title$='(Noch 109 Schritte)']:after { content:' | 109'; }
+#listrow_status span span[title$='(Noch 108 Schritte)']:after { content:' | 108'; }
+#listrow_status span span[title$='(Noch 107 Schritte)']:after { content:' | 107'; }
+#listrow_status span span[title$='(Noch 106 Schritte)']:after { content:' | 106'; }
+#listrow_status span span[title$='(Noch 105 Schritte)']:after { content:' | 105'; }
+#listrow_status span span[title$='(Noch 104 Schritte)']:after { content:' | 104'; }
+#listrow_status span span[title$='(Noch 103 Schritte)']:after { content:' | 103'; }
+#listrow_status span span[title$='(Noch 102 Schritte)']:after { content:' | 102'; }
+#listrow_status span span[title$='(Noch 101 Schritte)']:after { content:' | 101'; }
+#listrow_status span span[title$='(Noch 100 Schritte)']:after { content:' | 100'; }
+#listrow_status span span[title$='(Noch 99 Schritte)']:after { content:' | 99'; }
+#listrow_status span span[title$='(Noch 98 Schritte)']:after { content:' | 98'; }
+#listrow_status span span[title$='(Noch 97 Schritte)']:after { content:' | 97'; }
+#listrow_status span span[title$='(Noch 96 Schritte)']:after { content:' | 96'; }
+#listrow_status span span[title$='(Noch 95 Schritte)']:after { content:' | 95'; }
+#listrow_status span span[title$='(Noch 94 Schritte)']:after { content:' | 94'; }
+#listrow_status span span[title$='(Noch 93 Schritte)']:after { content:' | 93'; }
+#listrow_status span span[title$='(Noch 92 Schritte)']:after { content:' | 92'; }
+#listrow_status span span[title$='(Noch 91 Schritte)']:after { content:' | 91'; }
+#listrow_status span span[title$='(Noch 90 Schritte)']:after { content:' | 90'; }
+#listrow_status span span[title$='(Noch 89 Schritte)']:after { content:' | 89'; }
+#listrow_status span span[title$='(Noch 88 Schritte)']:after { content:' | 88'; }
+#listrow_status span span[title$='(Noch 87 Schritte)']:after { content:' | 87'; }
+#listrow_status span span[title$='(Noch 86 Schritte)']:after { content:' | 86'; }
+#listrow_status span span[title$='(Noch 85 Schritte)']:after { content:' | 85'; }
+#listrow_status span span[title$='(Noch 84 Schritte)']:after { content:' | 84'; }
+#listrow_status span span[title$='(Noch 83 Schritte)']:after { content:' | 83'; }
+#listrow_status span span[title$='(Noch 82 Schritte)']:after { content:' | 82'; }
+#listrow_status span span[title$='(Noch 81 Schritte)']:after { content:' | 81'; }
+#listrow_status span span[title$='(Noch 80 Schritte)']:after { content:' | 80'; }
+#listrow_status span span[title$='(Noch 79 Schritte)']:after { content:' | 79'; }
+#listrow_status span span[title$='(Noch 78 Schritte)']:after { content:' | 78'; }
+#listrow_status span span[title$='(Noch 77 Schritte)']:after { content:' | 77'; }
+#listrow_status span span[title$='(Noch 76 Schritte)']:after { content:' | 76'; }
+#listrow_status span span[title$='(Noch 75 Schritte)']:after { content:' | 75'; }
+#listrow_status span span[title$='(Noch 74 Schritte)']:after { content:' | 74'; }
+#listrow_status span span[title$='(Noch 73 Schritte)']:after { content:' | 73'; }
+#listrow_status span span[title$='(Noch 72 Schritte)']:after { content:' | 72'; }
+#listrow_status span span[title$='(Noch 71 Schritte)']:after { content:' | 71'; }
+#listrow_status span span[title$='(Noch 70 Schritte)']:after { content:' | 70'; }
+#listrow_status span span[title$='(Noch 69 Schritte)']:after { content:' | 69'; }
+#listrow_status span span[title$='(Noch 68 Schritte)']:after { content:' | 68'; }
+#listrow_status span span[title$='(Noch 67 Schritte)']:after { content:' | 67'; }
+#listrow_status span span[title$='(Noch 66 Schritte)']:after { content:' | 66'; }
+#listrow_status span span[title$='(Noch 65 Schritte)']:after { content:' | 65'; }
+#listrow_status span span[title$='(Noch 64 Schritte)']:after { content:' | 64'; }
+#listrow_status span span[title$='(Noch 63 Schritte)']:after { content:' | 63'; }
+#listrow_status span span[title$='(Noch 62 Schritte)']:after { content:' | 62'; }
+#listrow_status span span[title$='(Noch 61 Schritte)']:after { content:' | 61'; }
+#listrow_status span span[title$='(Noch 60 Schritte)']:after { content:' | 60'; }
+#listrow_status span span[title$='(Noch 59 Schritte)']:after { content:' | 59'; }
+#listrow_status span span[title$='(Noch 58 Schritte)']:after { content:' | 58'; }
+#listrow_status span span[title$='(Noch 57 Schritte)']:after { content:' | 57'; }
+#listrow_status span span[title$='(Noch 56 Schritte)']:after { content:' | 56'; }
+#listrow_status span span[title$='(Noch 55 Schritte)']:after { content:' | 55'; }
+#listrow_status span span[title$='(Noch 54 Schritte)']:after { content:' | 54'; }
+#listrow_status span span[title$='(Noch 53 Schritte)']:after { content:' | 53'; }
+#listrow_status span span[title$='(Noch 52 Schritte)']:after { content:' | 52'; }
+#listrow_status span span[title$='(Noch 51 Schritte)']:after { content:' | 51'; }
+#listrow_status span span[title$='(Noch 50 Schritte)']:after { content:' | 50'; }
+#listrow_status span span[title$='(Noch 49 Schritte)']:after { content:' | 49'; }
+#listrow_status span span[title$='(Noch 48 Schritte)']:after { content:' | 48'; }
+#listrow_status span span[title$='(Noch 47 Schritte)']:after { content:' | 47'; }
+#listrow_status span span[title$='(Noch 46 Schritte)']:after { content:' | 46'; }
+#listrow_status span span[title$='(Noch 45 Schritte)']:after { content:' | 45'; }
+#listrow_status span span[title$='(Noch 44 Schritte)']:after { content:' | 44'; }
+#listrow_status span span[title$='(Noch 43 Schritte)']:after { content:' | 43'; }
+#listrow_status span span[title$='(Noch 42 Schritte)']:after { content:' | 42'; }
+#listrow_status span span[title$='(Noch 41 Schritte)']:after { content:' | 41'; }
+#listrow_status span span[title$='(Noch 40 Schritte)']:after { content:' | 40'; }
+#listrow_status span span[title$='(Noch 39 Schritte)']:after { content:' | 39'; }
+#listrow_status span span[title$='(Noch 38 Schritte)']:after { content:' | 38'; }
+#listrow_status span span[title$='(Noch 37 Schritte)']:after { content:' | 37'; }
+#listrow_status span span[title$='(Noch 36 Schritte)']:after { content:' | 36'; }
+#listrow_status span span[title$='(Noch 35 Schritte)']:after { content:' | 35'; }
+#listrow_status span span[title$='(Noch 34 Schritte)']:after { content:' | 34'; }
+#listrow_status span span[title$='(Noch 33 Schritte)']:after { content:' | 33'; }
+#listrow_status span span[title$='(Noch 32 Schritte)']:after { content:' | 32'; }
+#listrow_status span span[title$='(Noch 31 Schritte)']:after { content:' | 31'; }
+#listrow_status span span[title$='(Noch 30 Schritte)']:after { content:' | 30'; }
+#listrow_status span span[title$='(Noch 29 Schritte)']:after { content:' | 29'; }
+#listrow_status span span[title$='(Noch 28 Schritte)']:after { content:' | 28'; }
+#listrow_status span span[title$='(Noch 27 Schritte)']:after { content:' | 27'; }
+#listrow_status span span[title$='(Noch 26 Schritte)']:after { content:' | 26'; }
+#listrow_status span span[title$='(Noch 25 Schritte)']:after { content:' | 25'; }
+#listrow_status span span[title$='(Noch 24 Schritte)']:after { content:' | 24'; }
+#listrow_status span span[title$='(Noch 23 Schritte)']:after { content:' | 23'; }
+#listrow_status span span[title$='(Noch 22 Schritte)']:after { content:' | 22'; }
+#listrow_status span span[title$='(Noch 21 Schritte)']:after { content:' | 21'; }
+#listrow_status span span[title$='(Noch 20 Schritte)']:after { content:' | 20'; }
+#listrow_status span span[title$='(Noch 19 Schritte)']:after { content:' | 19'; }
+#listrow_status span span[title$='(Noch 18 Schritte)']:after { content:' | 18'; }
+#listrow_status span span[title$='(Noch 17 Schritte)']:after { content:' | 17'; }
+#listrow_status span span[title$='(Noch 16 Schritte)']:after { content:' | 16'; }
+#listrow_status span span[title$='(Noch 15 Schritte)']:after { content:' | 15'; }
+#listrow_status span span[title$='(Noch 14 Schritte)']:after { content:' | 14'; }
+#listrow_status span span[title$='(Noch 13 Schritte)']:after { content:' | 13'; }
+#listrow_status span span[title$='(Noch 12 Schritte)']:after { content:' | 12'; }
+#listrow_status span span[title$='(Noch 11 Schritte)']:after { content:' | 11'; }
+#listrow_status span span[title$='(Noch 10 Schritte)']:after { content:' | 10'; }
+#listrow_status span span[title$='(Noch 9 Schritte)']:after { content:' | 9'; }
+#listrow_status span span[title$='(Noch 8 Schritte)']:after { content:' | 8'; }
+#listrow_status span span[title$='(Noch 7 Schritte)']:after { content:' | 7'; }
+#listrow_status span span[title$='(Noch 6 Schritte)']:after { content:' | 6'; }
+#listrow_status span span[title$='(Noch 5 Schritte)']:after { content:' | 5'; }
+#listrow_status span span[title$='(Noch 4 Schritte)']:after { content:' | 4'; }
+#listrow_status span span[title$='(Noch 3 Schritte)']:after { content:' | 3'; }
+#listrow_status span span[title$='(Noch 2 Schritte)']:after { content:' | 2'; }
+#listrow_status span span[title$='(Noch einen Schritt)']:after { content:' | 1'; }
+
+/* Phasenenergie (versiegender Phasensaft/Nektar*/
+#listrow_status span span[title$='(500 Phasenenergiepunkte)']:after { content:' | 500 PE'; }
+#listrow_status span span[title$='(490 Phasenenergiepunkte)']:after { content:' | 490 PE'; }
+#listrow_status span span[title$='(480 Phasenenergiepunkte)']:after { content:' | 480 PE'; }
+#listrow_status span span[title$='(470 Phasenenergiepunkte)']:after { content:' | 470 PE'; }
+#listrow_status span span[title$='(460 Phasenenergiepunkte)']:after { content:' | 460 PE'; }
+#listrow_status span span[title$='(450 Phasenenergiepunkte)']:after { content:' | 450 PE'; }
+#listrow_status span span[title$='(440 Phasenenergiepunkte)']:after { content:' | 440 PE'; }
+#listrow_status span span[title$='(430 Phasenenergiepunkte)']:after { content:' | 430 PE'; }
+#listrow_status span span[title$='(420 Phasenenergiepunkte)']:after { content:' | 420 PE'; }
+#listrow_status span span[title$='(410 Phasenenergiepunkte)']:after { content:' | 410 PE'; }
+#listrow_status span span[title$='(400 Phasenenergiepunkte)']:after { content:' | 400 PE'; }
+#listrow_status span span[title$='(390 Phasenenergiepunkte)']:after { content:' | 390 PE'; }
+#listrow_status span span[title$='(380 Phasenenergiepunkte)']:after { content:' | 380 PE'; }
+#listrow_status span span[title$='(370 Phasenenergiepunkte)']:after { content:' | 370 PE'; }
+#listrow_status span span[title$='(360 Phasenenergiepunkte)']:after { content:' | 360 PE'; }
+#listrow_status span span[title$='(350 Phasenenergiepunkte)']:after { content:' | 350 PE'; }
+#listrow_status span span[title$='(340 Phasenenergiepunkte)']:after { content:' | 340 PE'; }
+#listrow_status span span[title$='(330 Phasenenergiepunkte)']:after { content:' | 330 PE'; }
+#listrow_status span span[title$='(320 Phasenenergiepunkte)']:after { content:' | 320 PE'; }
+#listrow_status span span[title$='(310 Phasenenergiepunkte)']:after { content:' | 310 PE'; }
+#listrow_status span span[title$='(300 Phasenenergiepunkte)']:after { content:' | 300 PE'; }
+#listrow_status span span[title$='(290 Phasenenergiepunkte)']:after { content:' | 290 PE'; }
+#listrow_status span span[title$='(280 Phasenenergiepunkte)']:after { content:' | 280 PE'; }
+#listrow_status span span[title$='(270 Phasenenergiepunkte)']:after { content:' | 270 PE'; }
+#listrow_status span span[title$='(260 Phasenenergiepunkte)']:after { content:' | 260 PE'; }
+#listrow_status span span[title$='(250 Phasenenergiepunkte)']:after { content:' | 250 PE'; }
+#listrow_status span span[title$='(240 Phasenenergiepunkte)']:after { content:' | 240 PE'; }
+#listrow_status span span[title$='(230 Phasenenergiepunkte)']:after { content:' | 230 PE'; }
+#listrow_status span span[title$='(220 Phasenenergiepunkte)']:after { content:' | 220 PE'; }
+#listrow_status span span[title$='(210 Phasenenergiepunkte)']:after { content:' | 210 PE'; }
+#listrow_status span span[title$='(200 Phasenenergiepunkte)']:after { content:' | 200 PE'; }
+#listrow_status span span[title$='(190 Phasenenergiepunkte)']:after { content:' | 190 PE'; }
+#listrow_status span span[title$='(180 Phasenenergiepunkte)']:after { content:' | 180 PE'; }
+#listrow_status span span[title$='(170 Phasenenergiepunkte)']:after { content:' | 170 PE'; }
+#listrow_status span span[title$='(160 Phasenenergiepunkte)']:after { content:' | 160 PE'; }
+#listrow_status span span[title$='(150 Phasenenergiepunkte)']:after { content:' | 150 PE'; }
+#listrow_status span span[title$='(140 Phasenenergiepunkte)']:after { content:' | 140 PE'; }
+#listrow_status span span[title$='(130 Phasenenergiepunkte)']:after { content:' | 130 PE'; }
+#listrow_status span span[title$='(120 Phasenenergiepunkte)']:after { content:' | 120 PE'; }
+#listrow_status span span[title$='(110 Phasenenergiepunkte)']:after { content:' | 110 PE'; }
+#listrow_status span span[title$='(100 Phasenenergiepunkte)']:after { content:' | 100 PE'; }
+#listrow_status span span[title$='(90 Phasenenergiepunkte)']:after { content:' | 90 PE'; }
+#listrow_status span span[title$='(80 Phasenenergiepunkte)']:after { content:' | 80 PE'; }
+#listrow_status span span[title$='(70 Phasenenergiepunkte)']:after { content:' | 70 PE'; }
+#listrow_status span span[title$='(60 Phasenenergiepunkte)']:after { content:' | 60 PE'; }
+#listrow_status span span[title$='(50 Phasenenergiepunkte)']:after { content:' | 50 PE'; }
+#listrow_status span span[title$='(40 Phasenenergiepunkte)']:after { content:' | 40 PE'; }
+#listrow_status span span[title$='(30 Phasenenergiepunkte)']:after { content:' | 30 PE'; }
+#listrow_status span span[title$='(20 Phasenenergiepunkte)']:after { content:' | 20 PE'; }
+#listrow_status span span[title$='(10 Phasenenergiepunkte)']:after { content:' | 10 PE'; }
+#listrow_status span span[title$='(0 Phasenenergiepunkte)']:after { content:' | 0 PE'; }
+
+/* Pastillen */
+#listrow_status span span[title$='(Noch ein NPC)']:after { content:' 1x'; }
+#listrow_status span span[title$='(Noch 2 NPCs)']:after { content:' 2x'; }
+#listrow_status span span[title$='(Noch 3 NPCs)']:after { content:' 3x'; }
+#listrow_status span span[title$='(Noch 4 NPCs)']:after { content:' 4x'; }
+#listrow_status span span[title$='(Noch 5 NPCs)']:after { content:' 5x'; }
+#listrow_status span span[title$='(Noch 6 NPCs)']:after { content:' 6x'; }
+#listrow_status span span[title$='(Noch 7 NPCs)']:after { content:' 7x'; }
+#listrow_status span span[title$='(Noch 8 NPCs)']:after { content:' 8x'; }
+#listrow_status span span[title$='(Noch 9 NPCs)']:after { content:' 9x'; }
+#listrow_status span span[title$='(Noch 10 NPCs)']:after { content:' 10x'; }
+
+/* Blinken bei 5 minuten Restzeit */
+#listrow_status span span[title$='(Noch 5 Minuten)']:after,
+#listrow_status span span[title$='(5 Minuten)']:after {
+    content:' 5m';
+    -moz-transition:all 0.5s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    -ms-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out;
+    -moz-animation:blink normal 1.5s infinite ease-in-out; /* Firefox */
+    -webkit-animation:blink normal 1.5s infinite ease-in-out; /* Webkit */
+    -ms-animation:blink normal 1.5s infinite ease-in-out; /* IE */
+    animation:blink normal 1.5s infinite ease-in-out; /* Opera */
+}
+
+#listrow_status span span[title$='(Noch 4 Minuten)']:after,
+#listrow_status span span[title$='(4 Minuten)']:after {
+    content:' 4m';
+    -moz-transition:all 0.5s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    -ms-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out;
+    -moz-animation:blink normal 1.5s infinite ease-in-out; /* Firefox */
+    -webkit-animation:blink normal 1.5s infinite ease-in-out; /* Webkit */
+    -ms-animation:blink normal 1.5s infinite ease-in-out; /* IE */
+    animation:blink normal 1.5s infinite ease-in-out; /* Opera */
+}
+
+#listrow_status span span[title$='(Noch 3 Minuten)']:after,
+#listrow_status span span[title$='(3 Minuten)']:after {
+    content:' 3m';
+    -moz-transition:all 0.5s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    -ms-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out;
+    -moz-animation:blink normal 1.5s infinite ease-in-out; /* Firefox */
+    -webkit-animation:blink normal 1.5s infinite ease-in-out; /* Webkit */
+    -ms-animation:blink normal 1.5s infinite ease-in-out; /* IE */
+    animation:blink normal 1.5s infinite ease-in-out; /* Opera */
+}
+
+#listrow_status span span[title$='(Noch 2 Minuten)']:after,
+#listrow_status span span[title$='(2 Minuten)']:after {
+    content:' 2m';
+    -moz-transition:all 0.5s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    -ms-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out;
+    -moz-animation:blink normal 1.5s infinite ease-in-out; /* Firefox */
+    -webkit-animation:blink normal 1.5s infinite ease-in-out; /* Webkit */
+    -ms-animation:blink normal 1.5s infinite ease-in-out; /* IE */
+    animation:blink normal 1.5s infinite ease-in-out; /* Opera */
+}
+
+#listrow_status span span[title$='(Noch 1 Minute)']:after,
+#listrow_status span span[title$='(1 Minute)']:after {
+    content:' 1m';
+    -moz-transition:all 0.5s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    -ms-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out;
+    -moz-animation:blink normal 1.5s infinite ease-in-out; /* Firefox */
+    -webkit-animation:blink normal 1.5s infinite ease-in-out; /* Webkit */
+    -ms-animation:blink normal 1.5s infinite ease-in-out; /* IE */
+    animation:blink normal 1.5s infinite ease-in-out; /* Opera */
+}
+
+#listrow_status span span[title$='(Noch wenige Sekunden)']:after,
+#listrow_status span span[title$='(wenige Sekunden)']:after {
+    content:' <1m';
+    -moz-transition:all 0.5s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    -ms-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out;
+    -moz-animation:blink normal 0.5s infinite ease-in-out; /* Firefox */
+    -webkit-animation:blink normal 0.5s infinite ease-in-out; /* Webkit */
+    -ms-animation:blink normal 0.5s infinite ease-in-out; /* IE */
+    animation:blink normal 0.5s infinite ease-in-out; /* Opera */
+}
+
+/* Verrätererrungenschaft */
+#listrow_status span span[title*='(27 Tage']:after,
+#listrow_status span span[title*='(28 Tage']:after,
+#listrow_status span span[title$='(29 Tage )']:after,
+#listrow_status span span[title$='(29 Tage 1 Stunde)']:after,
+#listrow_status span span[title$='(29 Tage 2 Stunden)']:after,
+#listrow_status span span[title$='(29 Tage 3 Stunden)']:after,
+#listrow_status span span[title$='(29 Tage 4 Stunden)']:after,
+#listrow_status span span[title$='(29 Tage 5 Stunden)']:after,
+#listrow_status span span[title$='(29 Tage 6 Stunden)']:after,
+#listrow_status span span[title$='(29 Tage 7 Stunden)']:after {
+    -moz-transition:all 0.5s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    -ms-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out;
+    -moz-animation:blink normal 0.5s infinite ease-in-out; /* Firefox */
+    -webkit-animation:blink normal 0.5s infinite ease-in-out; /* Webkit */
+    -ms-animation:blink normal 0.5s infinite ease-in-out; /* IE */
+    animation:blink normal 0.5s infinite ease-in-out; /* Opera */
+}
+
+/* Blink Animation */
+@-moz-keyframes blink {0%{opacity:1;} 50%{opacity:0.5;} 100%{opacity:1;}} /* Firefox */
+@-webkit-keyframes blink {0%{opacity:1;} 50%{opacity:0.5;} 100%{opacity:1;}} /* Webkit */
+@-ms-keyframes blink {0%{opacity:1;} 50%{opacity:0.5;} 100%{opacity:1;}} /* IE */
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.25; }
+    100% { opacity:1; }
+}

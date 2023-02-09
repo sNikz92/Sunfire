@@ -1,0 +1,93 @@
+p.listcaption {
+    border: 1px solid var(--border);
+    font-weight: bold;
+    padding: 2px 0 2px 5px;
+    margin-bottom: 2px;
+}
+
+p.listitemrow {
+    padding: 3px 3px;
+    border: 1px solid var(--border);
+    font-size: 0;
+    color: transparent;
+}
+p.listitemrow b {
+    font-size: 11px;
+    color: var(--global_font);
+}
+
+p.listitemrow a[href*="action=activate"] {
+    display: block;
+    font-size: 11px;
+}
+p.listitemrow > a[href*="action=watch"],
+p.listitemrow > a[href*="action=manydrop"],
+p.listitemrow > a[href*="action=transfer1"],
+p.listitemrow > a[href*="arrive_eval=itemabgabe2"] {
+    font-size: 11px;
+    margin-right: 20px;
+}
+
+.itemamount {
+    font-size: 11px;
+    margin-right: 2px;
+    font-weight: bold;
+    color: var(--linkcolor);
+}
+.itemmagic {
+    font-size: 11px;
+    margin-left: 2px;
+    font-weight: bold;
+    color: green;
+}
+.magicextend {
+    font-weight: bold;
+    color: var(--color_healthok);
+}
+
+.itemequipped {
+    font-weight: bold;
+    color: var(--color_healthcritical);
+}
+
+.iteminventorypics { display:none; }
+
+#filterrow {
+    padding: 4px;
+    padding-top: 2px;
+    font-size: 11px;
+    color: var(--global_font);
+}
+#filterrow span {
+    padding-top: 4px; 
+    width: 250px !important;
+}
+#searchtdel {
+    right: 5px !important;
+    bottom: calc(26px / 2 - 5px) !important;
+}
+
+table[id^="fastspell"] { margin-top: -1px; }
+
+a[href="item.php?action=lastfastspell"] { font-size: 12px; }
+
+table[id^="fastspell"] + span.small > center > br { font-size: 0; }
+
+/* grüner indikator */
+img.areaimg {
+    height: 50px;
+    width: 50px;
+    margin-top: -10px;
+}
+
+/* portalmaschine */
+button[name="voreinstellung"]  {
+    font-size: 8px;
+    height: 24px;
+    width: 24px;
+    background-color: var(--area_bg);
+    border: 2px solid var(--border);
+    color: var(--global_font);
+    margin-left: 2px;
+    translate: 0 -2px;
+}

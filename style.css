@@ -1,0 +1,165 @@
+@import url("./mod/mainframe.css");
+@import url("./mod/character.css");
+@import url("./mod/status.css");
+@import url("./mod/inventory.css");
+@import url("./mod/chat.css");
+@import url("./mod/map_overlay.css");
+@import url("./mod/mission_npcs.css");
+@import url("./mod/blue_indicator.css");
+@import url("./mod/zauberpuzzle.css");
+
+:root {
+    --primary: #222;
+    --chat_bg: #222;
+    --area_bg: #444;
+    --mainheader_bg: #333;
+    --itemframe_bg: #222;
+    --border: #666;
+    --global_font: white;
+    --global_font_inverted: black;
+    --global_font-size: 0.775rem;
+    --linkcolor: #c63;
+    --linkcolor_hover: #f30;
+    --chat_linkcolor: #c30;
+    --chat_highlight: #9c6;
+    --chat_group: #f93;
+    --chat_clan: #f33;
+    --chat_scream: #69f;
+    --chat_global: #f3f;
+    --chat_whisper: #999;
+    --chat_whisper_player: #3c3;
+    --chat_whisper_highlight: #996;
+    --chat_weather: #fc3;
+    --chat_font-size: 0.775rem; 
+    --color_healthok: #6f6;
+    --color_healthmed: #f60;
+    --color_healthcritical: #f33; 
+    --color_worldsay_green: #696;
+    --color_worldsay_blue: #99f;
+    --color_worldsay_yellow: #f33;
+    --color_worldsay_sundown: #f99;
+    --color_npc_bg: #ccc;
+    --color_plant_bg: #696;
+    --color_phase_bg: #669 ;
+    --npc_highlight: #9c6;
+    --blauer_indicator: #c63;
+}
+
+.framebannerbg:before { content: url("https://freewar.zocker.eu/xp.php?w=11&s=4&limit=3")  url("https://zocker.eu/freewar2/grafik.php") url("https://zocker.eu/freewar2/vvvg.php"); }
+
+p, ul, ol, body:not(.framemapbg) div, td, span, table, body {
+    font-family: Arial, helvetica, sans-serif; 
+    font-size: 0.775rem; 
+    color: var(--global_font);
+    margin: 0px;
+    padding: 0px;
+ }
+
+body {
+    background-color: var(--primary);
+    margin: 5px;
+}
+
+table {
+    border: 0px;
+    border-collapse: collapse;
+}
+
+a:link    {
+    color: var(--linkcolor);
+    text-decoration: none;
+    font-weight:bold;
+}
+a:visited { color: var(--linkcolor); }
+a:active,
+a:hover   { color: var(--linkcolor_hover); }
+
+h1 {
+    font-size: 12px;
+    font-weight:bold;
+    margin-bottom: 0px;
+}
+.medium { font-size: 11px; }
+.small { font-size: 10px; }
+
+/*
+.body           { background-color: #FFFFFF; }
+.divider        { background-color: #555555; }
+.outline        { background-color: #999999; }
+.menubg         { background-color: #F1F1F1; }
+.brightbg       { background-color: #E5E5E5; }
+.verybrightbg   { background-color: #F1F1F1; }
+.reallybrightbg { background-color: #FAFAFA; }
+.whitebg        { background-color: white; }
+.blackbg        { background-color: black; }
+.brownbg        { background-color: var(--mainheader_bg); }
+.bg1            { background-color: var(--mainheader_bg) !important  ; }
+*/
+
+/*
+.registerinput,
+.registersubmit,
+.logininput,
+.loginsubmit {
+    width: 100%;
+    font-size: 10px;
+}
+*/
+
+.input {
+    height: 26px;
+    font-size: 13px;
+    color: var(--global_font);
+}
+input {
+    background-color: var(--area_bg);
+    color: var(--global_font);
+    border: 2px solid var(--border);
+    height: 20px;
+    margin: 1px;
+}
+input[type="submit"] {
+    color: var(--global_font);
+    height: 24px;
+    margin-top: 2px;
+}
+input[type="checkbox"],
+input[type="radio"] {
+    color: var(--global_font);
+    height: 14px;
+    margin-top: 2px 0 2px 0;
+}
+
+
+textarea,
+select {
+    font-size: 12px;
+    height: 24px;
+    background-color: var(--area_bg);
+    border: 1px solid var(--border);
+    color: var(--global_font);
+}
+
+.framechattextbg {
+    background-color: var(--chat_bg);
+    margin: 5px 5px 5px 10px;
+}
+.frameitembg {
+    margin: 10px;
+    background-color: var(--itemframe_bg);
+}
+.framemapbg,
+.framemenubg { background-color: var(--chat_bg); }
+
+a.nocango:hover {
+    background: url(./img/nocango.gif) top left no-repeat;
+    cursor: default;
+}
+
+.abilitymenu td {
+    text-align: right;
+    padding: 2px;
+    padding-left: 5px;
+    border: 1px solid var(--border);
+}
+td.c1 { text-align: left; }
