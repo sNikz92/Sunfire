@@ -97,12 +97,9 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
 }
 
 #listrow_special {
-    display: block;
-    overflow: hidden;
     position: absolute;
     right: 14px;
-    top: 59px;
-    width: auto;
+    top: 76px;
 }
 
 #listrow_special > a[href="item.php?action=special"],
@@ -121,8 +118,6 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
     color: #69c;
     font-size: var(--global_font-size);
 }
-#listrow_special > a[href="item.php?action=special"] > span,
-#listrow_special > a[href="item.php?action=towercontrol"] > span { border: 2px solid transparent; }
 
 #listrow_lifep > b,
 #listrow_int > b,

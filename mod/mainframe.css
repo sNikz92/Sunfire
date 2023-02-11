@@ -2,8 +2,6 @@
 #MainFrameMain { scrollbar-width: none; }
 
 /*
-.areadescription { margin-bottom: 15px; }
-
 .framemainbg { font-size: 0; }
 .framemainbg > a { font-size: var(--global_font-size); }
 */
@@ -74,6 +72,13 @@ p.maindesc1 {
 .npctypeGruppenNPC,
 .npctypeUniqueNPC,
 .npctypeOther { max-width: calc(100% - 70px); }
+
+/* angreifen + item aufnehmen + ernten an gleicher position */
+table.areadescription + br + table + br { display: none; }
+table.areadescription + br + table + br + table + br { display: none; }
+table.areadescription + br + table + br + style + table + br { display: none; }
+table.areadescription + br + table + br + table + br + table + br { display: none; }
+table.areadescription + br + table + br + style + table + br + style + table + br { display: none; }
 
 /*
 .playerrow + .playerrow,

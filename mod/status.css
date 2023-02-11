@@ -15,15 +15,15 @@
 
 
 #listrow_status span[title^='Beutezauber']:before { content: "BZ |"; }
-#listrow_status span[title^='schnelle Bewegung']:before { content: "SB |"; }
-#listrow_status span[title^='langsame Bewegung']:before { content: "LB |"; }
+#listrow_status span[title^='schnelle Bewegung']:before { content: "🏃 |"; font-size: 8.5px !important; }
+#listrow_status span[title^='langsame Bewegung']:before { content: "👴 |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Verteidigung -']:before { content: "V- |"; }
 #listrow_status span[title^='Verteidigung +']:before { content: "V+ |"; }
-#listrow_status span[title^='Verräter']:before { content: "† |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Verräter']:before { content: "😈 |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Stärke +']:before { content: "S+ |"; }
 #listrow_status span[title^='Stärke -']:before { content: "S- |"; }
 #listrow_status span[title^='Kampfunfähig']:before { content: "KU |"; }
-#listrow_status span[title^='Schutz']:before { content: "SZ |"; }
+#listrow_status span[title^='Schutz']:before { content: "🦺 |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Vergiftung']:before { content: "☣ |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Lebenspunkte +']:before { content: "LP+ |"; }
 #listrow_status span[title^='Lebenspunkte -']:before { content: "LP- |"; }
@@ -31,55 +31,54 @@
 #listrow_status span[title^='kinetische Heilung']:before { content: "KH |"; }
 #listrow_status span[title^='Feueröl']:before { content: "ÖL |"; }
 #listrow_status span[title^='Heilkraft']:before { content: "HK |"; }
-#listrow_status span[title^='Tarnung']:before { content: "TZ |"; }
-#listrow_status span[title^='Rückangriff']:before { content: "RA"; }
+#listrow_status span[title^='Tarnung']:before { content: "🔍 |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Rückangriff']:before { content: "RA |"; }
 #listrow_status span[title^='Trank der Mutation']:before { content: "TdM |"; }
 #listrow_status span[title^='Korlad-Nuss Trank']:before { content: "Nut |"; }
-#listrow_status span[title^='Geisterflug']:before { content: "👻 |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Geisterflug']:before { content: "👻✈ |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Fliegen']:before { content: "✈ |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Undaron reiten']:before { content: "UR |"; }
 #listrow_status span[title^='Undaron reiten'] a { padding-left: 1px; }
-#listrow_status span[title^='Blitzschild']:before { content: "BS |"; }
-#listrow_status span[title^='Phasenüberladung']:before { content: "PÜ"; }
-#listrow_status span[title^='Phasensicht']:before { content: "PS"; }
+#listrow_status span[title^='Blitzschild']:before { content: "⚡🛡 |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Phasenüberladung']:before { content: "PÜ |"; }
+#listrow_status span[title^='Phasensicht']:before { content: "PS |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Trank der Phasenrisse']:before { content: "TdPr |"; }
 #listrow_status span[title^='versiegender Phasensaft']:before { content: "VPS |"; }
 #listrow_status span[title^='versiegender Phasennektar']:before { content: "VPN |"; }
-#listrow_status span[title^='Trank der Schneeausgrabung']:before { content: "TdSa |"; }
+#listrow_status span[title^='Trank der Schneeausgrabung']:before { content: "❄ |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Trank der verlorenen Dinge']:before { content: "TdvD |"; }
-#listrow_status span[title^='Trank der Schneeausgrabung']:before { content: "TdSa |"; }
-#listrow_status span[title^='Sandwelle']:before { content: "SW |"; color: #fdc596; }
-#listrow_status span[title^='Trank der Welterkundung']:before { content: "TdWe |"; color: #ecd2bd; }
-#listrow_status span[title^='Clan-Krieg']:before { content: "CK"; }
+#listrow_status span[title^='Sandwelle']:before { content: "🌊 |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Trank der Welterkundung']:before { content: "🌍 |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Clan-Krieg']:before { content: "\1FA96 |"; font-size: 8.5px !important; }
 #listrow_status span[title^='grüner Daumen']:before { content: "gD |"; }
 #listrow_status span[title^='Auserwählt']:before { content: "AW |"; }
 #listrow_status span[title^='Seelentrank']:before { content: "ST |"; }
 #listrow_status span[title^='Verpestung']:before { content: "VP |"; }
-#listrow_status span[title^='Schattenbeschwörung']:before { content: "SBe |"; }
+#listrow_status span[title^='Schattenbeschwörung']:before { content: "👻 |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Nordpolarisierung ']:before { content: "↑ |"; font-size: 8.5px !important; }
-#listrow_status span[title^='Ostpolarisierung ']:before { content: "→  |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Ostpolarisierung ']:before { content: "→ |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Südpolarisierung ']:before { content: "↓ |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Westpolarisierung ']:before { content: "← |"; font-size: 8.5px !important; }
 #listrow_status span[title^='weiße Schokolade']:before { content: "☘ |"; font-size: 8.5px !important; }
-#listrow_status span[title^='Birnenbrand']:before { content: "⛐ |"; font-size: 8.5px !important; }
-#listrow_status span[title^='Nebelschwaden']:before { content: "☁ |"; font-size: 8.5px !important; }
-#listrow_status span[title^='Pflanzensicht']:before { content: "⚘ |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Birnenbrand']:before { content: "🍷 |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Nebelschwaden']:before { content: "🌫 |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Pflanzensicht']:before { content: "🌹 |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Seelensicht']:before { content: "⛯ |"; font-size: 8.5px !important; }
-#listrow_status span[title^='Rennen']:before { content: "☈ |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Rennen']:before { content: "🚀 |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Gewebemeister']:before { content: "⚚ |"; font-size: 8.5px !important; }
 #listrow_status span[title^='einzigartige NPC Sicht']:before { content: "⚯ |"; font-size: 8.5px !important; }
-#listrow_status span[title^='rote Würfel']:before { content: "⚄ |"; font-size: 8.5px !important; }
+#listrow_status span[title^='rote Würfel']:before { content: "🎲 |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Archäologe']:before { content: "🖌 |"; font-size: 8.5px !important; }
-#listrow_status span[title^='Goldduft']:before { content: "GD"; }
-#listrow_status span[title^='Trank der Waldpflanzensicht']:before { content: "PS"; }
-#listrow_status span[title^='Überladen']:before { content: "ÜL"; }
-#listrow_status span[title^='Brennend']:before { content: "🔥"; font-size: 8.5px !important; }
+#listrow_status span[title^='Goldduft']:before { content: "🥇 |"; }
+#listrow_status span[title^='Trank der Waldpflanzensicht']:before { content: "🌲 |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Überladen']:before { content: "🚚 |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Brennend']:before { content: "🔥 |"; font-size: 8.5px !important; }
 
 /* Phasenzeug */
 #listrow_status span[title*='Phasen'] {color: lightblue; background: #000624; }
 
 /* Ringe */
-#listrow_status span[title*='Ring'] {background: black; color: #f9d653e8; }
+#listrow_status span[title*='Ring'] {background: black; color: #fc6; }
 #listrow_status span[title^='Ring des Jägers']:before { content: "\26AC  JÄ |"; }
 #listrow_status span[title^='Auftragskünstler']:before { content: "\26AC  AK |"; }
 #listrow_status span[title^='Leichenfledderei']:before { content: "\26AC  LF |"; }
@@ -95,7 +94,7 @@
 #listrow_status span[title^='Pastille des Fliegens']:before { content: "Fly |"; }
 #listrow_status span[title^='Pastille der Phasenenergie']:before { content: "PE |"; }
 #listrow_status span[title^='Pastille der Schreckensblumen']:before { content: "Blum |"; }
-#listrow_status span[title^='Pastille'] {color: #f73ff4; background: #190024}
+#listrow_status span[title^='Pastille'] {color: #f3f; background: #003; }
 
 /* Zeiten hinter dem jeweiligen Status anzeigen */
 #listrow_status span span[title*='(Noch 8 Tage ']:after { content:' 8d'; }

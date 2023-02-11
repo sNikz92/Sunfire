@@ -116,7 +116,7 @@ input {
     color: var(--global_font);
     border: 2px solid var(--border);
     height: 20px;
-    margin: 1px;
+    margin: 1px 0px 1px 0px;
 }
 input[type="submit"] {
     color: var(--global_font);
@@ -129,7 +129,6 @@ input[type="radio"] {
     height: 14px;
     margin-top: 2px 0 2px 0;
 }
-
 
 textarea,
 select {
