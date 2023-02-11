@@ -96,6 +96,7 @@ p.worldsay tr[bgcolor="#FFAEA1"] td { background-color: var(--color_worldsay_sun
 .effektvollheilung::before,
 .effektamulettkuenstler::before,
 .effektarchaeologe::before,
+.effektauftragskuenstler::before,
 .effektchaosbotaniker::before,
 .effekteinzigartigerjaeger::before,
 .effektfliegenderauftragsmeister::before,
@@ -115,6 +116,7 @@ p.worldsay tr[bgcolor="#FFAEA1"] td { background-color: var(--color_worldsay_sun
 .effektzeitkontrolle::before { content: "Zeitkontrollinspiration: "; }
 .effektvollheilung::before { content: "Heilungsinspiration: " }
 .effektamulettkuenstler::before { content: "Amulettkünstler: "; }
+.effektauftragskuenstler::before { content: "Auftragskünstler: "; }
 .effektarchaeologe::before { content: "Archäologe: "; }
 .effektchaosbotaniker::before { content: "Chaosbotaniker: "; }
 .effekteinzigartigerjaeger::before { content: "Einzigartiger Jäger: "; }

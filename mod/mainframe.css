@@ -119,7 +119,7 @@ font[color="#ff0000"] { color: var(--color_healthcritical); }
 .areadescription a[href*="unten"]::after,
 .areadescription a[href*="drinkwater"]::after,
 .areadescription a[href*="drink"]::after,
-.areadescription a[href*="unten"]::after,
+.areadescription a[href*="unten"]:not(a[href*="unten4941"])::after, /* turm der geister */
 .areadescription a[href$="go"]::after,
 .areadescription a[href*="oben"]::after,
 .areadescription a[href*="hoehle"]::after,
@@ -128,6 +128,7 @@ font[color="#ff0000"] { color: var(--color_healthcritical); }
 .areadescription a[href*="rausgehen"]::after,
 .areadescription a[href*="abgeben"]::after, 
 .areadescription a[href*="seilbahn"]::after,
+.areadescription a[href*="einsetzen"]::after,
 .listusersrow a[href*="npc_mode"]::after,
 .framemainbg a[href*="msg_isreport"]::after,
 .areadescription a[href="main.php"]::after,
@@ -171,7 +172,7 @@ font[color="#ff0000"] { color: var(--color_healthcritical); }
 .areadescription a[href*="drink"]::after { content: "\2766" !important; }
 
 /* weißes Shogi - Dungeons, evt. matched der auch was anderes.. test (yolo) */
-.areadescription a[href*="unten"]::after,
+.areadescription a[href*="unten"]:not(a[href*="unten4941"])::after,
 .areadescription a[href$="go"]::after,
 .areadescription a[href*="oben"]::after,
 .areadescription a[href*="hoehle"]::after,
@@ -180,6 +181,7 @@ font[color="#ff0000"] { color: var(--color_healthcritical); }
 .areadescription a[href*="rausgehen"]::after,
 .areadescription a[href*="abgeben"]::after, 
 .areadescription a[href$="arrive_eval=seilbahn"]::after,
+.areadescription a[href*="einsetzen"]::after,
 .listusersrow a[href*="npc_mode"]::after /* 20979 */ { content: "\2616"; }
 
 /* Back Buttons a[href="main.php"]::after */
