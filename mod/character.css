@@ -71,6 +71,8 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
     right: 2px;
 }
 
+#listrow_clan { margin-bottom: -1px; }
+
 #listrow_money {
     margin-top: -37px;
     margin-bottom: 16px;
@@ -98,8 +100,8 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
 
 #listrow_special {
     position: absolute;
-    right: 14px;
-    top: 76px;
+    right: 12px;
+    top: 46px;
 }
 
 #listrow_special > a[href="item.php?action=special"],
