@@ -171,7 +171,7 @@ font[color="#ff0000"] { color: var(--color_healthcritical); }
 /* Frucht - Mäuse und Knochen */
 .areadescription a[href*="unten310"]::after,
 .areadescription a[href*="unten244"]::after,
-.areadescription a[href*="drink"]::after { content: "\2766" !important; }
+.areadescription a[href*="drink"]:not(#x96y84 .areadescription a[href*="drinkwater"])::after { content: "\2766" !important; } /* Berghütte */
 
 /* weißes Shogi - Dungeons, evt. matched der auch was anderes.. test (yolo) */
 .areadescription a[href*="unten"]:not(a[href*="unten4941"])::after,
