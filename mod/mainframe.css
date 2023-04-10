@@ -119,8 +119,7 @@ font[color="#ff0000"] { color: var(--color_healthcritical); }
 .listusersrow a[href*="npc_active"]::after,
 .areadescription > a[href="?"]::after,
 .areadescription a[href*="unten"]::after,
-.areadescription a[href*="drinkwater"]:not(#x96y84 .areadescription a[href*="drinkwater"])::after, /* berghütte */
-.areadescription a[href*="drink"]::after,
+.areadescription a[href*="drink"]:not(#x96y84 .areadescription a[href*="drinkwater"])::after, /* berghütte */
 .areadescription a[href*="unten"]:not(a[href*="unten4941"])::after, /* turm der geister */
 .areadescription a[href$="go"]::after,
 .areadescription a[href*="oben"]::after,
