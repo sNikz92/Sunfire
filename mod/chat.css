@@ -99,7 +99,7 @@ p.worldsay tr[bgcolor="#FFAEA1"] td { background-color: var(--color_worldsay_sun
 .effektauftragskuenstler::before,
 .effektchaosbotaniker::before,
 .effekteinzigartigerjaeger::before,
-.effektfliegenderauftragsmeister::before,
+.effektauftragsmeister::before,
 .effektforschungswahn::before,
 .effektgoldrausch::before,
 .effektgoldraeuber::before,
@@ -120,7 +120,7 @@ p.worldsay tr[bgcolor="#FFAEA1"] td { background-color: var(--color_worldsay_sun
 .effektarchaeologe::before { content: "Archäologe: "; }
 .effektchaosbotaniker::before { content: "Chaosbotaniker: "; }
 .effekteinzigartigerjaeger::before { content: "Einzigartiger Jäger: "; }
-.effektfliegenderauftragsmeister::before { content: "Fliegender Auftragsmeister: "; }
+.effektauftragsmeister::before { content: "Fliegender Auftragsmeister: "; }
 .effektforschungswahn::before { content: "Forschungswahn: "; }
 .effektgoldrausch::before { content: "Goldrausch: "; }
 .effektgoldraeuber::before { content: "Goldräuber: "; }

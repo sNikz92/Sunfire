@@ -112,12 +112,14 @@ font[color="#ff0000"] { color: var(--color_healthcritical); }
 .listplaceitemsrow a::after,
 .areadescription a[href*="=getmission"]::after,
 .areadescription a[href*="finish=1"]::after,
+.areadescription a[href*="extra_active"]::after,
 .areadescription a[href*="=repair"]::after,
 .areadescription a[href*="=seccheck"]::after,
+.areadescription a[href*="=claneffect"]::after,
 .listusersrow a[href*="npc_active"]::after,
 .areadescription > a[href="?"]::after,
 .areadescription a[href*="unten"]::after,
-.areadescription a[href*="drinkwater"]::after,
+.areadescription a[href*="drinkwater"]:not(#x96y84 .areadescription a[href*="drinkwater"])::after, /* berghütte */
 .areadescription a[href*="drink"]::after,
 .areadescription a[href*="unten"]:not(a[href*="unten4941"])::after, /* turm der geister */
 .areadescription a[href$="go"]::after,
@@ -163,6 +165,7 @@ font[color="#ff0000"] { color: var(--color_healthcritical); }
 .areadescription a[href*="finish=1"]::after,
 .areadescription a[href*="=repair"]::after,
 .areadescription a[href*="=seccheck"]::after,
+.areadescription a[href*="=claneffect"]::after,
 .listusersrow a[href*="npc_active"]::after,
 .areadescription > a[href="?"]::after { content: "\2692"; }
 
@@ -182,6 +185,7 @@ font[color="#ff0000"] { color: var(--color_healthcritical); }
 .areadescription a[href*="abgeben"]::after, 
 .areadescription a[href$="arrive_eval=seilbahn"]::after,
 .areadescription a[href*="einsetzen"]::after,
+.areadescription a[href*="extra_active"]::after,
 .listusersrow a[href*="npc_mode"]::after /* 20979 */ { content: "\2616"; }
 
 /* Back Buttons a[href="main.php"]::after */
