@@ -6,6 +6,8 @@ img[src$="sponsor.gif"],
 img[src$="sponsor2.gif"],
 img[src$="sponsor3.gif"] { margin-right: 2px; }
 
+.hidden1000sep { display: inline !important; }
+
 .frameitembg p.listrow[id^="listrow_"]:not(#listrow_status) {
     white-space: nowrap;
     overflow: hidden;
