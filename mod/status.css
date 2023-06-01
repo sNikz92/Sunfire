@@ -61,7 +61,7 @@
 #listrow_status span[title^='Westpolarisierung ']:before { content: "← |"; font-size: 8.5px !important; }
 #listrow_status span[title^='weiße Schokolade']:before { content: "☘ |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Birnenbrand']:before { content: "🍷 |"; font-size: 8.5px !important; }
-#listrow_status span[title^='Nebelschwaden']:before { content: "🌫 |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Nebelschwaden']:before { content: "📯 |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Pflanzensicht']:before { content: "🌹 |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Seelensicht']:before { content: "⛯ |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Rennen']:before { content: "🚀 |"; font-size: 8.5px !important; }
@@ -73,6 +73,7 @@
 #listrow_status span[title^='Trank der Waldpflanzensicht']:before { content: "🌲 |"; font-size: 8.5px !important; }
 #listrow_status span[title^='Überladen']:before { content: "🚚"; font-size: 8.5px !important; }
 #listrow_status span[title^='Brennend']:before { content: "🔥 |"; font-size: 8.5px !important; }
+#listrow_status span[title^='Aura der Wut']:before { content: "😡 |"; font-size: 8.5px !important; }
 
 /* Phasenzeug */
 #listrow_status span[title*='Phasen'] {color: lightblue; }

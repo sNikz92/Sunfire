@@ -267,3 +267,6 @@ form > input[name="ownstyle"] { width: 100%; }
 .udivt6 > div > a[href*="do=putitem"],
 .udivt6 > div > a[href*="do=showitem"] {display: none; }
 .udivt6 > div > a[href*="putid=-1&giftit=0"] {display: inline-block; }
+
+/* itemfilter */
+table.customfilters td { background-color: var(--area_bg); }

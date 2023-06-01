@@ -186,8 +186,6 @@ span#speedok { padding-right: 2px; }
     font-weight: bold;
 }
 
-#listrow_attackp > span.valueincreased,
-#listrow_defensep > span.valueincreased { padding-right: 1000px; }
 #listrow_attackw,
 #listrow_defensew {
     position: absolute;
