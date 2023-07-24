@@ -44,7 +44,7 @@ a[href="chatform.php?exit_whisper=1"] { margin-left: 5px; }
 	color: var(--chat_whisper_player) !important;
 	font-size: var(--chat_font-size);
 }
-.keuronerwhisper > b { color: var(--chat_keuronerwhisper); }
+.keuronerwhisper { color: var(--chat_keuronerwhisper); }
 .chatfastnpcinfo { color: var(--chat_highlight) !important; }
 .healthmed { color: var(--color_healthmed); }
 .healthok { color: var(--color_healthok); }
