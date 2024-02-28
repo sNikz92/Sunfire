@@ -128,9 +128,9 @@
     position: absolute;
 }
 
-#mapx-1296y-1394 a::after { content: "3:30 min"; }
-#mapx-591y-492 a::after { content: "10 min"; }
-#mapx87y91 a::after { content: "2:30 min"; }
-#mapx89y92 a::after { content: "5:30 min"; }
-#mapx89y93 a::after { content: "5 min"; }
-#mapx90y91 a::after { content: "4 min"; }
+#mapx-1296y-1394 a::before,
+#mapx-591y-492 a::before,
+#mapx87y91 a::before,
+#mapx89y92 a::before,
+#mapx89y93 a::before,
+#mapx90y91 a::before { content: "⛏"; }
