@@ -133,4 +133,7 @@
 #mapx87y91 a::before,
 #mapx89y92 a::before,
 #mapx89y93 a::before,
-#mapx90y91 a::before { content: "⛏"; }
+#mapx90y91 a::before {
+    content: "🧱";
+    position: absolute;
+}
