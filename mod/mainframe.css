@@ -264,7 +264,7 @@ form > input[name="ownstyle"] { width: 100%; }
 
 /* UK fix */
 .ukbar { background: var(--mainheader_bg) !important; }
-.trplaceuk table { border-collapse: initial; }
+.trplaceuk table { border-collapse: initial !important; }
 
 /* itemfilter */
 table.customfilters td { background-color: var(--area_bg); }
