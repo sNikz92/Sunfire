@@ -130,6 +130,7 @@ font[color="#ff0000"] { color: var(--color_healthcritical); }
 .areadescription a[href*="abgeben"]::after, 
 .areadescription a[href*="seilbahn"]::after,
 .areadescription a[href*="einsetzen"]::after,
+.areadescription a[href*="cube"]::after,
 .listusersrow a[href*="npc_mode"]::after,
 .framemainbg a[href*="msg_isreport"]::after,
 .areadescription a[href="main.php"]::after,
