@@ -185,6 +185,7 @@ font[color="#ff0000"] { color: var(--color_healthcritical); }
 .areadescription a[href$="arrive_eval=seilbahn"]::after,
 .areadescription a[href*="einsetzen"]::after,
 .areadescription a[href*="extra_active"]::after,
+.areadescription a[href*="cube"]::after,
 .listusersrow a[href*="npc_mode"]::after /* 20979 */ { content: "\2616"; }
 
 /* Back Buttons a[href="main.php"]::after */
@@ -262,11 +263,8 @@ form > input[name="ownstyle"] { width: 100%; }
 .framemainbg > svg { background-color: var(--global_font); }
 
 /* UK fix */
-.ukbar {background: var(--mainheader_bg) !important;}
-.udivt6 > div > a[href$="giftit=1"],
-.udivt6 > div > a[href*="do=putitem"],
-.udivt6 > div > a[href*="do=showitem"] {display: none; }
-.udivt6 > div > a[href*="putid=-1&giftit=0"] {display: inline-block; }
+.ukbar { background: var(--mainheader_bg) !important; }
+.trplaceuk table { border-collapse: initial; }
 
 /* itemfilter */
 table.customfilters td { background-color: var(--area_bg); }
