@@ -1,0 +1,43 @@
+.frameitembg > form > .oberirdisch > span.location:after,
+.frameitembg > form > .apparat > span.location:after {
+	display: inline-block;
+	background: black;
+	color: var(--blauer_indicator);
+	width: 40px;
+	margin-right: -40px;
+	position: relative;
+	left: -47px;
+	top: 12px;
+	font-size: 10px;
+}
+
+.frameitembg span.location[data-gebiet="Brondor - Der Fluss ins Meer"]:after { content: "129 90";  }
+.frameitembg span.location[data-gebiet="Die Felseninsel"]:after { content: "144 126"; }
+.frameitembg span.location[data-gebiet="Dorea - Land der Geysire"]:after { content: "118 124"; }
+.frameitembg span.location[data-gebiet="Dranar - Die Tore von Dranar"]:after { content: "58	98"; }
+.frameitembg span.location[data-gebiet="Ferdolien - Der Park"]:after { content: "106 93";}
+.frameitembg span.location[data-gebiet="Kerdis - Der knorrige Baum"]:after { content: "90 115"; }
+.frameitembg span.location[data-gebiet="Kolun - Die Burg Hulnodar"]:after { content: "62 83";}
+.frameitembg span.location[data-gebiet="Krato - Der verschwiegene Fluss"]:after { content: "59 106"; }
+.frameitembg span.location[data-gebiet="Kuridan - Der Wandelfluss"]:after { content: "122 100"; }
+.frameitembg span.location[data-gebiet="Kuridan - Die Prärie"]:after { content: "115 100"; }
+.frameitembg span.location[data-gebiet="Lardikia - Der Strand"]:after { content: "122 116"; }
+.frameitembg span.location[data-gebiet="Laree - Die Post"]:after { content: "54 76"; color: lime; }
+.frameitembg span.location[data-gebiet="Linya - Dichter Wald"]:after { content: "135 115"; }
+.frameitembg span.location[data-gebiet="Nawor - Geröll"]:after { content: "110 107"; }
+.frameitembg span.location[data-gebiet="Ragnur - Steiler Hang"]:after { content: "96 78"; }
+.frameitembg span.location[data-gebiet="Rovonia - Der Seichtwassersumpf"]:after { content: "64 80";}
+.frameitembg span.location[data-gebiet="Salthos - Die Weinstraße"]:after { content: "104 132"; color: lime; }
+.frameitembg span.location[data-gebiet="Terasi - Der Fluss"]:after { content: "72 116"; }
+.frameitembg span.location[data-gebiet="Torihn - Das Biotop"]:after { content: "121 91"; }
+.frameitembg span.location[data-gebiet="Wilisien - Das Schneedorf"]:after { content: "111 83"; color: lime; }
+
+.frameitembg span.location[data-gebiet="Belron - Der Nebelwald"]:after { content: "50 95"; }
+.frameitembg span.location[data-gebiet="Elufia - Moosebene"]:after { content: "125 76"; }
+.frameitembg span.location[data-gebiet="Elufia - Todestal"]:after { content: "125 76"; }
+.frameitembg span.location[data-gebiet="Elufia - Eisebene"]:after { content: "125 76"; }
+.frameitembg span.location[data-gebiet="Etume - Die Flusslandschaft"]:after { content: "71 121"; }
+.frameitembg span.location[data-gebiet="Laree - Die Schotterwiesen"]:after { content: "49 81"; }
+.frameitembg span.location[data-gebiet="Loranien - Der See des Friedens"]:after { content: "80 117"; }
+.frameitembg span.location[data-gebiet="Pensal - Der verfluchte Wald"]:after { content: "52 112"; }
+.frameitembg span.location[data-gebiet="Plefir - Das Pilzgebiet"]:after { content: "79 109"; }

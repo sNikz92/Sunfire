@@ -1,51 +1,30 @@
-/* feldpositionen im blauen indikator */
-.frameitembg a[title="Konlir - Die immergrünen Wiesen"]:after,
-.frameitembg a[title="Anatubien - Der Wald der Akademie"]:after,
-.frameitembg a[title="Bank aller Wesen"]:after,
-.frameitembg a[title="Reikan - Die Trockenebene"]:after,
-.frameitembg a[title="Das Tal der Ruinen"]:after,
-.frameitembg a[title="Das vergessene Tal"]:after,
-.frameitembg a[title="Mentoran - Die Oase"]:after,
-.frameitembg a[title="Narubia - Die Nebelbank"]:after,
-.frameitembg a[title="Nawor - Die Kakteenebene"]:after,
-.frameitembg a[title="Buran - Der Westbereich"]:after,
-.frameitembg a[title="Sutranien - Die kühle Ebene"]:after,
-.frameitembg a[title="Hewien - Kantige Felsen"]:after,
-.frameitembg a[title="Orewu - Der Salzsee"]:after,
-.frameitembg a[title="Das Casino von Ferdolien"]:after,
-.frameitembg a[title="Kanobien - Der Wasserfall"]:after,
-.frameitembg a[title="Terasi - Der Fluss"]:after,
-.frameitembg a[title="Lodradon - Der organische Turm"]:after,
-.frameitembg a[title="Terasi - Der rauschende Fluss"]:after{
+.frameitembg a.location:after{
 	display: inline-block;
 	background: black;
 	color: var(--blauer_indicator);
-	opacity: 1;
 	width: 40px;
 	margin-right: -40px;
 	position: relative;
 	left: -47px;
 	top: -9px;
 	font-size: 10px;
-	text-align: center;
-	white-space: pre
 }
 
-.frameitembg a[title="Konlir - Die immergrünen Wiesen"]:after { content: "101 100";  }
-.frameitembg a[title="Anatubien - Der Wald der Akademie"]:after { content: "85 102"; }
-.frameitembg a[title="Bank aller Wesen"]:after { content: "92 105"; color: lime}
-.frameitembg a[title="Reikan - Die Trockenebene"]:after { content: "97 108"; }
-.frameitembg a[title="Das Tal der Ruinen"]:after { content: "93 96";}
-.frameitembg a[title="Das vergessene Tal"]:after { content: "81 94"; }
-.frameitembg a[title="Mentoran - Die Oase"]:after { content: "99 115";}
-.frameitembg a[title="Narubia - Die Nebelbank"]:after { content: "501 51"; }
-.frameitembg a[title="Nawor - Die Kakteenebene"]:after { content: "103 110"; }
-.frameitembg a[title="Buran - Der Westbereich"]:after { content: "80 87"; }
-.frameitembg a[title="Sutranien - Die kühle Ebene"]:after { content: "71 92"; }
-.frameitembg a[title="Hewien - Kantige Felsen"]:after { content: "92 90"; }
-.frameitembg a[title="Orewu - Der Salzsee"]:after { content: "108 114"; }
-.frameitembg a[title="Das Casino von Ferdolien"]:after { content: "100 94"; color: lime }
-.frameitembg a[title="Kanobien - Der Wasserfall"]:after { content: "75 99";}
-.frameitembg a[title="Terasi - Der Fluss"]:after { content: "66 111"; }
-.frameitembg a[title="Lodradon - Der organische Turm"]:after { content: "114 76"; }
-.frameitembg a[title="Terasi - Der rauschende Fluss"]:after { content: "73 126"; }
+.frameitembg a.location[title="Konlir - Die immergrünen Wiesen"]:after { content: "101 100"; }
+.frameitembg a.location[title="Anatubien - Der Wald der Akademie"]:after { content: "85 102"; }
+.frameitembg a.location[title="Bank aller Wesen"]:after { content: "92 105"; color: lime; }
+.frameitembg a.location[title="Reikan - Die Trockenebene"]:after { content: "97 108"; }
+.frameitembg a.location[title="Das Tal der Ruinen"]:after { content: "93 96";}
+.frameitembg a.location[title="Das vergessene Tal"]:after { content: "81 94"; }
+.frameitembg a.location[title="Mentoran - Die Oase"]:after { content: "99 115";}
+.frameitembg a.location[title="Narubia - Die Nebelbank"]:after { content: "501 51"; }
+.frameitembg a.location[title="Nawor - Die Kakteenebene"]:after { content: "103 110"; }
+.frameitembg a.location[title="Buran - Der Westbereich"]:after { content: "80 87"; }
+.frameitembg a.location[title="Sutranien - Die kühle Ebene"]:after { content: "71 92"; }
+.frameitembg a.location[title="Hewien - Kantige Felsen"]:after { content: "92 90"; }
+.frameitembg a.location[title="Orewu - Der Salzsee"]:after { content: "108 114"; }
+.frameitembg a.location[title="Das Casino von Ferdolien"]:after { content: "100 94"; color: lime; }
+.frameitembg a.location[title="Kanobien - Der Wasserfall"]:after { content: "75 99";}
+.frameitembg a.location[title="Terasi - Der Fluss"]:after { content: "66 111"; }
+.frameitembg a.location[title="Lodradon - Der organische Turm"]:after { content: "114 76"; }
+.frameitembg a.location[title="Terasi - Der rauschende Fluss"]:after { content: "73 126"; }
