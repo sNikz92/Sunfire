@@ -29,3 +29,24 @@
 .frameitembg a.location[title="Terasi - Der Fluss"]:after { content: "66 111"; }
 .frameitembg a.location[title="Lodradon - Der organische Turm"]:after { content: "114 76"; }
 .frameitembg a.location[title="Terasi - Der rauschende Fluss"]:after { content: "73 126"; }
+
+/* falls goldene flöte verfügbar */
+.frameitembg a > img:after {
+	display: inline-block;
+	background: black;
+	color: var(--blauer_indicator);
+	width: 40px;
+	margin-right: -40px;
+	position: relative;
+	left: -47px;
+	top: -9px;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.frameitembg a > img[alt="Laree"]:after { content: "55 76"; }
+.frameitembg a > img[alt="Tal der Ruinen"]:after { content: "92 99"; }
+.frameitembg a > img[alt="Wilisien"]:after { content: "111 83"; }
+.frameitembg a > img[alt="Delos"]:after { content: "66 90"; }
+.frameitembg a > img[alt="Mentoran"]:after { content: "99 118"; }
+.frameitembg a > img[alt="Salthos"]:after { content: "108 134"; }
