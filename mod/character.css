@@ -51,6 +51,8 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
 #listrow_char_mission > a[href="ability.php"] > span {
     border: 2px solid transparent !important;
     margin-top: -8px;
+    height: 1.1em !important;
+    width: 1.1em !important;
 }
 #listrow_char_mission > a:last-of-type,
 #listrow_aka_battlep b:last-of-type:not(:first-of-type) {
@@ -106,18 +108,18 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
     top: 46px;
 }
 
-#listrow_special > a[href="item.php?action=special"],
-#listrow_special > a[href="item.php?action=towercontrol"] {
+#listrow_special > a#link_special,
+#listrow_special > a#link_tower {
     height: 12px;
     width: 0px;
     font-size: 0;
 }
-#listrow_special > a[href="item.php?action=special"]::before {
+#listrow_special > a#link_special::before {
     content: "Spezi";
     color: #69c;
     font-size: var(--global_font-size);
 }
-#listrow_special > a[href="item.php?action=towercontrol"]::before {
+#listrow_special > a#link_tower::before {
     content: "Turm";
     color: #69c;
     font-size: var(--global_font-size);
