@@ -36,7 +36,7 @@
 .frameitembg .apparat > span.location[data-gebiet="Belron - Der Nebelwald"]:after { content: "50 95"; }
 .frameitembg .apparat > span.location[data-gebiet="Elufia - Moosebene"]:after { content: "125 76"; }
 .frameitembg .apparat > span.location[data-gebiet="Elufia - Todestal"]:after { content: "125 76"; }
-.frameitembg .apparat > span.location[data-gebiet="Elufia - Eisebene"]:after { content: "125 76"; }
+.frameitembg .apparat > span.location[data-gebiet="Elufia - Frostwiese"]:after { content: "125 76"; }
 .frameitembg .apparat > span.location[data-gebiet="Etume - Die Flusslandschaft"]:after { content: "71 121"; }
 .frameitembg .apparat > span.location[data-gebiet="Laree - Die Schotterwiesen"]:after { content: "49 81"; }
 .frameitembg .apparat > span.location[data-gebiet="Loranien - Der See des Friedens"]:after { content: "80 117"; }
