@@ -39,7 +39,6 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
     right: 10px;
 }
 #listrow_char_mission > a[href="ability.php"] {
-    height: 12px;
     font-size: 0;
     margin-top: 2px;
 }
@@ -115,7 +114,7 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
     font-size: 0;
 }
 #listrow_special > a#link_special::before {
-    content: "Spezi";
+    content: "Spezi ";
     color: #69c;
     font-size: var(--global_font-size);
 }
@@ -123,6 +122,12 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
     content: "Turm";
     color: #69c;
     font-size: var(--global_font-size);
+}
+#listrow_special > a#link_special > span {
+    border: 2px solid transparent !important;
+    margin-top: -8px;
+    height: 1.1em !important;
+    width: 1.1em !important;
 }
 
 #listrow_lifep > b,
