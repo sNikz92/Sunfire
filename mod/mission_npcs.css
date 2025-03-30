@@ -42,3 +42,6 @@
 
 /*undarons*/
 #mapx-429y-298 a::after, #mapx-425y-298 a::after, #mapx-428y-296 a::after, #mapx102y121 a::after, #mapx106y124 a::after, #mapx103y125 a::after, #mapx105y125 a::after, #mapx103y126 a::after, #mapx104y126 a::after, #mapx103y127 a::after, #mapx105y127 a::after, #mapx106y127 a::after, #mapx107y127 a::after, #mapx103y128 a::after, #mapx106y128 a::after, #mapx51y90 a::after, #mapx53y98 a::after, #mapx53y103 a::after, #mapx-429y-298 a::after, #mapx-425y-298 a::after, #mapx-428y-296 a::after, #mapx51y80 a::after, #mapx53y85 a::after, #mapx126y86 a::after, #mapx121y87 a::after, #mapx122y87 a::after, #mapx119y89 a::after { content: "Undaron"; }
+
+/*Nebelgeister - Alte Mühle*/
+#mapx-821y-780 a::after,#mapx-824y-779 a::after,#mapx-824y-778 a::after,#mapx-824y-777 a::after,#mapx-823y-777 a::after,#mapx-822y-776 a::after,#mapx-825y-779 a::after,#mapx-825y-778 a::after { content: "Geist"; }
