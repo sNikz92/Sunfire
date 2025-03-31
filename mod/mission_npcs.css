@@ -40,6 +40,11 @@
 /*strativar - incomplete*/
 #mapx196y128 a::after, #mapx192y136 a::after, #mapx189y132 a::after, #mapx197y128 a::after, #mapx195y129 a::after, #mapx188y131 a::after, #mapx193y131 a::after, #mapx194y132 a::after, #mapx191y133 a::after, #mapx193y135 a::after { content: "Strativar"; }
 
+/*Resistenz - Gewächshaus*/
+#mapx-259y-518 a::after,#mapx-258y-517 a::after { content: "Stepto" }
+#mapx-258y-518 a::after,#mapx-258y-516 a::after,#mapx-256y-519 a::after { content: "Falter" }
+#mapx-257y-519 a::after,#mapx-256y-517 a::after { content: "Beide" }
+
 /*undarons*/
 #mapx-429y-298 a::after, #mapx-425y-298 a::after, #mapx-428y-296 a::after, #mapx102y121 a::after, #mapx106y124 a::after, #mapx103y125 a::after, #mapx105y125 a::after, #mapx103y126 a::after, #mapx104y126 a::after, #mapx103y127 a::after, #mapx105y127 a::after, #mapx106y127 a::after, #mapx107y127 a::after, #mapx103y128 a::after, #mapx106y128 a::after, #mapx51y90 a::after, #mapx53y98 a::after, #mapx53y103 a::after, #mapx-429y-298 a::after, #mapx-425y-298 a::after, #mapx-428y-296 a::after, #mapx51y80 a::after, #mapx53y85 a::after, #mapx126y86 a::after, #mapx121y87 a::after, #mapx122y87 a::after, #mapx119y89 a::after { content: "Undaron"; }
 
