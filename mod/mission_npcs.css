@@ -15,12 +15,8 @@
 
 /* Ratten */
 #mapx-429y-293 a::after, #mapx-428y-293 a::after {
-    content: "Ratte";
-    width: unset;
-    translate: -20px;
-    font-size: 9px;
-    border: 1px solid black;
-    padding: 1px;
+    content: url(../img/rat.svg);
+    max-width: 15px;
 }
 
 /* Ruward - Onloskelette */
