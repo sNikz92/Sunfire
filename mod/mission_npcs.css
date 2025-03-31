@@ -14,7 +14,14 @@
 }
 
 /* Ratten */
-#mapx-429y-293 a::after { content: "Ratte"; }
+#mapx-429y-293 a::after, #mapx-428y-293 a::after {
+    content: "Ratte";
+    width: unset;
+    translate: -20px;
+    font-size: 9px;
+    border: 1px solid black;
+    padding: 1px;
+}
 
 /* Ruward - Onloskelette */
 #mapx70y105 a::after, #mapx70y108 a::after, #mapx70y108 a::after, #mapx71y105 a::after, #mapx71y107 a::after, #mapx72y106 a::after, #mapx73y105 a::after, #mapx73y106 a::after, #mapx74y104 a::after  { content: "Onlo"; }
