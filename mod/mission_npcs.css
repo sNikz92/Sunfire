@@ -14,8 +14,14 @@
 }
 
 /* Ratten */
-#mapx-429y-293 a::after, #mapx-428y-293 a::after {
+#mapx-429y-293 a::after {
     content: url(../img/rat.svg);
+    max-width: 25px;
+    background: none;
+    translate: -37px -5px;
+}
+#mapx-428y-293 a::after {
+    content: url(../img/rat2.svg);
     max-width: 25px;
     background: none;
     translate: -37px -5px;
