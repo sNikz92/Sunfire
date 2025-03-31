@@ -45,3 +45,6 @@
 
 /*Nebelgeister - Alte Mühle*/
 #mapx-821y-780 a::after,#mapx-824y-779 a::after,#mapx-824y-778 a::after,#mapx-824y-777 a::after,#mapx-823y-777 a::after,#mapx-822y-776 a::after,#mapx-825y-779 a::after,#mapx-825y-778 a::after { content: "Geist"; }
+
+/*Lebende Äste - Lichtwald*/
+#mapx-599y-448 a::after,#mapx-597y-448 a::after,#mapx-596y-449 a::after,#mapx-595y-448 a::after { content: "Ast" }
