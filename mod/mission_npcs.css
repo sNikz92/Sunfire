@@ -24,8 +24,19 @@
 /*Ratten - (un)sterblich */
 #mapx49y98 a::after, #mapx79y104 a::after,
 /*Ratten - Waldratte */
-#mapx94y106 a::after, #mapx91y103 a::after, #mapx94y104 a::after
+#mapx94y106 a::after, #mapx91y103 a::after, #mapx94y104 a::after,
 /*Rattem - Klauenratte */
+#mapx83y86 a::after, #mapx80y88 a::after
+, #mapx-780y-787 a::after
+, #mapx-101y-100 a::after, #mapx-100y-100 a::after
+, #mapx-198y-93 a::after
+, #mapx-811y-811 a::after
+, #mapx88y107 a::after
+, #mapx-10002y-10003 a::after, #mapx-10001y-10002 a::after
+, #mapx87y95 a::after
+, #mapx93y95 a::after, #mapx91y96 a::after, #mapx93y97 a::after, #mapx94y98 a::after
+, #mapx-818y-828 a::after
+, #mapx46y79 a::after
 {
     content: "Ratte";
 }
