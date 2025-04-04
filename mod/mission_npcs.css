@@ -13,19 +13,32 @@
     background: #ccc;
 }
 
-/* Ratten */
+/*Rattem - Kuridan */
+
+/*Ratten - Dranar */
+#mapx-429y-293 a::after,
+/*Ratten - Orewu */
+#mapx111y117 a::after,
+/*Ratten - Nawor */
+#mapx101y110 a::after,
+/*Ratten - (un)sterblich */
+#mapx49y96 a::after, #mapx79y104 a::after
+/*Ratten - Waldratte */
+#mapx94y106 a::after, #mapx91y103 a::after, #mapx94y104 a::after
+/*Rattem - Klauenratte */
+{
+    content: "Ratte";
+}
+
+/* Ratten image example*/
+/*
 #mapx-429y-293 a::after {
     content: url(../img/rat.svg);
     max-width: 25px;
     background: none;
     translate: -37px -5px;
 }
-#mapx-428y-293 a::after {
-    content: url(../img/rat2.svg);
-    max-width: 25px;
-    background: none;
-    translate: -37px -5px;
-}
+*/
 
 /* Ruward - Onloskelette */
 #mapx70y105 a::after, #mapx70y108 a::after, #mapx70y108 a::after, #mapx71y105 a::after, #mapx71y107 a::after, #mapx72y106 a::after, #mapx73y105 a::after, #mapx73y106 a::after, #mapx74y104 a::after  { content: "Onlo"; }
