@@ -13,6 +13,44 @@
     background: #ccc;
 }
 
+/*Rattem - Kuridan */
+#mapx115y98 a::after, #mapx114y99 a::after, #mapx115y100 a::after, #mapx114y103 a::after, #mapx113y104 a::after, #mapx115y104 a::after, #mapx116y105 a::after, #mapx115y106 a::after, #mapx114y107 a::after, #mapx116y107 a::after, #mapx118y107 a::after, #mapx115y108 a::after, #mapx116y108 a::after, #mapx117y108 a::after, #mapx118y108 a::after,
+/*Ratten - Dranar */
+#mapx-429y-293 a::after, #mapx-428y-294 a::after, #mapx-428y-293 a::after, #mapx-428y-292 a::after, #mapx-427y-292 a::after, #mapx-426y-294 a::after, #mapx-426y-293 a::after, #mapx-426y-292 a::after, #mapx-425y-293 a::after, #mapx-424y-294 a::after,
+/*Ratten - Orewu */
+#mapx111y117 a::after,
+/*Ratten - Nawor */
+#mapx101y110 a::after,
+/*Ratten - (un)sterblich */
+#mapx49y98 a::after, #mapx79y104 a::after,
+/*Ratten - Waldratte */
+#mapx94y106 a::after, #mapx91y103 a::after, #mapx94y104 a::after,
+/*Rattem - Klauenratte */
+#mapx83y86 a::after, #mapx80y88 a::after
+, #mapx-780y-787 a::after
+, #mapx-101y-100 a::after, #mapx-100y-100 a::after
+, #mapx-198y-93 a::after
+, #mapx-811y-811 a::after
+, #mapx88y107 a::after
+, #mapx-10002y-10003 a::after, #mapx-10001y-10002 a::after
+, #mapx87y95 a::after
+, #mapx93y95 a::after, #mapx91y96 a::after, #mapx93y97 a::after, #mapx94y98 a::after
+, #mapx-818y-828 a::after
+, #mapx46y79 a::after
+{
+    content: "Ratte";
+}
+
+/* Ratten image example*/
+/*
+#mapx-429y-293 a::after {
+    content: url(../img/rat.svg);
+    max-width: 25px;
+    background: none;
+    translate: -37px -5px;
+}
+*/
+
 /* Ruward - Onloskelette */
 #mapx70y105 a::after, #mapx70y108 a::after, #mapx70y108 a::after, #mapx71y105 a::after, #mapx71y107 a::after, #mapx72y106 a::after, #mapx73y105 a::after, #mapx73y106 a::after, #mapx74y104 a::after  { content: "Onlo"; }
 
