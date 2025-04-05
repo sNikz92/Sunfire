@@ -91,3 +91,6 @@
 
 /*Lebende Äste - Lichtwald*/
 #mapx-599y-448 a::after,#mapx-597y-448 a::after,#mapx-596y-449 a::after,#mapx-595y-448 a::after { content: "Ast" }
+
+/* Brotandro - Avarin */
+#mapx111y132 a::after, #mapx113y131 a::after, #mapx115y131 a::after, #mapx115y134 a::after{ content: "B-Virus" }
