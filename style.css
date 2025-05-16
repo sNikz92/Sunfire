@@ -50,8 +50,8 @@
     --primary: #F8F8F8;
     --chat_bg: #F8F8F8;
 
-    --area_bg-color: #FFF8EF;
-    --area_bg-border: 1px solid #FFDAA9;
+    --area_bg: #FFF8EF;
+    --area_bg_border: 1px solid #FFDAA9;
 
     --mainheader_bg: url("img/headerbg.jpg");
 
