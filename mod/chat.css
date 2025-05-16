@@ -44,6 +44,79 @@ a[href="chatform.php?exit_whisper=1"] { margin-left: 5px; }
 	color: var(--chat_whisper_player) !important;
 	font-size: var(--chat_font-size);
 }
+
+/* chat buttons */
+.submitsagen {
+    background-image: url("img/button_bg2.jpg");
+    border: 1px solid #777777;
+    color: #000000;
+    font-size: 11px;
+    font-weight: bold;
+    height: 17px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-bottom: 2px;
+    width: 80px;
+}
+.submitclan {
+    background-image: url("img/button_bg2.jpg");
+    border: 1px solid #777777;
+    color: #D20000;
+    font-size: 11px;
+    font-weight: bold;
+    height: 17px;
+    margin-right: 2px;
+    padding-bottom: 2px;
+    width: 80px;
+}
+
+.submitschreien {
+    background-image: url("img/button_bg2.jpg");
+    border: 1px solid #777777;
+    color: #004DA7;
+    font-size: 11px;
+    font-weight: bold;
+    height: 17px;
+    margin-right: 2px;
+    padding-bottom: 2px;
+    width: 87px;
+}
+.submitgroup {
+    background-image: url("img/button_bg2.jpg");
+    border: 1px solid #777777;
+    color: #E36B30;
+    font-size: 11px;
+    font-weight: bold;
+    height: 17px;
+    margin-right: 2px;
+    padding-bottom: 2px;
+    width: 80px;
+}
+.submitwhisper {
+    background-image: url("../img/button_bg2.jpg");
+    border: 1px solid #777777;
+    color: #006600;
+    font-size: 11px;
+    font-weight: bold;
+    height: 17px;
+    margin-right: 2px;
+    padding-bottom: 2px;
+    width: 88px;
+}
+.submitglobalchat   {
+    background-image: url("img/button_bg2.jpg");
+    border: 1px solid #777777;
+    color: #6e621e;
+    font-size: 11px;
+    font-weight: bold;
+    height: 17px;
+    margin-right: 2px;
+    padding-bottom: 2px;
+    width: 80px;
+}
+
+
+
 .keuronerwhisper { color: var(--chat_keuronerwhisper) !important; }
 .chatfastnpcinfo { color: var(--chat_highlight) !important; }
 .healthmed { color: var(--color_healthmed); }
