@@ -1,9 +1,5 @@
 .framechatformbg { margin: 0px; }
 
-#chatform table {
-	padding-top: 5px;
-	border-top: 1px solid var(--border) !important;
-}
 #chatform input[type="submit"] {
     display: inline-block !important;
 }
