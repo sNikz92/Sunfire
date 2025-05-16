@@ -8,7 +8,7 @@
 
 td.mainheader       {
     font-size: 35px;
-    background-color: var(--mainheader_bg);
+    background-image: var(--mainheader_bg);
     padding: 2px;
 }
 table.areadescription {
