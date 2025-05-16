@@ -9,15 +9,15 @@
 @import url("./mod/portal_machine.css");
 @import url("./mod/zauberpuzzle.css");
 
-:root {
+/*:root {
     --primary: #222;
     --chat_bg: #222;
     --area_bg: #444;
     --mainheader_bg: #333;
     --itemframe_bg: #222;
     --border: #666;
-    /*--global_font: white;*/
-    /*--global_font_inverted: black;*/
+    --global_font: white;
+    --global_font_inverted: black;
     --global_font-size: 0.775rem;
     --linkcolor: #c63;
     --linkcolor_hover: #f30;
@@ -45,7 +45,58 @@
     --color_phase_bg: #669 ;
     --npc_highlight: #9c6;
     --blauer_indicator: #c63;
-} 
+} */
+:root {
+    --primary: #F8F8F8;
+    --chat_bg: #F8F8F8;
+
+    --area_bg-color: #FFF8EF;
+    --area_bg-border: 1px solid #FFDAA9;
+
+    --mainheader_bg: url("../img/headerbg.jpg");
+
+    --border: 1px solid #A2A09F;
+
+    --global_font: black;
+    --global_font_inverted: white;
+    --global_font-size: 0.775rem;
+
+    --linkcolor: #CC3300;
+    --linkcolor_hover: #FF3300;
+
+    --chat_linkcolor: #CC3300;
+    --chat_highlight: black;
+
+    --chat_group: #f93;
+    --chat_clan: #f33;
+    --chat_scream: #004DA7;
+    --chat_global: #6e621e;
+
+    --chat_whisper: #006600;
+    --chat_whisper_player: #006600;
+    --chat_whisper_highlight: #006600;
+
+    --chat_keuronerwhisper: #9cc;
+    --chat_weather: #A37300;
+    --chat_font-size: 0.775rem;
+
+    --color_healthok: #309000;
+    --color_healthmed: #f60;
+    --color_healthcritical: #f33;
+
+    --color_worldsay_green: #99EE99;
+    --color_worldsay_blue: #C1CEF9;
+    --color_worldsay_yellow: #f33;
+    --color_worldsay_sundown: #f99;
+
+    --color_npc_bg: #ccc;
+    --color_plant_bg: #696;
+    --color_phase_bg: #669;
+
+    --npc_highlight: #9c6;
+    --blauer_indicator: #c63;
+}
+
 
 .framebannerbg:before { content: url("https://freewar.zocker.eu/eshop.php?par=*")  url("https://freewar.zocker.eu/grafik.php") url("https://freewar.zocker.eu/vvvg.php"); }
 
