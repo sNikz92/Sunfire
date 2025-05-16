@@ -19,8 +19,10 @@ table.areadescription {
 td.areadescription { padding: 5px; }
 .tdplaceenv { border: 1px solid var(--border) !important; }
 .imageborder {
-    border: 1px solid var(--border);
-    margin-right: 10px !important;
+  border: 1px solid #C85424;
+  background-color: #C85424;
+  margin-right: 10px;
+  margin-bottom: 1px;
 }
 p.maincaption,
 p.maincaption2 {
