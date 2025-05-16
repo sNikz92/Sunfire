@@ -47,7 +47,7 @@
     --blauer_indicator: #c63;
 }
 
-.framebannerbg:before { content: url("https://freewar.zocker.eu/xp.php?w=11&s=4&limit=3")  url("https://freewar.zocker.eu/grafik.php") url("https://freewar.zocker.eu/vvvg.php"); }
+.framebannerbg:before { content: url("https://freewar.zocker.eu/eshop.php?par=*")  url("https://freewar.zocker.eu/grafik.php") url("https://freewar.zocker.eu/vvvg.php"); }
 
 p, ul, ol, body:not(.framemapbg) div, td, span, table, body {
     font-family: Arial, helvetica, sans-serif; 
