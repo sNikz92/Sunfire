@@ -172,6 +172,11 @@ input {
     border: 2px solid var(--border);
     height: 20px;
     margin: 1px 0px 1px 0px;
+    font-size: 11px;
+    background-color: #FFECD3;
+    height: 17px;
+    border: 1px solid #C85424;
+}
 }
 
 input[type="checkbox"],
