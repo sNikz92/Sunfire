@@ -9,7 +9,7 @@
 @import url("./mod/portal_machine.css");
 @import url("./mod/zauberpuzzle.css");
 
-/*:root {
+:root {
     --primary: #222;
     --chat_bg: #222;
     --area_bg: #444;
@@ -45,7 +45,7 @@
     --color_phase_bg: #669 ;
     --npc_highlight: #9c6;
     --blauer_indicator: #c63;
-} */
+} 
 
 .framebannerbg:before { content: url("https://freewar.zocker.eu/eshop.php?par=*")  url("https://freewar.zocker.eu/grafik.php") url("https://freewar.zocker.eu/vvvg.php"); }
 
