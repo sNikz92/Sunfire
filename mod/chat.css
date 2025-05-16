@@ -36,10 +36,10 @@ a[href="chatform.php?exit_whisper=1"] { margin-left: 5px; }
 	font-size: var(--chat_font-size);
 }
 .chattextworldsay { font-size: var(--chat_font-size); }
-.chattextwhisper {
+/*.chattextwhisper {
 	color: var(--chat_whisper);
 	font-size: var(--chat_font-size);
-}
+}*/
 .chattextwhisper b { color: var(--chat_whisper_highlight); }
 .whisperplayer > b { color: var(--chat_whisper_player); }
 .whisperplayer {
