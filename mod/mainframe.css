@@ -1,10 +1,14 @@
 #MainFrameMain:-webkit-scrollbar { display: none; }
 #MainFrameMain { scrollbar-width: none; }
 
-/*
-.framemainbg { font-size: 0; }
-.framemainbg > a { font-size: var(--global_font-size); }
-*/
+
+.framemainbg {
+  margin: 10px;
+  background-image: url(img/mainbg.jpg);
+  background-repeat: repeat-y;
+  background-position: right;
+}
+}
 
 td.mainheader       {
     font-size: 35px;
