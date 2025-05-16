@@ -122,11 +122,7 @@ input {
     height: 20px;
     margin: 1px 0px 1px 0px;
 }
-input[type="submit"] {
-    color: var(--global_font);
-    height: 24px;
-    margin-top: 2px;
-}
+
 input[type="checkbox"],
 input[type="radio"] {
     color: var(--global_font);
