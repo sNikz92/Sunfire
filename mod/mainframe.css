@@ -9,12 +9,12 @@
   background-position: right;
 }
 
-
-td.mainheader       {
-    font-size: 35px;
-    background-image: var(--mainheader_bg);
-    padding: 2px;
+td.mainheader {
+  font-size: 35px;
+  background-image: url("img/headerbg.jpg");
+  padding: 2px;
 }
+
 table.areadescription {
     border: 1px solid var(--area_bg_border);
     background-color: var(--area_bg);
