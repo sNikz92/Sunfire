@@ -117,7 +117,6 @@ a[href="chatform.php?exit_whisper=1"] { margin-left: 5px; }
 
 
 .keuronerwhisper { color: var(--chat_keuronerwhisper) !important; }
-.chatfastnpcinfo { color: var(--chat_highlight) !important; }
 .healthmed { color: var(--color_healthmed); }
 .healthok { color: var(--color_healthok); }
 .healthcritical { color: var(--color_healthcritical); }
