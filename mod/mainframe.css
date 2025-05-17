@@ -30,6 +30,10 @@ td.mainheader {
   background-image: url("../img/headerbg.jpg");
 }
 
+.listrow {
+    background: var(--grey_bg)
+}
+
 table.areadescription {
     border: var(--area_bg_border);
     background-color: var(--area_bg);
@@ -270,8 +274,8 @@ form > input[name="ownstyle"] { width: 100%; }
     margin-top: 1px;
 }
 .friendlist tr {
-    background-color: var(--area_bg);
-    border: 1px solid var(--border);
+    background-color: var(--grey_bg);
+    border: var(--border);
 }
 .friendlist td {
     padding: 2px;
