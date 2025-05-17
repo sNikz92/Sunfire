@@ -95,8 +95,8 @@ table.areadescription + br + table + br + style + table + br + style + table + b
 .listplaceitemsrow + .listplaceitemsrow { border-top: 0px; }
 */
 
-.listusersrow > b,
-.areadescription > b { color: var(--npc_highlight) }
+/*.listusersrow > b,
+.areadescription > b { color: var(--npc_highlight) }*/
 
 /* schließfach */
 tr.listbankrow > td {  }
