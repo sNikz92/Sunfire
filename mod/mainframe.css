@@ -16,6 +16,10 @@
   background-position: right;
 }
 
+.brownbg {
+  background-color: #dcd3cc;
+}
+
 td.mainheader {
   font-size: 35px;
   background-image: url("../img/headerbg.jpg");
