@@ -20,7 +20,7 @@ td.mainheader {
 }
 
 table.areadescription {
-    border: 1px solid var(--area_bg_border);
+    border: var(--area_bg_border);
     background-color: var(--area_bg);
     /* width: 100%; */
 }
