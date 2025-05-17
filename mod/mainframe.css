@@ -229,11 +229,11 @@ img[src*="plant"] {
     margin-right: .2rem;
 }
 
-img[src*="npcs"] { background: var(--color_npc_bg); }
+/*img[src*="npcs"] { background: var(--color_npc_bg); }
 
 img[src*="plant"] { background: var(--color_plant_bg); }
 
-img[src*="/npcs/pha"] { background: var(--color_phase_bg); }
+img[src*="/npcs/pha"] { background: var(--color_phase_bg); }*/
 
 /*gigantische */
 img[src$="spindel.gif"] { background: rgba(255, 113, 113, 0.71) !important; }
