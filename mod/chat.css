@@ -9,6 +9,9 @@
 
 a[href="chatform.php?exit_whisper=1"] { margin-left: 5px; }
 
+.framechatformbg {
+  background-color: #E7E7E7;
+}
 .framechattextbg a { color: var(--chat_linkcolor);  }
 .framechattextbg a:hover { color: var(--linkcolor_hover); }
 
