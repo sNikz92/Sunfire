@@ -188,8 +188,9 @@ textarea,
 select {
     font-size: 12px;
     height: 24px;
-    background-color: var(--area_bg);
-    border: 1px solid var(--border);
+    background-color: #FFECD3;
+    height: 17px;
+    border: 1px solid #C85424;
     color: var(--global_font);
 }
 
