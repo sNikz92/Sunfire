@@ -3,11 +3,11 @@
 
 .framebannerbg {
     display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #C85424;
     background-image: url("../img/bannerbg.jpg");
     border-bottom: 1px solid #000000;
+    flex-direction: column;
+
 }
 .framemainbg {
   margin: 10px;
