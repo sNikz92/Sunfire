@@ -1,7 +1,12 @@
 #MainFrameMain:-webkit-scrollbar { display: none; }
 #MainFrameMain { scrollbar-width: none; }
 
+.framebannerbg: {
+    background-color: #C85424;
+    background-image: url("../img/bannerbg.jpg");
+    border-bottom: 1px solid #000000;
 
+}
 .framemainbg {
   margin: 10px;
   background-image: url("../img/mainbg.jpg");
