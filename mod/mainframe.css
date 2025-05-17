@@ -18,6 +18,11 @@
 
 .brownbg {
   background-color: #dcd3cc;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  padding: 2px 4px 2px 4px;
+}
 }
 
 td.mainheader {
