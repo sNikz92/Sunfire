@@ -249,9 +249,6 @@ td[style*="/map/ixi19.jpg"] a{
 
 img[src*="npc"],
 img[src*="plant"] {
-    border: 2px inset #333;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
     margin-right: .2rem;
 }
 
