@@ -73,9 +73,7 @@ p.maindesc1 {
 .listplaceitemsrow {
     background-color: var(--grey_bg);
     padding: 5px;
-    border: 1px solid var(--border);
-    background-color:  
-    overflow: hidden;
+    border: var(--border);
 }
 
 .npcrow { max-width: calc(100% - 122px); }
