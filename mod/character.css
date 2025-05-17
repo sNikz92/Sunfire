@@ -14,7 +14,7 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
     max-width: 260px; }
 
 .frameitembg > .listrow {
-    background-color: var(--chat_bg);
+    background-color: var(--grey_bg);
     padding-left:5px;
 }
 
