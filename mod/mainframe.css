@@ -31,17 +31,8 @@ td.mainheader {
 }
 
 .listrow {
-    background: var(--grey_bg)
-    padding: 2px;
-    padding-left: 2px;
-    padding-left: 5px;
-    border: var(--border);
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-top-color: rgb(214, 203, 194);
-    border-top: 0;
+    background-color: var(--grey);
 }
-
 table.areadescription {
     border: var(--area_bg_border);
     background-color: var(--area_bg);
