@@ -31,7 +31,15 @@ table.areadescription {
     /* width: 100%; */
 }
 td.areadescription { padding: 5px; }
-.tdplaceenv { border: 1px solid var(--border) !important; }
+
+.tdplaceenv {
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-bottom: 1px solid;
+    border-bottom-color: currentcolor;
+    border-color: #FFDAA9;
+}
+
 .imageborder {
   border: 1px solid #C85424;
   background-color: #C85424;
