@@ -48,8 +48,8 @@ td.areadescription { padding: 5px; }
 .imageborder {
   border: 1px solid #C85424;
   background-color: #C85424;
-  margin-right: 10px;
-  margin-bottom: 1px;
+  margin-right: 10px !important;
+  margin-bottom: 1px !important;
 }
 p.maincaption,
 p.maincaption2 {
