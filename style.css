@@ -159,16 +159,8 @@ h1 {
 }
 */
 
-.input {
-    height: 26px;
-    font-size: 13px;
-    color: var(--global_font);
-}
 input {
-    background-color: var(--area_bg);
     color: var(--global_font);
-    border: 2px solid var(--border);
-    height: 20px;
     margin: 1px 0px 1px 0px;
     font-size: 11px;
     background-color: #FFECD3;
