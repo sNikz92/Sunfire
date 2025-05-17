@@ -48,7 +48,7 @@ p.maincaption2 { font-size: 12px; }
 .maindesc1,
 .maindesc2 {
     border: 1px solid var(--border);
-    background-color: var(--area_bg);
+    background-color: var(--grey_bg);
     width: 100%;
 }
 p.maindesc1 {
@@ -71,6 +71,7 @@ p.maindesc1 {
 .playerrow,
 .npcrow,
 .listplaceitemsrow {
+    background-color: var(--grey_bg);
     padding: 5px;
     border: 1px solid var(--border);
     background-color:  
