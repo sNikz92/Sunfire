@@ -49,7 +49,10 @@
 :root {
     --primary: #F8F8F8;
     --chat_bg: #F8F8F8;
-
+    /*Grauer Hintergrund*/
+    --border: #666;
+    --grey_bg: #ECE9E6;
+    
     --area_bg: #FFF8EF;
     --area_bg_border: 1px solid #FFDAA9;
 
