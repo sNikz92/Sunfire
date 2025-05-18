@@ -3,7 +3,7 @@ p.listcaption {
     font-weight: bold;
     padding: 2px 0 2px 5px;
     margin-bottom: 2px;
-    background: var(--grey_bg);
+    background-image: url("../img/button_bg.jpg");
     border: var(--border);
 }
 
