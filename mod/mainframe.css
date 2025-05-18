@@ -34,7 +34,7 @@ p.maincaption2 {
 p.maincaption2 { font-size: 12px; }
 .maindesc1,
 .maindesc2 {
-    border: 1px solid var(--border);
+    border: var(--border);
     background-color: var(--area_bg);
     width: 100%;
 }
@@ -42,6 +42,7 @@ p.maindesc1 {
     width: 300px;
     padding: 2px;
     margin-top: 1px;
+    /*border: 1px solid #D6CBC2;*/
 }
 
 .framemainbg > table:not(.framemainbg > table.friendlist) { width: 100%; }
