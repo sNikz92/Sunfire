@@ -12,7 +12,8 @@ p.listitemrow {
     border: var(--border);
     font-size: 0;
     color: transparent;
-    background-image: url("../img/button_bg2.jpg");
+    background: var(--grey_bg);
+    margin: 2 0 2 0;
     
 }
 p.listitemrow b {
