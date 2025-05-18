@@ -30,7 +30,7 @@ td.mainheader {
   background-image: url("../img/headerbg.jpg");
 }
 
-.listrow {
+body.framemainbg .listrow  {
     background-color: var(--grey_bg);
     border: var(--border);
     padding: 2px 2px 2px 5px;
