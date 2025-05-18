@@ -50,7 +50,7 @@
     --primary: #F8F8F8;
     --chat_bg: #F8F8F8;
     /*Grauer Hintergrund*/
-    --border: #666;
+    --border: 1px solid #D6CBC2;
     --grey_bg: #ECE9E6;
 
     /*Inventar Hintergrund*/
@@ -60,8 +60,6 @@
     --area_bg_border: 1px solid #FFDAA9;
 
     --mainheader_bg: url("img/headerbg.jpg");
-
-    --border: 1px solid #D6CBC2;
 
     --global_font: black;
     --global_font_inverted: white;
