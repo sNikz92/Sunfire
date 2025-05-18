@@ -297,7 +297,7 @@ form > input[name="ownstyle"] { width: 100%; }
 */
 
 /* fix quest color */
-.framemainbg > svg { background-color: var(--global_font); }
+/*.framemainbg > svg { background-color: var(--global_font); }*/
 
 /* UK fix */
 .ukbar { background: var(--mainheader_bg) !important; }
