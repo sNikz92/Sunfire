@@ -54,14 +54,20 @@ td.areadescription { padding: 5px; }
   margin-right: 10px !important;
   margin-bottom: 1px !important;
 }
-p.maincaption,
-p.maincaption2 {
-    font-weight: bold;
-    font-size: 30px;
-    padding: 1px;
-    padding-left: 1px;
-    background-image: url("../img/bluebg.jpg");
+p.maincaption {
+  font-weight: bold;
+  font-size: 30px;
+  padding: 1px;
+  background-image: url("../img/headerbg.jpg");
 }
+
+p.maincaption2 {
+  font-weight: bold;
+  font-size: 12px;
+  padding: 2px;
+  background-image: url("../img/bluebg.jpg");
+}
+
 p.maincaption2 { font-size: 12px; }
 .maindesc1,
 .maindesc2 {
