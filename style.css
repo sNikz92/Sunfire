@@ -202,7 +202,10 @@ select {
     margin: 10 0 10 0;
     background-image: var(--itemframe_bg);
 }
-.framemenubg { background-color: var(--itemframe_bg; }
+.framemenubg { 
+    margin: 0 0 10 0;
+    background-image: var(--itemframe_bg; 
+}
 
 a.nocango:hover {
     background: url(./img/nocango.gif) top left no-repeat;
