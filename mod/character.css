@@ -297,7 +297,7 @@ p.listrow:has(a[href="clanmenu.php?action=sos"]) {
 /* Waffenzustände*/
 p.listrow[title^="Zustand: "]::after { 
     font-size: 10px;
-    color: #999;
+    color: var(--color_healthok);
 }
 
 p[title$=" 200%"]:after { content: " (200%)"; }
