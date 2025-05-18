@@ -100,6 +100,7 @@ p.maincaption2 { font-size: 12px; }
     background-color: var(--grey_bg);
     padding: 5px;
     border: var(--border);
+    display: inherit;
 }
 
 .npcrow { max-width: calc(100% - 122px); }
