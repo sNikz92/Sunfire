@@ -33,6 +33,7 @@ td.mainheader {
 .listrow {
     background-color: var(--grey_bg);
     border: var(--border);
+    padding: 2px 2px 2px 5px;
 }
 table.areadescription {
     border: var(--area_bg_border);
@@ -105,11 +106,6 @@ p.maincaption2 { font-size: 12px; }
   margin-right: 0.5em;
   vertical-align: middle;
 }
-
-.npcrow br {
-  display: none;
-}
-
 
 .listusersrow,
 .playerrow,
