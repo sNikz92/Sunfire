@@ -197,7 +197,11 @@ select {
     margin: 10px;
     background-image: var(--itemframe_bg);
 }
-.framemapbg,
+
+.framemapbg { 
+    margin: 10 0 10 0;
+    background-image: var(--itemframe_bg);
+}
 .framemenubg { background-color: var(--itemframe_bg; }
 
 a.nocango:hover {
