@@ -130,9 +130,6 @@ a[href="chatform.php?exit_whisper=1"] { margin-left: 5px; }
 	padding: 1px 0 2px 3px;
 }
 
-span.chattextachievement > a[href^="achiev.php"] { color: var(--chat_whisper_highlight); }
-
-
 p.worldsay tr[bgcolor="#99EE99"] td { background-color: var(--color_worldsay_green); }
 p.worldsay tr[bgcolor="#C1CEF9"] td { background-color: var(--color_worldsay_blue); }
 p.worldsay tr[bgcolor="#EEEE99"] td { background-color: var(--color_worldsay_yellow); }
