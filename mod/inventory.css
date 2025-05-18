@@ -11,6 +11,8 @@ p.listitemrow {
     border: 1px solid var(--border);
     font-size: 0;
     color: transparent;
+    background-image: url("../img/button_bg2.jpg");
+    
 }
 p.listitemrow b {
     font-size: 11px;
