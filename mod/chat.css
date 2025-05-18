@@ -42,9 +42,9 @@ a[href="chatform.php?exit_whisper=1"] { margin-left: 5px; }
 }
 .chattextwhisper p { color: var(--chat_whisper_highlight); }
 .whisperplayer > b { color: var(--chat_whisper_player); }
-.whisperplayer {
+/*.whisperplayer {
 	color: var(--chat_whisper_player) !important;
-	font-size: var(--chat_font-size);
+	font-size: var(--chat_font-size);*/
 }
 
 /* chat buttons */
