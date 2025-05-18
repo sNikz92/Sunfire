@@ -100,6 +100,17 @@ p.maincaption2 { font-size: 12px; }
 .personlistcaption,
 .itemlistcaption { display: none; }
 
+.npcrow a {
+  display: inline-block;
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+
+.npcrow br {
+  display: none;
+}
+
+
 .listusersrow,
 .playerrow,
 .npcrow,
