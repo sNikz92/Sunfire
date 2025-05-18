@@ -60,7 +60,7 @@ p.maincaption2 {
     font-size: 30px;
     padding: 1px;
     padding-left: 1px;
-    background-color: var(--mainheader_bg);
+    background-image: url("../img/bluebg.jpg");
 }
 p.maincaption2 { font-size: 12px; }
 .maindesc1,
