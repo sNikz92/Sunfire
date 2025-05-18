@@ -250,7 +250,7 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
 }
 
 .valueincreased {
-    color: var(--color_healthok);
+    color: var(--color_healthcritical);
     font-size: smaller;
     font-weight: bold;
 }
