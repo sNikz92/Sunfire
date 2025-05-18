@@ -215,7 +215,8 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
 #fullenergydisp {
     position: relative !important;
     height: 13px !important;
-    background: var(--itemframe_bg) !important;
+    /*background: var(--itemframe_bg) !important;*/
+    background-image: url("../img/button_bg.jpg");
 }
 #curenergy {
     position: relative !important;
