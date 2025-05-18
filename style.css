@@ -54,7 +54,7 @@
     --grey_bg: #ECE9E6;
 
     /*Inventar Hintergrund*/
-    --frameitem_bg url("img/itembg.jpg");
+    --itemframe_bg url("img/itembg.jpg");
     
     --area_bg: #FFF8EF;
     --area_bg_border: 1px solid #FFDAA9;
