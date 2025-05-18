@@ -216,8 +216,6 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
     position: relative !important;
     height: 13px !important;
     background: var(--itemframe_bg) !important;
-    border: 1px solid var(--border) !important;
-    background-image:none !important;
 }
 #curenergy {
     position: relative !important;
