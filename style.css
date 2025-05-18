@@ -197,7 +197,7 @@ select {
     background-image: var(--itemframe_bg);
 }
 .framemapbg,
-.framemenubg { background-color: var(--chat_bg); }
+.framemenubg { background-color: var(--itemframe_bg; }
 
 a.nocango:hover {
     background: url(./img/nocango.gif) top left no-repeat;
