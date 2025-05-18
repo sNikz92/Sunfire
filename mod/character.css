@@ -45,7 +45,7 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
 #listrow_char_mission > a[href="ability.php"]:before {
     content: "Charas ";
     font-size: 12px;
-    color: #69c;
+    color: var(--linkcolor);
 }
 #listrow_char_mission > a[href="ability.php"] > span {
     border: 2px solid transparent !important;
