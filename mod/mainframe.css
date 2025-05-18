@@ -36,7 +36,7 @@ td.mainheader {
 table.areadescription {
     border: var(--area_bg_border);
     background-color: var(--area_bg);
-    /* width: 100%; */
+    width: 100%;
 }
 td.areadescription { padding: 5px; }
 
