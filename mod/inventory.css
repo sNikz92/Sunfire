@@ -6,6 +6,7 @@ p.listcaption {
     background-image: url("../img/button_bg.jpg");
 }
 
+
 p.listitemrow {
     padding: 3px 3px;
     border: var(--border);
@@ -30,6 +31,14 @@ p.listitemrow > a[href*="action=transfer1"],
 p.listitemrow > a[href*="arrive_eval=itemabgabe2"] {
     font-size: 11px;
     margin-right: 20px;
+}
+/*Charakterfähigkeitenmenu*/
+.abilitymenu td {
+  text-align: right;
+  padding: 2px;
+    padding-left: 2px;
+  padding-left: 5px;
+  border: 1px solid #D6CBC2;
 }
 
 .itemamount {
