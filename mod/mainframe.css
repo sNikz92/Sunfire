@@ -61,7 +61,6 @@ p.maincaption2 {
     padding: 1px;
     padding-left: 1px;
     background-color: var(--mainheader_bg);
-    border: 1px solid var(--border);
 }
 p.maincaption2 { font-size: 12px; }
 .maindesc1,
