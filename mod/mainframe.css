@@ -31,7 +31,8 @@ td.mainheader {
 }
 
 .listrow {
-    background-color: var(--grey);
+    background-color: var(--grey_bg);
+    border: var(--border);
 }
 table.areadescription {
     border: var(--area_bg_border);
