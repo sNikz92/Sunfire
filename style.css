@@ -160,33 +160,79 @@ h1 {
 }
 */
 
-input:not([type="submit"]):not([type="button"]) {
-    color: var(--global_font);
-    margin: 1px 0px 1px 0px;
+/* forms */
+    .input          { font-size: 11px; background-color: #FFECD3; height: 17px; border: 1px solid #C85424; }
+    textarea        { font-size: 12px; background-color: #FFECD3; border: 1px solid #C85424; }
+    select          { font-size: 11px; background-color: #DBEBEF; }
+
+/* chat buttons */
+.submitsagen {
+    background-image: url("images/button_bg2.jpg");
+    border: 1px solid #777777;
+    color: #000000;
     font-size: 11px;
-    background-color: #FFECD3;
+    font-weight: bold;
     height: 17px;
-    border: 1px solid #C85424;
-    max-width: 94%;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-bottom: 2px;
+    width: 80px;
+}
+.submitclan {
+    background-image: url("images/button_bg2.jpg");
+    border: 1px solid #777777;
+    color: #D20000;
+    font-size: 11px;
+    font-weight: bold;
+    height: 17px;
+    margin-right: 2px;
+    padding-bottom: 2px;
+    width: 80px;
 }
 
-
-input[type="checkbox"],
-input[type="radio"] {
-    color: var(--global_font);
-    height: 14px;
-    margin-top: 2px 0 2px 0;
+.submitschreien {
+    background-image: url("images/button_bg2.jpg");
+    border: 1px solid #777777;
+    color: #004DA7;
+    font-size: 11px;
+    font-weight: bold;
+    height: 17px;
+    margin-right: 2px;
+    padding-bottom: 2px;
+    width: 87px;
 }
-
-textarea,
-select {
-    font-size: 12px;
-    height: 24px;
-    background-color: #FFECD3;
-    height: 24px;
-    border: 1px solid #C85424;
-    color: var(--global_font);
-    margin: 10 0 10 0;
+.submitgroup {
+    background-image: url("images/button_bg2.jpg");
+    border: 1px solid #777777;
+    color: #E36B30;
+    font-size: 11px;
+    font-weight: bold;
+    height: 17px;
+    margin-right: 2px;
+    padding-bottom: 2px;
+    width: 80px;
+}
+.submitwhisper {
+    background-image: url("../images/button_bg2.jpg");
+    border: 1px solid #777777;
+    color: #006600;
+    font-size: 11px;
+    font-weight: bold;
+    height: 17px;
+    margin-right: 2px;
+    padding-bottom: 2px;
+    width: 88px;
+}
+.submitglobalchat   {
+    background-image: url("images/button_bg2.jpg");
+    border: 1px solid #777777;
+    color: #6e621e;
+    font-size: 11px;
+    font-weight: bold;
+    height: 17px;
+    margin-right: 2px;
+    padding-bottom: 2px;
+    width: 80px;
 }
 
 .framechattextbg {
@@ -213,18 +259,3 @@ a.nocango:hover {
 }
 
 td.c1 { text-align: left; }
-
-#chatform input#sagen.submitsagen[type="submit"] {
-    background-image: url("../img/button_bg2.jpg") !important;
-    border: 1px solid #777777 !important;
-    color: #000000 !important;
-    font-size: 11px !important;
-    font-weight: bold !important;
-    height: 17px !important;
-    margin-left: 2px !important;
-    margin-right: 2px !important;
-    padding-bottom: 2px !important;
-    padding: 2px !important;
-    width: 80px !important;
-}
-
