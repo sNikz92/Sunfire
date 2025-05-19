@@ -108,6 +108,7 @@ p.maincaption2 { font-size: 12px; }
     background-color: var(--grey_bg);
     padding: 5px;
     border: var(--border);
+    max-width: calc(100% - 70px);
 }
 
 /*.npcrow { max-width: calc(100% - 122px); }*/
