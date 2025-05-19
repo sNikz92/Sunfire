@@ -51,7 +51,7 @@
 }
 */
 /* Narubia - Wolf der Finsternis */
-#mapx53y500 a::after, #mapx54y504 a::after, #mapx54y507 a::after, #mapx56y501 a::after, #mapx56y506 a::after  { content: "Maus"; }
+#mapx53y500 a::after, #mapx54y504 a::after, #mapx54y507 a::after, #mapx56y501 a::after, #mapx56y506 a::after  { content: "Wolf"; }
 /* Mento, Nawor, Azul - Wüstenmäuse */
 #mapx102y111 a::after, #mapx98y115 a::after, #mapx100y116 a::after, #mapx104y119 a::after, #mapx105y128 a::after  { content: "Maus"; }
 /* Ruward - Onloskelette */
@@ -62,6 +62,9 @@
 
 /* Buran - untote Bürger */ 
 #mapx82y87 a::after, #mapx-196y-96 a::after, #mapx81y89 a::after, #mapx82y90 a::after, #mapx80y87 a::after, #mapx81y88 a::after, #mapx84y88 a::after, #mapx-185y-94 a::after, #mapx-193y-98 a::after { content: "B\00fcrger"; }
+
+/* Plfefir - Pilzwachtel */
+#mapx106y80 a::after, #mapx107y78 a::after, #mapx107y80 a::after, #mapx107y82 a::after, #mapx108y78 a::after, #mapx108y79 a::after, #mapx108y81 a::after, #mapx108y83 a::after, #mapx109y77 a::after, #mapx109y79 a::after, #mapx109y80 a::after, #mapx109y81 a::after, #mapx109y82 a::after, #mapx110y77 a::after, #mapx110y78 a::after, #mapx110y80 a::after, #mapx110y81 a::after, #mapx111y78 a::after, #mapx110y83 a::after, #mapx111y80 a::after, #mapx111y82 a::after,  #mapx97y66 a::after { content: "Wachtel"; }
 
 /* Limm, Azul und Laree - Ektofrone */
 #mapx122y105 a::after, #mapx103y126 a::after, #mapx59y93 a::after, #mapx50y84 a::after, #mapx51y82 a::after, #mapx51y85 a::after, #mapx55y88 a::after, #mapx57y88 a::after, #mapx58y88 a::after, #mapx58y91 a::after, #mapx59y84 a::after, #mapx59y88 a::after, #mapx59y92 a::after, #mapx60y87 a::after, #mapx60y88 a::after, #mapx60y92 a::after { content: "Ektofron"; }
