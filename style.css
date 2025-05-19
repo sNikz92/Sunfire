@@ -102,7 +102,7 @@
 }
 
 
-.framebannerbg:before { content: url("https://freewar.zocker.eu/eshop.php?par=*") " " url("https://freewar.zocker.eu/grafik.php") " " url("https://freewar.zocker.eu/vvvg.php"); }
+.framebannerbg:before { content: url("https://freewar.zocker.eu/eshop.php?par=*")  url("https://freewar.zocker.eu/grafik.php") url("https://freewar.zocker.eu/vvvg.php"); }
 
 p, ul, ol, body:not(.framemapbg) div, td, span, table, body {
     font-family: Arial, helvetica, sans-serif; 
@@ -160,14 +160,14 @@ h1 {
 }
 */
 
-input:not([type="submit"]):not([type="button"])  {
+input {
     color: var(--global_font);
     margin: 1px 0px 1px 0px;
     font-size: 11px;
     background-color: #FFECD3;
     height: 17px;
     border: 1px solid #C85424;
-    max-width: 94%;
+}
 }
 
 input[type="checkbox"],
@@ -182,10 +182,10 @@ select {
     font-size: 12px;
     height: 24px;
     background-color: #FFECD3;
-    height: 24px;
+    height: 17px;
     border: 1px solid #C85424;
     color: var(--global_font);
-    margin: 0 0 10 0;
+    margin: 10 0 10 0;
 }
 
 .framechattextbg {
@@ -196,18 +196,18 @@ select {
     margin: 10px;
     background-image: var(--itemframe_bg);
 }
-
-.framemapbg { 
-    margin: 10 0 10 0;
-    background-image: var(--itemframe_bg);
-}
-.framemenubg { 
-    margin: 0 0 10 0;
-    background-image: var(--itemframe_bg); 
-}
+.framemapbg,
+.framemenubg { background-color: var(--chat_bg); }
 
 a.nocango:hover {
     background: url(./img/nocango.gif) top left no-repeat;
     cursor: default;
+}
+
+.abilitymenu td {
+    text-align: right;
+    padding: 2px;
+    padding-left: 5px;
+    border: 1px solid var(--border);
 }
 td.c1 { text-align: left; }
