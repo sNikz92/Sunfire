@@ -167,7 +167,7 @@ h1 {
 
 /* chat buttons */
 .submitsagen {
-    background-image: url("images/button_bg2.jpg");
+    background-image: url("img/button_bg2.jpg");
     border: 1px solid #777777;
     color: #000000;
     font-size: 11px;
@@ -179,7 +179,7 @@ h1 {
     width: 80px;
 }
 .submitclan {
-    background-image: url("images/button_bg2.jpg");
+    background-image: url("img/button_bg2.jpg");
     border: 1px solid #777777;
     color: #D20000;
     font-size: 11px;
@@ -191,7 +191,7 @@ h1 {
 }
 
 .submitschreien {
-    background-image: url("images/button_bg2.jpg");
+    background-image: url("img/button_bg2.jpg");
     border: 1px solid #777777;
     color: #004DA7;
     font-size: 11px;
@@ -202,7 +202,7 @@ h1 {
     width: 87px;
 }
 .submitgroup {
-    background-image: url("images/button_bg2.jpg");
+    background-image: url("img/button_bg2.jpg");
     border: 1px solid #777777;
     color: #E36B30;
     font-size: 11px;
@@ -213,7 +213,7 @@ h1 {
     width: 80px;
 }
 .submitwhisper {
-    background-image: url("../images/button_bg2.jpg");
+    background-image: url("/img/button_bg2.jpg");
     border: 1px solid #777777;
     color: #006600;
     font-size: 11px;
@@ -224,7 +224,7 @@ h1 {
     width: 88px;
 }
 .submitglobalchat   {
-    background-image: url("images/button_bg2.jpg");
+    background-image: url("img/button_bg2.jpg");
     border: 1px solid #777777;
     color: #6e621e;
     font-size: 11px;
