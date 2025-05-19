@@ -186,7 +186,7 @@ select {
     height: 24px;
     border: 1px solid #C85424;
     color: var(--global_font);
-    margin: 10 0 10 0;
+    margin: 0 0 10 0;
 }
 
 .framechattextbg {
