@@ -115,18 +115,6 @@ a[href="chatform.php?exit_whisper=1"] { margin-left: 5px; }
     width: 80px;
 }
 
-.input {
-    color: var(--global_font);
-    margin: 1px 0px 1px 0px;
-    font-size: 11px;
-    background-color: #FFECD3;
-    height: 17px;
-    border: 1px solid #C85424;
-    max-width: 94%
-}
-
-
-
 .keuronerwhisper { color: var(--chat_keuronerwhisper) !important; }
 .healthmed { color: var(--color_healthmed); }
 .healthok { color: var(--color_healthok); }
