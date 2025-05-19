@@ -177,8 +177,6 @@ input[type="radio"] {
     height: 14px;
     margin-top: 2px 0 2px 0;
 }
-input:not([type="submit"]) {
-}
 
 textarea,
 select {
