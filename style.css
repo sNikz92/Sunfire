@@ -159,7 +159,7 @@ h1 {
 }
 */
 
-.input {
+input {
     color: var(--global_font);
     margin: 1px 0px 1px 0px;
     font-size: 11px;
