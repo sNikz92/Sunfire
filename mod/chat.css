@@ -41,7 +41,7 @@ a[href="chatform.php?exit_whisper=1"] { margin-left: 5px; }
 }
 
 /* chat buttons */
-input#sagen {
+.submitsagen {
     background-image: url("../img/button_bg2.jpg") !important;
     border: 1px solid #777777 !important;
     color: #000000 !important;
@@ -113,6 +113,16 @@ input#sagen {
     margin-right: 2px;
     padding-bottom: 2px;
     width: 80px;
+}
+
+.input {
+    color: var(--global_font);
+    margin: 1px 0px 1px 0px;
+    font-size: 11px;
+    background-color: #FFECD3;
+    height: 17px;
+    border: 1px solid #C85424;
+    max-width: 94%
 }
 
 
