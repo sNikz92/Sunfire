@@ -160,14 +160,14 @@ h1 {
 }
 */
 
-.input {
+input {
     color: var(--global_font);
     margin: 1px 0px 1px 0px;
     font-size: 11px;
     background-color: #FFECD3;
     height: 17px;
     border: 1px solid #C85424;
-    max-width: 94%
+    max-width: 94%;
 }
 }
 
@@ -176,6 +176,8 @@ input[type="radio"] {
     color: var(--global_font);
     height: 14px;
     margin-top: 2px 0 2px 0;
+}
+input:not([type="submit"]) {
 }
 
 textarea,
@@ -210,12 +212,5 @@ select {
 a.nocango:hover {
     background: url(./img/nocango.gif) top left no-repeat;
     cursor: default;
-}
-
-.abilitymenu td {
-    text-align: right;
-    padding: 2px;
-    padding-left: 5px;
-    border: 1px solid var(--border);
 }
 td.c1 { text-align: left; }
