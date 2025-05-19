@@ -46,7 +46,7 @@ a[href="chatform.php?exit_whisper=1"] { margin-left: 5px; }
 	font-size: var(--chat_font-size);*/
 }
 
-.submitsagen {
+#chatform input.submitsagen {
     background-image: url("../img/button_bg2.jpg") !important;
     border: 1px solid #777777 !important;
     color: #000000 !important;
