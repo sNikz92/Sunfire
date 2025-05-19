@@ -50,16 +50,15 @@
     --primary: #F8F8F8;
     --chat_bg: #F8F8F8;
     /*Grauer Hintergrund*/
-    --border: 1px solid #D6CBC2;
+    --border: #666;
     --grey_bg: #ECE9E6;
-
-    /*Inventar Hintergrund*/
-    --itemframe_bg: url("img/itembg.jpg");
     
     --area_bg: #FFF8EF;
     --area_bg_border: 1px solid #FFDAA9;
 
     --mainheader_bg: url("img/headerbg.jpg");
+
+    --border: 1px solid #A2A09F;
 
     --global_font: black;
     --global_font_inverted: white;
@@ -185,7 +184,6 @@ select {
     height: 17px;
     border: 1px solid #C85424;
     color: var(--global_font);
-    margin: 10 0 10 0;
 }
 
 .framechattextbg {
@@ -194,7 +192,7 @@ select {
 }
 .frameitembg {
     margin: 10px;
-    background-image: var(--itemframe_bg);
+    background-color: var(--itemframe_bg);
 }
 .framemapbg,
 .framemenubg { background-color: var(--chat_bg); }
