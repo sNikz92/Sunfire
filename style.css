@@ -1,4 +1,4 @@
-@import url("./mod/mainframe.css");
+i@import url("./mod/mainframe.css");
 @import url("./mod/character.css");
 @import url("./mod/status.css");
 @import url("./mod/inventory.css");
@@ -169,21 +169,6 @@ h1 {
     border: 1px solid #C85424;
     max-width: 94%
 }*/
-input {
-    background-image: url("../img/button_bg2.jpg") !important;
-    border: 1px solid #777777 !important;
-    color: #000000 !important;
-    font-size: 11px !important;
-    font-weight: bold !important;
-    height: 17px !important;
-    margin-left: 2px !important;
-    margin-right: 2px !important;
-    padding-bottom: 2px !important;
-    padding-top: 2px !important;
-    padding-left: 4px !important;
-    padding-right: 4px !important;
-    width: 80px !important;
-}
 
 input[type="checkbox"],
 input[type="radio"] {
