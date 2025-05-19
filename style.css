@@ -183,7 +183,7 @@ select {
     font-size: 12px;
     height: 24px;
     background-color: #FFECD3;
-    height: 17px;
+    height: 24px;
     border: 1px solid #C85424;
     color: var(--global_font);
     margin: 10 0 10 0;
@@ -204,7 +204,7 @@ select {
 }
 .framemenubg { 
     margin: 0 0 10 0;
-    background-image: var(--itemframe_bg; 
+    background-image: var(--itemframe_bg); 
 }
 
 a.nocango:hover {
