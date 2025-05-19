@@ -51,7 +51,7 @@
 }
 */
 /* Narubia - Wolf der Finsternis */
-#mapx500y53 a::after, #mapx504y54 a::after, #mapx507y54 a::after, #mapx501y56 a::after, #mapx506y56 a::after  { content: "Wolf"; }
+#mapx500y53 a::after, #mapx504y54 a::after, #mapx507y54 a::after, #mapx502y56 a::after, #mapx506y56 a::after  { content: "Wolf"; }
 
 /* Mento, Nawor, Azul - Wüstenmäuse */
 #mapx102y111 a::after, #mapx98y115 a::after, #mapx100y116 a::after, #mapx104y119 a::after, #mapx105y128 a::after  { content: "Maus"; }
