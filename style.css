@@ -160,7 +160,7 @@ h1 {
 }
 */
 
-input {
+input:not([type="submit"]):not([type="button"])  {
     color: var(--global_font);
     margin: 1px 0px 1px 0px;
     font-size: 11px;
