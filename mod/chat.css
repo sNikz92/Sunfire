@@ -41,18 +41,19 @@ a[href="chatform.php?exit_whisper=1"] { margin-left: 5px; }
 }
 
 /* chat buttons */
-.submitsagen {
+#chatform input.submitsagen {
     background-image: url("../img/button_bg2.jpg") !important;
     border: 1px solid #777777 !important;
     color: #000000 !important;
-    font-size: 11px;
-    font-weight: bold;
-    height: 17px;
-    margin-left: 2px;
-    margin-right: 2px;
-    padding-bottom: 2px;
-    width: 80px;
+    font-size: 11px !important;
+    font-weight: bold !important;
+    height: 17px !important;
+    margin-left: 2px !important;
+    margin-right: 2px !important;
+    padding-bottom: 2px !important;
+    width: 80px !important;
 }
+
 .submitclan {
     background-image: url("../img/button_bg2.jpg");
     border: 1px solid #777777;
