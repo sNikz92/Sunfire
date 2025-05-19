@@ -211,10 +211,4 @@ a.nocango:hover {
     cursor: default;
 }
 
-.abilitymenu td {
-    text-align: right;
-    padding: 2px;
-    padding-left: 5px;
-    border: 1px solid var(--border);
-}
 td.c1 { text-align: left; }
