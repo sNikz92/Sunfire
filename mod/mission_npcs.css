@@ -66,8 +66,8 @@
 #mapx82y87 a::after, #mapx-196y-96 a::after, #mapx81y89 a::after, #mapx82y90 a::after, #mapx80y87 a::after, #mapx81y88 a::after, #mapx84y88 a::after, #mapx-185y-94 a::after, #mapx-193y-98 a::after { content: "B\00fcrger"; }
 
 /* Plfefir - Pilzwachtel */
-#mapx106y80 a::after, #mapx107y78 a::after, #mapx107y80 a::after, #mapx107y82 a::after, #mapx78y108 a::after, #mapx79y108 a::after, #mapx81y108 a::after, #mapx83y108 a::after, #mapx77y109 a::after, #mapx79y109 a::after, #mapx80y109 a::after, #mapx81y109 a::after, #mapx82y109 a::after, #mapx77y110 a::after, #mapx78y110 a::after, #mapx80y110 a::after, #mapx81y110 a::after, #mapx78y111 a::after, #mapx83y110 a::after, #mapx80y111 a::after, #mapx82y111 a::after,  #mapx66y97 a::after { content: "Wachtel"; }
-
+#mapx80y106 a::after, #mapx78y107 a::after, #mapx80y107 a::after, #mapx82y107 a::after, #mapx78y108 a::after, #mapx79y108 a::after, #mapx81y108 a::after, #mapx83y108 a::after, #mapx77y109 a::after, #mapx79y109 a::after, #mapx80y109 a::after, #mapx81y109 a::after, #mapx82y109 a::after, #mapx77y110 a::after, #mapx78y110 a::after, #mapx80y110 a::after, #mapx81y110 a::after, #mapx78y111 a::after, #mapx83y110 a::after, #mapx80y111 a::after, #mapx82y111 a::after,  #mapx66y97 a::after { content: "Wachtel"; }
+82 107
 /* Limm, Azul und Laree - Ektofrone */
 #mapx103y120 a::after, #mapx105y122 a::after, #mapx59y93 a::after, #mapx50y84 a::after, #mapx51y82 a::after, #mapx51y85 a::after, #mapx55y88 a::after, #mapx57y88 a::after, #mapx58y88 a::after, #mapx58y91 a::after, #mapx59y84 a::after, #mapx59y88 a::after, #mapx59y92 a::after, #mapx60y87 a::after, #mapx60y88 a::after, #mapx60y92 a::after { content: "Ektofron"; }
 
