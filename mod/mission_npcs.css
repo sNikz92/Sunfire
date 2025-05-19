@@ -62,8 +62,8 @@
 /* Buran - untote Bürger */ 
 #mapx82y87 a::after, #mapx-196y-96 a::after, #mapx81y89 a::after, #mapx82y90 a::after, #mapx80y87 a::after, #mapx81y88 a::after, #mapx84y88 a::after, #mapx-185y-94 a::after, #mapx-193y-98 a::after { content: "B\00fcrger"; }
 
-/* Limm und Laree - Ektofrone */
-#mapx59y93 a::after, #mapx50y84 a::after, #mapx51y82 a::after, #mapx51y85 a::after, #mapx55y88 a::after, #mapx57y88 a::after, #mapx58y88 a::after, #mapx58y91 a::after, #mapx59y84 a::after, #mapx59y88 a::after, #mapx59y92 a::after, #mapx60y87 a::after, #mapx60y88 a::after, #mapx60y92 a::after { content: "Ektofron"; }
+/* Limm, Azul und Laree - Ektofrone */
+#mapx103y126 a::after, #mapx59y93 a::after, #mapx50y84 a::after, #mapx51y82 a::after, #mapx51y85 a::after, #mapx55y88 a::after, #mapx57y88 a::after, #mapx58y88 a::after, #mapx58y91 a::after, #mapx59y84 a::after, #mapx59y88 a::after, #mapx59y92 a::after, #mapx60y87 a::after, #mapx60y88 a::after, #mapx60y92 a::after { content: "Ektofron"; }
 
 /*t-Falter - Lodradron*/
 #mapx109y76 a::after, #mapx108y77 a::after, #mapx111y77 a::after,#mapx112y79 a::after, #mapx113y79 a::after, #mapx116y79 a::after, #mapx119y79 a::after, #mapx115y80 a::after, #mapx114y81 a::after, #mapx-508y-375 a::after { content: "t-Falter"; }
