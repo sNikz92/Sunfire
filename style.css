@@ -50,16 +50,15 @@
     --primary: #F8F8F8;
     --chat_bg: #F8F8F8;
     /*Grauer Hintergrund*/
-    --border: 1px solid #D6CBC2;
+    --border: #666;
     --grey_bg: #ECE9E6;
-
-    /*Inventar Hintergrund*/
-    --itemframe_bg: url("img/itembg.jpg");
     
     --area_bg: #FFF8EF;
     --area_bg_border: 1px solid #FFDAA9;
 
     --mainheader_bg: url("img/headerbg.jpg");
+
+    --border: 1px solid #A2A09F;
 
     --global_font: black;
     --global_font_inverted: white;
@@ -101,80 +100,8 @@
     --blauer_indicator: #c63;
 }
 
-.submitsagen {
-    background-image: url("../img/button_bg2.jpg") !important;
-    border: 1px solid #777777 !important;
-    color: #000000 !important;
-    font-size: 11px !important;
-    font-weight: bold !important;
-    height: 17px !important;
-    margin-left: 2px !important;
-    margin-right: 2px !important;
-    padding-bottom: 2px !important;
-    padding: 2px !important;
-    width: 80px !important;
 
-
-.submitclan {
-    background-image: url("../img/button_bg2.jpg");
-    border: 1px solid #777777;
-    color: #D20000;
-    font-size: 11px;
-    font-weight: bold;
-    height: 17px;
-    margin-right: 2px;
-    padding-bottom: 2px;
-    width: 80px;
-}
-
-.submitschreien {
-    background-image: url("../img/button_bg2.jpg");
-    border: 1px solid #777777;
-    color: #004DA7;
-    font-size: 11px;
-    font-weight: bold;
-    height: 17px;
-    margin-right: 2px;
-    padding-bottom: 2px;
-    width: 87px;
-}
-.submitgroup {
-    background-image: url("../img/button_bg2.jpg");
-    border: 1px solid #777777;
-    color: #E36B30;
-    font-size: 11px;
-    font-weight: bold;
-    height: 17px;
-    margin-right: 2px;
-    padding-bottom: 2px;
-    width: 80px;
-}
-.submitwhisper {
-    background-image: url("../img/button_bg2.jpg");
-    border: 1px solid #777777;
-    color: #006600;
-    font-size: 11px;
-    font-weight: bold;
-    height: 17px;
-    margin-right: 2px;
-    padding-bottom: 2px;
-    width: 88px;
-}
-.submitglobalchat   {
-    background-image: url("../img/button_bg2.jpg");
-    border: 1px solid #777777;
-    color: #6e621e;
-    font-size: 11px;
-    font-weight: bold;
-    height: 17px;
-    margin-right: 2px;
-    padding-bottom: 2px;
-    width: 80px;
-}
-
-
-
-.framebannerbg:before { content: url("https://freewar.zocker.eu/eshop.php?par=*") " " url("https://freewar.zocker.eu/grafik.php") " " url("https://freewar.zocker.eu/vvvg.php"); }
+.framebannerbg:before { content: url("https://freewar.zocker.eu/eshop.php?par=*")  url("https://freewar.zocker.eu/grafik.php") url("https://freewar.zocker.eu/vvvg.php"); }
 
 p, ul, ol, body:not(.framemapbg) div, td, span, table, body {
     font-family: Arial, helvetica, sans-serif; 
@@ -232,14 +159,14 @@ h1 {
 }
 */
 
-input:not([type="submit"]):not([type="button"])  {
+.input {
     color: var(--global_font);
     margin: 1px 0px 1px 0px;
     font-size: 11px;
     background-color: #FFECD3;
     height: 17px;
     border: 1px solid #C85424;
-    max-width: 94%;
+}
 }
 
 input[type="checkbox"],
@@ -254,10 +181,9 @@ select {
     font-size: 12px;
     height: 24px;
     background-color: #FFECD3;
-    height: 24px;
+    height: 17px;
     border: 1px solid #C85424;
     color: var(--global_font);
-    margin: 0 0 10 0;
 }
 
 .framechattextbg {
@@ -266,20 +192,35 @@ select {
 }
 .frameitembg {
     margin: 10px;
-    background-image: var(--itemframe_bg);
+    background-color: var(--itemframe_bg);
 }
-
-.framemapbg { 
-    margin: 10 0 10 0;
-    background-image: var(--itemframe_bg);
-}
-.framemenubg { 
-    margin: 0 0 10 0;
-    background-image: var(--itemframe_bg); 
-}
+.framemapbg,
+.framemenubg { background-color: var(--chat_bg); }
 
 a.nocango:hover {
     background: url(./img/nocango.gif) top left no-repeat;
     cursor: default;
 }
+
+.abilitymenu td {
+    text-align: right;
+    padding: 2px;
+    padding-left: 5px;
+    border: 1px solid var(--border);
+}
 td.c1 { text-align: left; }
+
+
+Zuletzt bei chat.css
+#chatform input[type="submit"] {
+    background-image: url("../img/button_bg2.jpg") !important;
+    border: 1px solid #777777 !important;
+    color: #000000 !important;
+    font-size: 11px;
+    font-weight: bold;
+    height: 17px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-bottom: 2px;
+    width: 80px;
+}
