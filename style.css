@@ -213,3 +213,18 @@ a.nocango:hover {
 }
 
 td.c1 { text-align: left; }
+
+#chatform input#sagen.submitsagen[type="submit"] {
+    background-image: url("../img/button_bg2.jpg") !important;
+    border: 1px solid #777777 !important;
+    color: #000000 !important;
+    font-size: 11px !important;
+    font-weight: bold !important;
+    height: 17px !important;
+    margin-left: 2px !important;
+    margin-right: 2px !important;
+    padding-bottom: 2px !important;
+    padding: 2px !important;
+    width: 80px !important;
+}
+
