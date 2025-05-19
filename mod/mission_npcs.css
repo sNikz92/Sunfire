@@ -51,6 +51,8 @@
 }
 */
 
+/* Mento, Nawor, Azul - Wüstenmäuse */
+#mapx102y111 a::after, #mapx98y115 a::after, #mapx100y116 a::after, #mapx104y119 a::after, #mapx105y128 a::after  { content: "Maus"; }
 /* Ruward - Onloskelette */
 #mapx70y105 a::after, #mapx70y108 a::after, #mapx70y108 a::after, #mapx71y105 a::after, #mapx71y107 a::after, #mapx72y106 a::after, #mapx73y105 a::after, #mapx73y106 a::after, #mapx74y104 a::after  { content: "Onlo"; }
 
