@@ -101,6 +101,78 @@
     --blauer_indicator: #c63;
 }
 
+.submitsagen {
+    background-image: url("../img/button_bg2.jpg") !important;
+    border: 1px solid #777777 !important;
+    color: #000000 !important;
+    font-size: 11px !important;
+    font-weight: bold !important;
+    height: 17px !important;
+    margin-left: 2px !important;
+    margin-right: 2px !important;
+    padding-bottom: 2px !important;
+    padding: 2px !important;
+    width: 80px !important;
+
+
+.submitclan {
+    background-image: url("../img/button_bg2.jpg");
+    border: 1px solid #777777;
+    color: #D20000;
+    font-size: 11px;
+    font-weight: bold;
+    height: 17px;
+    margin-right: 2px;
+    padding-bottom: 2px;
+    width: 80px;
+}
+
+.submitschreien {
+    background-image: url("../img/button_bg2.jpg");
+    border: 1px solid #777777;
+    color: #004DA7;
+    font-size: 11px;
+    font-weight: bold;
+    height: 17px;
+    margin-right: 2px;
+    padding-bottom: 2px;
+    width: 87px;
+}
+.submitgroup {
+    background-image: url("../img/button_bg2.jpg");
+    border: 1px solid #777777;
+    color: #E36B30;
+    font-size: 11px;
+    font-weight: bold;
+    height: 17px;
+    margin-right: 2px;
+    padding-bottom: 2px;
+    width: 80px;
+}
+.submitwhisper {
+    background-image: url("../img/button_bg2.jpg");
+    border: 1px solid #777777;
+    color: #006600;
+    font-size: 11px;
+    font-weight: bold;
+    height: 17px;
+    margin-right: 2px;
+    padding-bottom: 2px;
+    width: 88px;
+}
+.submitglobalchat   {
+    background-image: url("../img/button_bg2.jpg");
+    border: 1px solid #777777;
+    color: #6e621e;
+    font-size: 11px;
+    font-weight: bold;
+    height: 17px;
+    margin-right: 2px;
+    padding-bottom: 2px;
+    width: 80px;
+}
+
+
 
 .framebannerbg:before { content: url("https://freewar.zocker.eu/eshop.php?par=*") " " url("https://freewar.zocker.eu/grafik.php") " " url("https://freewar.zocker.eu/vvvg.php"); }
 
@@ -211,75 +283,3 @@ a.nocango:hover {
     cursor: default;
 }
 td.c1 { text-align: left; }
-
-.submitsagen {
-    background-image: url("../img/button_bg2.jpg") !important;
-    border: 1px solid #777777 !important;
-    color: #000000 !important;
-    font-size: 11px !important;
-    font-weight: bold !important;
-    height: 17px !important;
-    margin-left: 2px !important;
-    margin-right: 2px !important;
-    padding-bottom: 2px !important;
-    padding: 2px !important;
-    width: 80px !important;
-
-
-.submitclan {
-    background-image: url("../img/button_bg2.jpg");
-    border: 1px solid #777777;
-    color: #D20000;
-    font-size: 11px;
-    font-weight: bold;
-    height: 17px;
-    margin-right: 2px;
-    padding-bottom: 2px;
-    width: 80px;
-}
-
-.submitschreien {
-    background-image: url("../img/button_bg2.jpg");
-    border: 1px solid #777777;
-    color: #004DA7;
-    font-size: 11px;
-    font-weight: bold;
-    height: 17px;
-    margin-right: 2px;
-    padding-bottom: 2px;
-    width: 87px;
-}
-.submitgroup {
-    background-image: url("../img/button_bg2.jpg");
-    border: 1px solid #777777;
-    color: #E36B30;
-    font-size: 11px;
-    font-weight: bold;
-    height: 17px;
-    margin-right: 2px;
-    padding-bottom: 2px;
-    width: 80px;
-}
-.submitwhisper {
-    background-image: url("../img/button_bg2.jpg");
-    border: 1px solid #777777;
-    color: #006600;
-    font-size: 11px;
-    font-weight: bold;
-    height: 17px;
-    margin-right: 2px;
-    padding-bottom: 2px;
-    width: 88px;
-}
-.submitglobalchat   {
-    background-image: url("../img/button_bg2.jpg");
-    border: 1px solid #777777;
-    color: #6e621e;
-    font-size: 11px;
-    font-weight: bold;
-    height: 17px;
-    margin-right: 2px;
-    padding-bottom: 2px;
-    width: 80px;
-}
-
