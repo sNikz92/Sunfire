@@ -160,7 +160,7 @@ h1 {
 }
 */
 
-/*input {
+input {
     color: var(--global_font);
     margin: 1px 0px 1px 0px;
     font-size: 11px;
@@ -168,7 +168,7 @@ h1 {
     height: 17px;
     border: 1px solid #C85424;
     max-width: 94%;
-}*/
+}
 
 input[type="checkbox"],
 input[type="radio"] {
