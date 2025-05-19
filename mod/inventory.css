@@ -95,11 +95,11 @@ img.areaimg {
 /* portalmaschine */
 button[name="voreinstellung"]  {
     font-size: 8px;
-    height: 24px;
-    width: 24px;
-    background-color: var(--area_bg);
-    border: 2px solid var(--border);
+    height: 16px;
+    width: 16px;
+    background-color: #FFECD3;
+    border: 1px solid #C85424;
     color: var(--global_font);
-    margin-left: 2px;
+    margin-left: 10px;
     translate: 0 -2px;
 }
