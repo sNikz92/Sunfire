@@ -38,6 +38,7 @@ p.listitemrow > a[href*="arrive_eval=itemabgabe2"] {
     padding: 2px;
     padding-left: 5px;
     border: 1px solid #D6CBC2;
+    background-color: var(--grey_bg);
 }
 
 .itemamount {
