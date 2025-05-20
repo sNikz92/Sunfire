@@ -101,23 +101,29 @@ p.maincaption2 { font-size: 12px; }
 .personlistcaption,
 .itemlistcaption { display: none; }
 
+.personlistcaption,
+.itemlistcaption { display: none; }
+
 .listusersrow,
 .playerrow,
 .npcrow,
 .listplaceitemsrow {
-    background-color: var(--grey_bg);
     padding: 5px;
+    background-color: var(--grey_bg);
     border: var(--border);
+    background-color:  
+    overflow: hidden;
 }
 
-/*.npcrow { max-width: calc(100% - 122px); }*/
+.npcrow { max-width: calc(100% - 122px); }
 
-/*.playerrow { max-width: calc(100% - 12px); }*/
+.playerrow { max-width: calc(100% - 12px); }
 
 .listplaceitemsrow,
 .npctypeGruppenNPC,
 .npctypeUniqueNPC,
-.npctypeOther { width: calc(100% + 60px + .5em);; }
+.npctypeOther { max-width: calc(100% - 70px); }
+
 
 /* angreifen + item aufnehmen + ernten an gleicher position */
 table.areadescription + br + table + br { display: none; }
