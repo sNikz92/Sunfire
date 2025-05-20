@@ -213,7 +213,7 @@ h1 {
     width: 80px;
 }
 .submitwhisper {
-    background-image: url("/img/button_bg2.jpg");
+    background-image: url("img/button_bg2.jpg");
     border: 1px solid #777777;
     color: #006600;
     font-size: 11px;
