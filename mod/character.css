@@ -43,14 +43,14 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
 }
 #listrow_char_mission > a[href="ability.php"]:before {
     content: "Charas ";
-    font-size: 12px;
+    font-size: 11px;
     color: var(--linkcolor);
 }
 #listrow_char_mission > a[href="ability.php"] > span {
     border: 2px solid transparent !important;
     margin-top: -8px;
-    height: 1.1em !important;
-    width: 1.1em !important;
+    height: 0.9em !important;
+    width: 0.9em !important;
 }
 #listrow_char_mission > a:last-of-type,
 #listrow_aka_battlep b:last-of-type:not(:first-of-type) {
@@ -60,7 +60,7 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
 #listrow_char_mission > a:last-of-type::before {
     color: var(--linkcolor);
     content: "Auftrag";
-    font-size: 12px;
+    font-size: 11px;
     padding-right: 5px;
 }
 /* todo */
@@ -122,7 +122,7 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
 }
 #listrow_special > a#link_tower::before {
     content: "Turm";
-    color: #69c;
+    color: var(--linkcolor);
     font-size: var(--global_font-size);
     padding-left: 1px;
 }
