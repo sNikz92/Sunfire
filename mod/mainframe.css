@@ -117,7 +117,7 @@ p.maincaption2 { font-size: 12px; }
 .listplaceitemsrow,
 .npctypeGruppenNPC,
 .npctypeUniqueNPC,
-.npctypeOther { max-width: calc(100% - 70px); }
+.npctypeOther { width: calc(100% + 60px + .5em);; }
 
 /* angreifen + item aufnehmen + ernten an gleicher position */
 table.areadescription + br + table + br { display: none; }
