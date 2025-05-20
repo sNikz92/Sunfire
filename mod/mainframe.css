@@ -126,22 +126,6 @@ table.areadescription + br + table + br + style + table + br { display: none; }
 table.areadescription + br + table + br + table + br + table + br { display: none; }
 table.areadescription + br + table + br + style + table + br + style + table + br { display: none; }
 
-
-.listusersrow.npcrow {
-  position: relative;
-  padding-right: 100px; /* Platz für Buttons */
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.listusersrow.npcrow .fastattack,
-.listusersrow.npcrow .fastchase {
-  position: absolute;
-  right: 5px;
-  top: 5px;
-  white-space: nowrap;
-}
-
 /*
 .playerrow + .playerrow,
 .listplaceitemsrow + .listplaceitemsrow { border-top: 0px; }
