@@ -120,6 +120,12 @@ table {
     width: 100%;
 }
 
+table.friendlist {
+  width: auto;       
+  max-width: 300px;    
+  margin: 0 auto;  
+}
+
 a:link    {
     color: var(--linkcolor);
     text-decoration: none;
