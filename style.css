@@ -245,7 +245,7 @@ h1 {
 }
 
 .framemapbg { 
-    margin: 10 0 10 0;
+    margin: 10px;
     background-image: var(--itemframe_bg);
 }
 .framemenubg { 
