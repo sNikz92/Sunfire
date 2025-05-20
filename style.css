@@ -163,7 +163,7 @@ h1 {
 /* forms */
     .input          { font-size: 11px; background-color: #FFECD3; height: 17px; border: 1px solid #C85424; }
     textarea        { font-size: 12px; background-color: #FFECD3; border: 1px solid #C85424; }
-    select          { font-size: 11px; background-color: #DBEBEF; }
+    select          { font-size: 11px; background-color: #DBEBEF; height: 30; margin-bottom: 10; width: -moz-available; text-decoration: bold; font-weight: bold; margin-top: 5px; }
 
 /* chat buttons */
 .submitsagen {
