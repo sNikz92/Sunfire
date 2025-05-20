@@ -101,12 +101,16 @@ p.maincaption2 { font-size: 12px; }
 .personlistcaption,
 .itemlistcaption { display: none; }
 
+.personlistcaption,
+.itemlistcaption { display: none; }
+
 .listusersrow,
 .playerrow,
 .npcrow,
 .listplaceitemsrow {
     padding: 5px;
-    border: 1px solid var(--border);
+    background-color: var(--grey_bg);
+    border: var(--border);
     background-color:  
     overflow: hidden;
 }
@@ -120,6 +124,7 @@ p.maincaption2 { font-size: 12px; }
 .npctypeUniqueNPC,
 .npctypeOther { max-width: calc(100% - 70px); }
 
+
 /* angreifen + item aufnehmen + ernten an gleicher position */
 table.areadescription + br + table + br { display: none; }
 table.areadescription + br + table + br + table + br { display: none; }
@@ -132,8 +137,8 @@ table.areadescription + br + table + br + style + table + br + style + table + b
 .listplaceitemsrow + .listplaceitemsrow { border-top: 0px; }
 */
 
-.listusersrow > b,
-.areadescription > b { color: var(--npc_highlight) }
+/*.listusersrow > b,
+.areadescription > b { color: var(--npc_highlight) }*/
 
 /* schließfach */
 tr.listbankrow > td {  }
@@ -188,10 +193,10 @@ font[color="#ff0000"] { color: var(--color_healthcritical); }
     translate: 0px -6px;
     width: 30px;
     height: 30px;
-    background: var(--itemframe_bg);
+    background: var(--grey_bg);
     padding: 5px;
     line-height: 1;
-    border: 1px solid var(--border);
+    border: var(--border);
     border-right-width: 0;
     border-radius: 5px 0 0 5px;
     text-align: center;
@@ -256,17 +261,14 @@ td[style*="/map/ixi19.jpg"] a{
 
 img[src*="npc"],
 img[src*="plant"] {
-    border: 2px inset #333;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    margin-right: .2rem;
+    max-width: 80%;
 }
 
-img[src*="npcs"] { background: var(--color_npc_bg); }
+/*img[src*="npcs"] { background: var(--color_npc_bg); }
 
 img[src*="plant"] { background: var(--color_plant_bg); }
 
-img[src*="/npcs/pha"] { background: var(--color_phase_bg); }
+img[src*="/npcs/pha"] { background: var(--color_phase_bg); }*/
 
 /*gigantische */
 img[src$="spindel.gif"] { background: rgba(255, 113, 113, 0.71) !important; }
@@ -289,8 +291,8 @@ form > input[name="ownstyle"] { width: 100%; }
     margin-top: 1px;
 }
 .friendlist tr {
-    background-color: var(--area_bg);
-    border: 1px solid var(--border);
+    background-color: var(--grey_bg);
+    border: var(--border);
 }
 .friendlist td {
     padding: 2px;
@@ -308,7 +310,7 @@ form > input[name="ownstyle"] { width: 100%; }
 */
 
 /* fix quest color */
-.framemainbg > svg { background-color: var(--global_font); }
+/*.framemainbg > svg { background-color: var(--global_font); }*/
 
 /* UK fix */
 .ukbar { background: var(--mainheader_bg) !important; }
