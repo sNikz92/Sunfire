@@ -123,7 +123,6 @@ table {
 table.friendlist {
   width: auto;       
   max-width: 300px;    
-  margin: 0 auto;  
 }
 
 a:link    {
