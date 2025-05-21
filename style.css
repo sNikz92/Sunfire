@@ -120,6 +120,9 @@ table {
     width: 100%;
 }
 
+.listrow > table:has(td:first-child:not(:has(img))) {
+  width: auto;
+
 table.friendlist {
   width: auto;       
   max-width: 300px;    
