@@ -91,15 +91,14 @@ p.maincaption2 { font-size: 12px; }
 }
 }
 
-.framemainbg > table:not(.framemainbg > table.friendlist) { width: 100% !important; }
+.framemainbg > table:not(.friendlist) {
+    width: 100% !important;
+}
 
 #personlisttd {
     padding: 0 !important;
-    max-width: 100%;
+    width: 100%; /* oder max-width je nach Bedarf */
 }
-
-.personlistcaption,
-.itemlistcaption { display: none; }
 
 .listusersrow,
 .playerrow,
@@ -107,19 +106,25 @@ p.maincaption2 { font-size: 12px; }
 .listplaceitemsrow {
     padding: 5px;
     background-color: var(--grey_bg);
-    border: var(--border); 
+    border: var(--border);
     overflow: hidden;
+    box-sizing: border-box;
 }
 
-.npcrow { max-width: calc(100% - 122px); }
+.npcrow {
+    max-width: calc(100% - 122px);
+}
 
-.playerrow { max-width: calc(100% - 12px); }
+.playerrow {
+    max-width: calc(100% - 12px);
+}
 
 .listplaceitemsrow,
 .npctypeGruppenNPC,
 .npctypeUniqueNPC,
-.npctypeOther { max-width: calc(100% - 70px); }
-
+.npctypeOther {
+    max-width: calc(100% - 70px);
+}
 
 /* angreifen + item aufnehmen + ernten an gleicher position */
 table.areadescription + br + table + br { display: none; }
