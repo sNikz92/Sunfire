@@ -77,7 +77,7 @@ p.listitemrow > a[href*="arrive_eval=itemabgabe2"] {
 }
 #searchtdel {
     right: 5px !important;
-    bottom: calc(26px / 2 - 5px) !important;
+    bottom: calc(26px / 3 - 5px) !important;
 }
 
 table[id^="fastspell"] { margin-top: -1px; }
