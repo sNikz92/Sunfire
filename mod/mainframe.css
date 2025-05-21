@@ -89,7 +89,9 @@ p.maincaption2 { font-size: 12px; }
     border-top: 1px;
     width: 300px;
 }
-}
+
+.personlistcaption,
+.itemlistcaption { display: none; }
 
 .framemainbg > table:not(.friendlist) {
     width: 100% !important;
