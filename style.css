@@ -120,19 +120,6 @@ table {
     width: 100%;
 }
 
-td > img {
-  height: 48px;
-  vertical-align: top;
-  margin-right: 6px;
-}
-
-td:first-child > img {
-  height: 48px;
-  width: auto;
-  vertical-align: top;
-}
-
-
 table.friendlist {
   width: auto;       
   max-width: 300px;    
