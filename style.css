@@ -114,16 +114,15 @@ p, ul, ol, body:not(.framemapbg) div, td, span, table, body {
 
 ol, ul { margin-left: 25px; }
 
-table {
+/*table {
     border: 0px;
     border-collapse: collapse;
-    width: 100%;
-}
+    width: 100%; 
+} */
 
 table.friendlist {
   width: auto;       
   max-width: 300px;    
-  margin: 0 auto;  
 }
 
 a:link    {
