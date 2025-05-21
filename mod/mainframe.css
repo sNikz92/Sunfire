@@ -91,7 +91,7 @@ p.maincaption2 { font-size: 12px; }
 }
 }
 
-.framemainbg > table:not(.framemainbg > table.friendlist) { width: 100%; }
+.framemainbg > table:not(.framemainbg > table.friendlist) { width: 100% !important; }
 
 #personlisttd {
     padding: 0 !important;
