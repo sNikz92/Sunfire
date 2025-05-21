@@ -110,7 +110,8 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
     font-size: 0;
 }
 #listrow_special > a#link_special::before {
-    content: "Spezi";
+    content: "Special";
+    font-size: 11px;
     color: var(--linkcolor);
     font-size: var(--global_font-size);
 }
@@ -122,6 +123,7 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
 }
 #listrow_special > a#link_tower::before {
     content: "Turm";
+    font-size: 11px;
     color: var(--linkcolor);
     font-size: var(--global_font-size);
     padding-left: 1px;
@@ -129,6 +131,7 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
 #listrow_special > span > a#link_towereffect {
     vertical-align: middle;
     margin-left: -1px;
+    font-size: 11px;
 }
 
 #listrow_lifep > b,
