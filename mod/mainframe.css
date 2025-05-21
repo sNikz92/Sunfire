@@ -101,17 +101,13 @@ p.maincaption2 { font-size: 12px; }
 .personlistcaption,
 .itemlistcaption { display: none; }
 
-.personlistcaption,
-.itemlistcaption { display: none; }
-
 .listusersrow,
 .playerrow,
 .npcrow,
 .listplaceitemsrow {
     padding: 5px;
     background-color: var(--grey_bg);
-    border: var(--border);
-    background-color:  
+    border: var(--border); 
     overflow: hidden;
 }
 
