@@ -167,7 +167,14 @@ h1 {
 */
 
 /* forms */
-    .input          { font-size: 11px; background-color: #FFECD3; height: 17px; border: 1px solid #C85424; }
+    .input          { 
+        font-size: 11px; 
+        background-color: #FFECD3;
+        border: 1px solid #C85424;
+        height: 25px;
+        width: 105px;
+        font-size: 12px;
+    }
     textarea        { font-size: 12px; background-color: #FFECD3; border: 1px solid #C85424; }
     select          { 
         font-size: 12px; 
