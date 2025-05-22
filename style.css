@@ -167,7 +167,7 @@ h1 {
 */
 
 /* forms */
-    .input          { 
+    input          { 
         font-size: 11px; 
         background-color: #FFECD3;
         border: 1px solid #C85424;
