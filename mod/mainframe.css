@@ -71,12 +71,14 @@ p.maincaption2 {
 }
 
 p.maincaption2 { font-size: 12px; }
-.maindesc1,
+
 .maindesc2 {
-    border: 1px solid var(--border);
-    background-color: var(--grey_bg);
+    border: 1px solid #FFDAA9;
+    background-color: #FFF8EF;
     width: 100%;
 }
+
+
     p.maindesc1 {
     padding: 2px;
     padding-left: 2px;
