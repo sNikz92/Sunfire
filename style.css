@@ -188,6 +188,11 @@ h1 {
         border-radius: 5px;
     }
 
+#chatscroll {
+  width: 15px;
+  height: 15px;
+}
+
 /* chat buttons */
 .submitsagen {
     background-image: url("img/button_bg2.jpg");
