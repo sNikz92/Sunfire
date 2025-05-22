@@ -242,7 +242,7 @@ h1 {
     margin-right: 2px;
     padding-bottom: 2px;
     width: 80px;
-    border-radius: none;
+    border-radius: 0;
 }
 .submitwhisper {
     background-image: url("img/button_bg2.jpg");
