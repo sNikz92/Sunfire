@@ -173,8 +173,8 @@ h1 {
         font-size: 12px; 
         background-color: #FFECD3;
         border: 1px solid #C85424;
-        height: 35; 
-        margin-bottom: 10; 
+        height: 30; 
+        margin-bottom: 5px; 
         width: -moz-available;  
         margin-top: 5px; 
     }
