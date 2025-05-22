@@ -177,7 +177,7 @@ h1 {
         border-radius: 5px
     }
     textarea        { font-size: 12px; background-color: #FFECD3; border: 1px solid #C85424; }
-    select          { 
+   /* select          { 
         font-size: 12px; 
         background-color: #FFECD3;
         border: 1px solid #C85424;
@@ -185,7 +185,7 @@ h1 {
         margin-bottom: 5px; 
         width: -moz-available;  
         margin-top: 5px; 
-        border-radius: 5px;
+        border-radius: 5px; */
     }
 
 #chatscroll {
