@@ -174,6 +174,7 @@ h1 {
         height: 25px;
         width: 105px;
         font-size: 12px;
+        border-radius: 5px
     }
     textarea        { font-size: 12px; background-color: #FFECD3; border: 1px solid #C85424; }
     select          { 
