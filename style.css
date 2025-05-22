@@ -205,6 +205,7 @@ h1 {
     margin-right: 2px;
     padding-bottom: 2px;
     width: 80px;
+    border-radius: 0;
 }
 .submitclan {
     background-image: url("img/button_bg2.jpg");
@@ -216,7 +217,7 @@ h1 {
     margin-right: 2px;
     padding-bottom: 2px;
     width: 80px;
-    border-radius: none;
+    border-radius: 0;
 }
 
 .submitschreien {
@@ -229,7 +230,7 @@ h1 {
     margin-right: 2px;
     padding-bottom: 2px;
     width: 87px;
-    border-radius: none;
+    border-radius: 0;
 }
 .submitgroup {
     background-image: url("img/button_bg2.jpg");
@@ -253,6 +254,7 @@ h1 {
     margin-right: 2px;
     padding-bottom: 2px;
     width: 88px;
+    border-radius: 0;
 }
 .submitglobalchat   {
     background-image: url("img/button_bg2.jpg");
@@ -264,7 +266,7 @@ h1 {
     margin-right: 2px;
     padding-bottom: 2px;
     width: 80px;
-    border-radius: none;
+    border-radius: 0;
 }
 
 .framechattextbg {
