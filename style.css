@@ -46,7 +46,7 @@
     --npc_highlight: #9c6;
     --blauer_indicator: #c63;
 } */
-:root {
+ :root {
     --primary: #F8F8F8;
     --chat_bg: #F8F8F8;
     /*Grauer Hintergrund*/
@@ -54,7 +54,7 @@
     --grey_bg: #ECE9E6;
 
     /*Inventar Hintergrund*/
-    --itemframe_bg: url("img/itembg.jpg");
+    /*--itemframe_bg: url("img/itembg.jpg");
     
     --area_bg: #FFF8EF;
     --area_bg_border: 1px solid #FFDAA9;
