@@ -101,6 +101,9 @@
     --blauer_indicator: #c63;
 }
 
+a:hover {
+    text-decoration: underline !important;
+}
 
 .framebannerbg:before { content: url("https://freewar.zocker.eu/eshop.php?par=*") " " url("https://freewar.zocker.eu/grafik.php") " " url("https://freewar.zocker.eu/vvvg.php"); }
 
