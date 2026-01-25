@@ -109,7 +109,7 @@ a:hover {
 
 p, ul, ol, body:not(.framemapbg) div, td, span, table, body {
     font-family: Arial, helvetica, sans-serif; 
-    font-size: 0.775rem; 
+    font-size: 0.760rem; 
     color: var(--global_font);
     margin: 0px;
     padding: 0px;
