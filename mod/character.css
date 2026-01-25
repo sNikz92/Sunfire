@@ -123,6 +123,15 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
   vertical-align: middle !important;
 }
 
+#listrow_special a[href^="item.php?action=specialcooldown"]{
+  width: 0.85em !important;
+  height: 0.85em !important;
+  border-width: 2px !important;   /* optional dünner */
+  box-sizing: border-box !important;
+  vertical-align: middle !important;
+}
+
+
 #listrow_special > a#link_tower::before {
     content: "Turm";
     font-size: 11px !important;
