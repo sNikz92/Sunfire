@@ -127,6 +127,53 @@ table.friendlist {
   width: auto;       
   max-width: 300px;    
 }
+/* --- Schnellzauber-Set: Fix (nur table[id^="fastspell"]) --- */
+
+table[id^="fastspell"] {
+    position: relative;
+}
+
+/* "Schnellzauber-Set:" ausblenden */
+table[id^="fastspell"] td:first-child b {
+    display: none;
+}
+
+/* Neues Label davor setzen */
+table[id^="fastspell"] td:first-child::before {
+    content: "SZ-Set:";
+    font-weight: bold;
+    padding-left: 75px;
+    white-space: nowrap;
+}
+
+/* Heim [1][2][3] links positionieren */
+table[id^="fastspell"] td:nth-child(2) {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    white-space: nowrap;
+}
+
+/* Farbe für Heimzauber 1-3 */
+table[id^="fastspell"] td:nth-child(2) a#accessfastheim[title^="1 Heimzauber"],
+table[id^="fastspell"] td:nth-child(2) a#accessfastheim[title^="2 Heimzauber"],
+table[id^="fastspell"] td:nth-child(2) a#accessfastheim[title^="3 Heimzauber"] {
+    color: #fdae1c;
+}
+
+/* rechte Links/Buttons nach rechts setzen */
+table[id^="fastspell"] td:last-child {
+    position: absolute;
+    left: 130px;
+    top: 0;
+    white-space: nowrap;
+}
+
+/* Zeilenhöhe stabilisieren */
+table[id^="fastspell"] tr {
+    height: 18px;
+}
+
 
 a:link    {
     color: var(--linkcolor);
