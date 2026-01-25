@@ -145,6 +145,37 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
     font-size: 11px !important;
 }
 
+/* Spezi | Kreis | Turm alles auf gleiche Höhe / mittig */
+#listrow_special{
+  display: flex !important;
+  align-items: center !important;   /* <- das ist die Magie */
+  gap: 4px;
+  line-height: 1 !important;
+}
+
+/* die Trenner auch mittig */
+#listrow_special > span#seperator_tower{
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
+/* Circle(s) exakt mittig */
+#listrow_special a[href^="item.php?action=special"],
+#listrow_special a[href^="item.php?action=specialcooldown"]{
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  vertical-align: middle !important;
+}
+
+/* Turm-Effekt Icon (♜ oder Sanduhr) ebenfalls mittig */
+#listrow_special #info_tower,
+#listrow_special #link_towereffect{
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
+
 #listrow_lifep > b,
 #listrow_int > b,
 #listrow_attackp > b,
