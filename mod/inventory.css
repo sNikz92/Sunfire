@@ -73,7 +73,6 @@ p.listitemrow > a[href*="arrive_eval=itemabgabe2"] {
 }
 #filterrow span {
     padding-top: 4px; 
-    width: 250px !important;
 }
 #searchtdel {
     right: 5px !important;
