@@ -115,11 +115,12 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
     color: var(--linkcolor);
     font-size: var(--global_font-size);
 }
-#listrow_special > a#link_special > span {
-    border: 2px solid transparent !important;
-    margin-top: -8px;
-    height: 0.85em !important;
-    width: 0.85em !important;
+#listrow_special > span > a[href^="item.php?action=special"]{
+  width: 0.85em !important;
+  height: 0.85em !important;
+  border: 2px solid transparent !important;
+  box-sizing: border-box !important;
+  vertical-align: middle !important;
 }
 
 #listrow_special > a#link_tower::before {
