@@ -118,9 +118,10 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
 #listrow_special > a#link_special > span {
     border: 2px solid transparent !important;
     margin-top: -8px;
-    height: 1.04em !important;
-    width: 1.04em !important;
+    height: 0.85em !important;
+    width: 0.85em !important;
 }
+
 #listrow_special > a#link_tower::before {
     content: "Turm";
     font-size: 11px !important;
