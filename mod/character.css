@@ -167,6 +167,16 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
 
   transform: translateY(-3px) !important; /* ggf. -2px / -4px */
 }
+/* Abstand zwischen "Spezi" und Circle */
+#listrow_special > span:first-of-type{
+  margin-left: 6px !important;   /* ggf. 5–7px feinjustieren */
+}
+
+/* Ganze Spezi-Zeile etwas nach rechts schieben */
+#listrow_special{
+  padding-left: 6px !important;  /* verschiebt Spezi + Circle + Turm */
+}
+
 
 
 #listrow_lifep > b,
