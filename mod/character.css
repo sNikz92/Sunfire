@@ -186,17 +186,12 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
   line-height: 1 !important;
 }
 /*bishier*/
-
-/* Abstand zwischen "Spezi" und Circle */
-#listrow_special > span {
-  margin-left: 6px;              /* Abstand nach Spezi */
-}
-
-/* Circle vertikal anheben */
-#listrow_special > span > a {
-  vertical-align: middle;
-  position: relative;
-  top: -3px;                     /* nach oben schieben */
+/* Text + Circle exakt auf eine Höhe bringen */
+#listrow_special,
+#listrow_char_mission {
+  display: flex;
+  align-items: center;   /* DAS ist das echte Vertikal-Zentrieren */
+  gap: 6px;              /* Abstand zwischen Text und Circle */
 }
 
 
