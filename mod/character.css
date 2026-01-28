@@ -194,6 +194,11 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
   gap: 6px;              /* Abstand zwischen Text und Circle */
 }
 
+#listrow_special {
+  display: flex;
+  align-items: baseline;   /* Text bleibt exakt auf Linie */
+  gap: 6px;
+}
 
 
 #listrow_lifep > b,
