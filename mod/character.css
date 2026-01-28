@@ -73,6 +73,10 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
     right: 2px;
 }
 
+#listrow_clan{
+  margin-top: 14px !important;   /* schiebt Clan + Pfeile nach unten */
+}
+
 #listrow_clan { padding-top: 2px; }
 
 #listrow_money {
