@@ -187,6 +187,19 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
 }
 /*bishier*/
 
+/* Abstand zwischen "Spezi" und Circle */
+#listrow_special > span {
+  margin-left: 6px;              /* Abstand nach Spezi */
+}
+
+/* Circle vertikal anheben */
+#listrow_special > span > a {
+  vertical-align: middle;
+  position: relative;
+  top: -3px;                     /* nach oben schieben */
+}
+
+
 
 #listrow_lifep > b,
 #listrow_int > b,
