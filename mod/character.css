@@ -205,6 +205,26 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
   top: -2px !important;
 }
 
+/* Zeile stabilisieren (verhindert, dass der Circle "nach unten zieht") */
+#listrow_special{
+  line-height: 1 !important;
+}
+
+/* Abstand nach Spezi */
+#listrow_special > span{
+  margin-left: 6px !important;
+}
+
+/* Circle(s) zuverlässig nach oben schieben */
+#listrow_special > span > a[href^="item.php?action=special"],
+#listrow_special > span > a[href^="item.php?action=specialcooldown"]{
+  display: inline-block !important;
+  vertical-align: middle !important;
+
+  transform: translateY(-3px) !important; /* <- höher */
+}
+
+
 
 #listrow_lifep > b,
 #listrow_int > b,
