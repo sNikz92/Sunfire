@@ -144,67 +144,29 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
     margin-left: -1px;
     font-size: 11px !important;
 }
-/*bishier*/
+/* ===== Spezi: Kreis wie bei Charas ausrichten ===== */
 
-#listrow_special > span,
-#listrow_special > a#link_tower,
-#listrow_special > span#info_tower {
-  display: inline-flex !important;
-  align-items: center !important;
-  vertical-align: middle !important;
-  line-height: 1 !important;
-}
-
-/* Circle(s) mittig + optional kleiner */
-#listrow_special > span > a[href^="item.php?action=special"],
-#listrow_special > span > a[href^="item.php?action=specialcooldown"]{
-  display: inline-flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  vertical-align: middle !important;
-
-  /* optional: Größe */
-  width: 0.85em !important;
-  height: 0.85em !important;
-  border-width: 2px !important;
-  box-sizing: border-box !important;
-}
-
-/* Separator ' | ' ebenfalls mittig */
-#listrow_special > span#seperator_tower{
-  display: inline-flex !important;
-  align-items: center !important;
-  line-height: 1 !important;
-}
-
-/* Turm-Icon (♜ / Sanduhr) mittig */
-#listrow_special #link_towereffect{
-  display: inline-flex !important;
-  align-items: center !important;
-  vertical-align: middle !important;
-  line-height: 1 !important;
-}
-/*bishier*/
-/* Special-Zeile normal lassen */
 #listrow_special{
-  display: block !important;
+  line-height: 1.1 !important;
 }
 
-/* Abstand zwischen "Spezi" und Circle */
-#listrow_special > span{
+/* Abstand zwischen "Spezi" und Kreis */
+#listrow_special > span:first-of-type{
   margin-left: 6px !important;
 }
 
-/* Circle sauber auf Textmitte bringen */
-#listrow_special > span > a[href^="item.php?action=special"],
-#listrow_special > span > a[href^="item.php?action=specialcooldown"]{
+/* Kreis (special + specialcooldown) */
+#listrow_special a[style*="border-radius: 50%"]{
   display: inline-block !important;
   vertical-align: middle !important;
-  position: relative !important;
-  top: -2px !important;
+
+  width: 0.9em !important;
+  height: 0.9em !important;
+  border-width: 2px !important;
+  box-sizing: border-box !important;
+
+  transform: translateY(-3px) !important; /* ggf. -2px / -4px */
 }
-
-
 
 
 #listrow_lifep > b,
