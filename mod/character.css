@@ -181,6 +181,10 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
   padding-left: 6px !important;  /* verschiebt Spezi + Circle + Turm */
 }
 
+/* Einheitlicher Abstand zwischen "Spezi" und Circle – normal + cooldown */
+#listrow_special a[style*="border-radius: 50%"]{
+  margin-left: 6px !important;
+}
 
 
 #listrow_lifep > b,
