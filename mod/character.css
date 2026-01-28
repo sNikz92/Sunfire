@@ -186,18 +186,23 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
   line-height: 1 !important;
 }
 /*bishier*/
-/* Text + Circle exakt auf eine Höhe bringen */
-#listrow_special,
-#listrow_char_mission {
-  display: flex;
-  align-items: center;   /* DAS ist das echte Vertikal-Zentrieren */
-  gap: 6px;              /* Abstand zwischen Text und Circle */
+/* Special-Zeile normal lassen */
+#listrow_special{
+  display: block !important;
 }
 
-#listrow_special {
-  display: flex;
-  align-items: baseline;   /* Text bleibt exakt auf Linie */
-  gap: 6px;
+/* Abstand zwischen "Spezi" und Circle */
+#listrow_special > span{
+  margin-left: 6px !important;
+}
+
+/* Circle sauber auf Textmitte bringen */
+#listrow_special > span > a[href^="item.php?action=special"],
+#listrow_special > span > a[href^="item.php?action=specialcooldown"]{
+  display: inline-block !important;
+  vertical-align: middle !important;
+  position: relative !important;
+  top: -2px !important;
 }
 
 
