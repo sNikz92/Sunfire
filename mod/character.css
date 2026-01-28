@@ -114,7 +114,7 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
     font-size: 0;
 }
 #listrow_special > a#link_special::before {
-    content: "Spezi";
+    content: "Special";
     font-size: 11px !important;
     color: var(--linkcolor);
     font-size: var(--global_font-size);
