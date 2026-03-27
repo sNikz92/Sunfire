@@ -96,7 +96,7 @@ p.maincaption2 { font-size: 12px; }
 .itemlistcaption { display: none; }
 
 .framemainbg > table:not(.friendlist) {
-    width: 100% !important;
+    width: auto !important;
 }
 
 #personlisttd {
