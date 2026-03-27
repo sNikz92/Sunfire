@@ -323,30 +323,3 @@ form > input[name="ownstyle"] { width: 100%; }
 
 /* itemfilter */
 table.customfilters td { background-color: var(--area_bg); }
-
-/* nur Tabellen, die wirklich schmal sein sollen */
-.framemainbg > table.whisperplayer,
-.framemainbg > table.friendlist {
-    width: auto !important;
-}
-
-/* Standard im Mainframe wieder breit */
-.framemainbg > table {
-    width: 100% !important;
-}
-
-/* NPC-/Personenbereich */
-#personlisttd {
-    width: 100% !important;
-    padding: 0 !important;
-}
-
-#personlisttd > .listusersrow,
-#personlisttd > .playerrow,
-#personlisttd > .npcrow,
-#personlisttd > .listplaceitemsrow {
-    display: block;
-    width: 100% !important;
-    max-width: none !important;
-    box-sizing: border-box;
-}
