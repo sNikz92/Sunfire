@@ -362,3 +362,22 @@ table.whisperplayer {
     padding-right: 10px !important;
     font-weight: bold;
 }
+
+/* NPC-/Spieler-/Item-Zeilen im Personlist-Bereich auf volle Breite ziehen */
+#personlisttd > .listusersrow,
+#personlisttd > .playerrow,
+#personlisttd > .npcrow,
+#personlisttd > .listplaceitemsrow {
+    display: block;
+    width: 100% !important;
+    max-width: none !important;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#personlisttd > .listusersrow,
+#personlisttd > .playerrow,
+#personlisttd > .npcrow,
+#personlisttd > .listplaceitemsrow {
+    padding-right: 90px !important;
+}
