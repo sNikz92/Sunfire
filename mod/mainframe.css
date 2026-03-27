@@ -323,3 +323,43 @@ form > input[name="ownstyle"] { width: 100%; }
 
 /* itemfilter */
 table.customfilters td { background-color: var(--area_bg); }
+
+/* Standard: Tabellen in framemain nicht pauschal stretchen */
+.framemainbg > table:not(.friendlist):not(.areadescription):not(.whisperplayer) {
+    width: auto !important;
+    max-width: none !important;
+}
+
+/* Die Orts-/Mapbeschreibung soll voll breit bleiben */
+table.areadescription,
+.framemainbg > table.areadescription {
+    width: 100% !important;
+}
+
+/* Whisper-Tabelle nicht quetschen, aber auch nicht unnötig voll breit */
+table.whisperplayer {
+    width: auto !important;
+    border-collapse: separate !important;
+    border-spacing: 6px 0 !important;
+}
+
+/* Zeilenhintergrund für andere Whisper-Zeilen */
+.whisperplayer tr.other {
+    background-color: #f4f2f0;
+}
+
+/* Etwas Luft in den Whisper-Zellen */
+.whisperplayer td {
+    padding: 2px 6px !important;
+    white-space: nowrap;
+}
+
+/* Name und Zeit nicht zusammendrücken */
+.whisperplayer td.chattime {
+    padding-right: 8px !important;
+}
+
+.whisperplayer td.uname {
+    padding-right: 10px !important;
+    font-weight: bold;
+}
