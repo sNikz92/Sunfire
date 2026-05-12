@@ -123,7 +123,7 @@
 #mapx126y114 a::before,
 #mapx123y114 a::before,
 #mapx139y116 a::before,
-#mapx89y133 a::before
+#mapx89y133 a::before,
 #mapx103y136 a::before {
     content: "⚓";
     position: absolute;
