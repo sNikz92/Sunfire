@@ -29,6 +29,7 @@
 .frameitembg a.location[title="Terasi - Der Fluss"]:after { content: "66 111"; }
 .frameitembg a.location[title="Lodradon - Der organische Turm"]:after { content: "114 76"; }
 .frameitembg a.location[title="Terasi - Der rauschende Fluss"]:after { content: "73 126"; }
+.frameitembg a.location[title="Doma - Ufer der Ankunft"]:after { content: "97 125"; }
 
 /* falls goldene flöte verfügbar */
 .frameitembg a > img:after {
