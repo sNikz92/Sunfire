@@ -72,7 +72,7 @@
     position: absolute;
 }
 
-#mapx92y105 a::before {
+#mapx97y125 a::before,#mapx92y105 a::before {
     content:  url(../img/save__gzk.svg);
     position: absolute;
 }
