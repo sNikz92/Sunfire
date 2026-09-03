@@ -34,7 +34,7 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
 
 #listrow_char_mission {
     position: absolute;
-    margin-top: -14px;
+    margin-top: 30px;
     right: 10px;
 }
 #listrow_char_mission > a[href="ability.php"] {
