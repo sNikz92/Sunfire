@@ -565,3 +565,39 @@ p[title$=" 3%"]:after {
     color: var(--color_healthcritical) !important;
     font-size: 16px !important;
 }
+
+
+/* Character Sheet – Layout wie im dunklen Style */
+
+/* Charas / Auftrag neben Akademielimit */
+#listrow_char_mission {
+    position: absolute;
+    margin-top: -14px;
+    right: 10px;
+}
+
+/* Clan-Abstand */
+#listrow_clan {
+    margin-top: 0 !important;
+    padding-top: 2px;
+}
+
+/* Spezialfähigkeit zurück in den normalen Textfluss */
+#listrow_special {
+    position: static;
+    right: auto;
+    top: auto;
+    padding-left: 0 !important;
+    line-height: normal !important;
+}
+
+/* Zusätzliche Kreisverschiebungen zurücksetzen */
+#listrow_special > span:first-of-type {
+    margin-left: 0 !important;
+}
+
+#listrow_special a[style*="border-radius: 50%"] {
+    transform: none !important;
+    margin-left: 0 !important;
+}
+
