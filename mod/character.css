@@ -132,44 +132,6 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
     margin-left: -1px;
     font-size: 11px !important;
 }
-/* ===== Spezi: Kreis wie bei Charas ausrichten ===== */
-
-#listrow_special{
-  line-height: 1.1 !important;
-}
-
-/* Abstand zwischen "Spezi" und Kreis */
-#listrow_special > span:first-of-type{
-  margin-left: 6px !important;
-}
-
-/* Kreis (special + specialcooldown) */
-#listrow_special a[style*="border-radius: 50%"]{
-  display: inline-block !important;
-  vertical-align: middle !important;
-
-  width: 0.9em !important;
-  height: 0.9em !important;
-  border-width: 2px !important;
-  box-sizing: border-box !important;
-
-  transform: translateY(-3px) !important; /* ggf. -2px / -4px */
-}
-/* Abstand zwischen "Spezi" und Circle */
-#listrow_special > span:first-of-type{
-  margin-left: 6px !important;   /* ggf. 5–7px feinjustieren */
-}
-
-/* Ganze Spezi-Zeile etwas nach rechts schieben */
-#listrow_special{
-  padding-left: 6px !important;  /* verschiebt Spezi + Circle + Turm */
-}
-
-/* Einheitlicher Abstand zwischen "Spezi" und Circle – normal + cooldown */
-#listrow_special a[style*="border-radius: 50%"]{
-  margin-left: 6px !important;
-}
-
 
 #listrow_lifep > b,
 #listrow_int > b,
