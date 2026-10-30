@@ -29,25 +29,41 @@
 .frameitembg a.location[title="Terasi - Der Fluss"]:after { content: "66 111"; }
 .frameitembg a.location[title="Lodradon - Der organische Turm"]:after { content: "114 76"; }
 .frameitembg a.location[title="Terasi - Der rauschende Fluss"]:after { content: "73 126"; }
-.frameitembg a.location[title="Doma - Ufer der Ankunft"]:after { content: "97 125"; }
+.frameitembg a.location[title="Doma - Ufer der Ankunft"]:after { content: "97 125"; color: lime }
+.frameitembg a.location[title="Limm - Der Farnwald"]::after { content: "57 88"; }
+.frameitembg a.location[title="Das Grab von Reikan"]::after { content: "-798 -798"; font-size: 9px !important; }
+.frameitembg a.location[title="Die Kanalisation - Das Sammelbecken"]::after { content: "-785 -786"; font-size: 9px !important; }
+.frameitembg a.location[title="Die Ruine - Steine"]::after { content: "-803 -808"; font-size: 9px !important; }
+.frameitembg a.location[title="Latenia - Die Eishöhle"]::after { content: " -347 -693"; font-size: 9px !important; }
+.frameitembg a.location[title="Der unterirdische Lichtwald"]::after { content: "-599 -449"; font-size: 9px !important; }
+.frameitembg a.location[title="Die alte Mühle"]::after { content: "-823 -778"; font-size: 9px !important; }
+.frameitembg a.location[title="Der organische Turm"]::after { content: "-507 -377"; font-size: 9px !important; }
+.frameitembg a.location[title="Himmlischer Pavillon"]::after { content: "-629 -2507"; font-size: 8px !important; }
 
-/* falls goldene flöte verfügbar */
-.frameitembg a > img:after {
-	display: inline-block;
-	background: black;
-	color: var(--blauer_indicator);
-	width: 40px;
-	margin-right: -40px;
-	position: relative;
-	left: -47px;
-	top: -9px;
-	font-size: 10px;
-	font-weight: bold;
+
+/* Goldene Flöte - neue Version */
+.frameitembg > p.listrow > a[title="Laree"]::after,
+.frameitembg > p.listrow > a[title="Tal der Ruinen"]::after,
+.frameitembg > p.listrow > a[title="Wilisien"]::after,
+.frameitembg > p.listrow > a[title="Delos"]::after,
+.frameitembg > p.listrow > a[title="Mentoran"]::after,
+.frameitembg > p.listrow > a[title="Salthos"]::after {
+    display: inline-block;
+    background: black;
+    color: var(--blauer_indicator);
+    width: 50px;
+    margin-right: -45px;
+    position: relative;
+    left: -60px;
+    top: -12px;
+    font-size: 11px;
+    font-weight: bold;
 }
 
-.frameitembg a > img[alt="Laree"]:after { content: "55 76"; }
-.frameitembg a > img[alt="Tal der Ruinen"]:after { content: "92 99"; }
-.frameitembg a > img[alt="Wilisien"]:after { content: "111 83"; }
-.frameitembg a > img[alt="Delos"]:after { content: "66 90"; }
-.frameitembg a > img[alt="Mentoran"]:after { content: "99 118"; }
-.frameitembg a > img[alt="Salthos"]:after { content: "108 134"; }
+.frameitembg p.listrow > a[title="Laree"]::after { content: "55 76"; }
+.frameitembg p.listrow > a[title="Tal der Ruinen"]::after { content: "92 99"; }
+.frameitembg p.listrow > a[title="Wilisien"]::after { content: "111 83"; }
+.frameitembg p.listrow > a[title="Delos"]::after { content: "66 90"; }
+.frameitembg p.listrow > a[title="Mentoran"]::after { content: "99 118"; }
+.frameitembg p.listrow > a[title="Salthos"]::after { content: "108 134"; }
+
