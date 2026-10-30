@@ -205,6 +205,23 @@ p.worldsay tr[bgcolor="#FFAEA1"] td { background-color: var(--color_worldsay_sun
 .effektzeitkontrolle::after,
 .effektvollheilung::after { font-size: var(--chat_font-size); }
 
+/* Natlawürfel */
+.effektnatlawuerfel::before {
+    content: "Natlawürfel: " !important;
+}
+
+.effektnatlawuerfel::after,
+.effektnatlawuerfel b::after,
+.effektnatlawuerfel span.inspirationeffect::before,
+.effektnatlawuerfel span.inspirationeffect::after {
+    content: " " !important;
+}
+
+.effektnatlawuerfel b:first-of-type::after,
+.effektnatlawuerfel b.inspirationeffect::before {
+    content: " - " !important;
+}
+
 .effektgoldmuenzen::after { content: "Goldmünzen"; }
 .effektwissen::after { content: "Lernzeitverkürzung"; }
 .effektzeitkontrolle::after { content: "Zeitkontrolle"; }
