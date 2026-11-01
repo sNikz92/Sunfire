@@ -24,6 +24,12 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
     overflow: hidden;
     width: 18px;
 }
+
+#listrow_aka_battlep b::before {
+  content: "Aka: ";
+  font-size: 10px;
+}
+
 #listrow_aka_battlep b:last-of-type:not(:first-of-type):before {
     color: black;
     content: "KP: ";
