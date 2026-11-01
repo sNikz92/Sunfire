@@ -6,6 +6,10 @@ p.listcaption {
     background-image: url("../img/button_bg.jpg");
 }
 
+p.listitemrow a[href*="action=hselect&kette"] {
+    display: block;
+    font-size: 11px;
+}
 
 p.listitemrow {
     padding: 3px 3px;
