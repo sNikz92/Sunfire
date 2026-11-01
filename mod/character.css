@@ -531,4 +531,14 @@ p[title$=" 3%"]:after {
     padding-top: 2px;
 }
 
+/* Zusätzliche Kreisverschiebungen zurücksetzen */
+#listrow_special > span:first-of-type {
+    margin-left: 0 !important;
+}
+
+#listrow_special a[style*="border-radius: 50%"] {
+    transform: none !important;
+    margin-left: 0 !important;
+}
+
 
