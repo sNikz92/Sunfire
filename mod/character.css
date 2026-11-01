@@ -530,6 +530,14 @@ p[title$=" 3%"]:after {
     margin-top: 0 !important;
     padding-top: 2px;
 }
+/* Spezialfähigkeit zurück in den normalen Textfluss */
+#listrow_special {
+    position: static;
+    right: auto;
+    top: auto;
+    padding-left: 5px !important;
+    line-height: normal !important;
+}
 
 /* Zusätzliche Kreisverschiebungen zurücksetzen */
 #listrow_special > span:first-of-type {
