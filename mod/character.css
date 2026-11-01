@@ -113,6 +113,12 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
 #listrow_special > a#link_tower {
     font-size: 0;
 }
+
+#listrow_special::before {
+  content: "S: ";
+  font-weight: bold;
+}
+
 #listrow_special > a#link_special::before {
     content: "Special";
     font-size: 11px !important;
