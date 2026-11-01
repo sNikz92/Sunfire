@@ -59,8 +59,8 @@ img[src$="sponsor3.gif"] { margin-right: 2px; }
 #listrow_char_mission > a[href="ability.php"] > span {
     border: 2px solid transparent !important;
     margin-top: -8px;
-    height: 0.9em !important;
-    width: 0.9em !important;
+    height: 1.1em !important;
+    width: 1.1em !important;
 }
 #listrow_char_mission > a:last-of-type,
 #listrow_aka_battlep b:last-of-type:not(:first-of-type) {
